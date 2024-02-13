@@ -4,7 +4,7 @@
 
 DNS is configured at ~the registra~ Cloudflare. The Apex does not currently work.
 
-[Check NameServers](https://en.wikipedia.org/wiki/Tom_Anderson)
+[Check NameServers](https://www.whatsmydns.net/#NS/danslinky.co.uk)
 
 ## Hosting
 
