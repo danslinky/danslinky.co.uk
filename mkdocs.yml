@@ -4,7 +4,6 @@ site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
 nav:
   - Home: index.md
-  - About: https://www.danslinky.co.uk
-  - Resume: resume.md
+  - About: https://www.danslinky.co.uk/
   - Contact: contact.md
   - RTFM: rtfm.md
