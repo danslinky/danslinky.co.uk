@@ -8,11 +8,13 @@ This is my website landing page.
 
 ## _**[PreProduction Environment](https://danslinky.github.io/danslinky.co.uk/)**_
 
+ - https://danslinky.github.io/danslinky.co.uk/
+
 ## Production :fire:
 
-[danslinky.co.uk](https://danslinky.co.uk)
+[www.danslinky.co.uk](https://wwww.danslinky.co.uk)
 
-Please note, Production is currently offline.
+Please note, Production is currently degraded.
 
 ## About
 

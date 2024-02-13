@@ -1,8 +1,10 @@
 site_name: Dan Slinky's MySpace
 site_description: This is my website, innit.
-site_url: https://danslinky.co.uk
+site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
 nav:
   - Home: index.md
+  - About: https://www.danslinky.co.uk
   - Resume: resume.md
   - Contact: contact.md
+  - RTFM: rtfm.md
