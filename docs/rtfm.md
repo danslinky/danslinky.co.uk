@@ -2,7 +2,7 @@
 
 ## DNS
 
-DNS is configured at the registra.
+DNS is configured at the registra. The Apex does not currently work.
 
 ## Hosting
 
