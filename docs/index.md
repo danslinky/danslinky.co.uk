@@ -12,7 +12,7 @@ This is my website landing page.
 
 ## Production :fire:
 
-[www.danslinky.co.uk](https://wwww.danslinky.co.uk)
+[www.danslinky.co.uk](https://www.danslinky.co.uk)
 
 Please note, Production is currently degraded.
 
