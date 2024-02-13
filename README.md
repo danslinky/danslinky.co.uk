@@ -1,5 +1,7 @@
-This is my website.MD
+# Daniel Slinky's MySpace
 
-staging environment https://danslinky.github.io/danslinky.co.uk/
+This is my website landing page.
 
-officially 21 https://cds/record/1120956
+Click [here](https://danslinky.github.io/danslinky.co.uk/) for the _**Staging Environment**_
+
+Please note, Production is currently offline.
