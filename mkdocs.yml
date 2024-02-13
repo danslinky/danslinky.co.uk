@@ -7,3 +7,11 @@ nav:
   - About: https://www.danslinky.co.uk/
   - Contact: contact.md
   - RTFM: rtfm.md
+theme:
+  name: material
+plugins:
+  - social
+extra:
+  analytics:
+    provider: google
+    property: 427507730
