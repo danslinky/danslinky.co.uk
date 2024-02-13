@@ -32,6 +32,8 @@ This service experiences extreme latency. Please subscribe to our Premium tier f
 
 [https://localhost.localdomain.workers.dev/ping](https://localhost.localdomain.workers.dev/ping)
 
+:heart: [Wireguard](https://www.wireguard.com/)
+
 ## Other Infrastructure
 
  - GNU/Linux 6.6.3-413.asahi.fc39.aarch64+16k aarch64
