@@ -31,24 +31,6 @@ page[size="A4"][layout="landscape"] {
   }
 }
 
-#left-col{
-  float: left;
-  margin-left: 2.5%;
-  width: 61.5%;
-  text-align: justify;
-}
-#right-col{
-  float: right;
-  margin-right: 2.5%;
-  margin-left: 2.5%;
-  width: 30%;
-  text-align: justify;
-  /* border-left: thin solid #000; */
-  background-color:aliceblue;
-  padding: 5px;
-  
-}
-
 li {
   padding-bottom: 15px;
 }
