@@ -97,7 +97,6 @@ div.marquee #ticker-logo {
   line-height: 30pt;
   text-align: justify;
   font-style: italic;
-
 }
 
 div.marquee #ticker-tape {
@@ -173,19 +172,20 @@ div.marquee #ticker-tape {
   padding-bottom: 15px;
 } */
 
-/* a:visited {
-  color:cornflowerblue;
+a:visited {
+  color: blue;
 }
 
 a:hover {
-  color: green;
-} */
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
 
 details {
-  font:
-    16px "Open Sans",
-    Calibri,
-    sans-serif;
+  font: 16px "Open Sans", Calibri, sans-serif;
   width: 620px;
 }
 
@@ -210,8 +210,7 @@ details[open] > summary {
   background-color: #ccf;
 }
 
-
-#resume-summary {
+#tldr {
   border: thin dashed #000;
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
   padding: 10px;
@@ -265,42 +264,80 @@ mark#release {
   color: #fff;
 }
 
-mark#cern {
+mark#cern,
+mark#cern a,
+mark#cern a:visited {
   background-color: blue;
   color: white;
+  text-decoration: none;
 }
 
-mark#future {
+mark#future,
+mark#future a,
+mark#future a:visited {
   background-color: red;
   color: white;
+  text-decoration: none;
 }
 
-mark#eurostar {
+mark#eurostar,
+mark#eurostar a,
+mark#eurostar a:visited {
   background-color: rgb(73, 191, 249);
   color: white;
+  text-decoration: none;
 }
 
-mark#capgemini {
+mark#capgemini,
+mark#capgemini a,
+mark#capgemini a:visited {
   background-color: rgb(9, 97, 141);
   color: white;
+  text-decoration: none;
 }
 
-mark#adarga {
+mark#adarga,
+mark#adarga a,
+mark#adarga a:visited {
   background-color: rgb(40, 70, 46);
   color: white;
+  text-decoration: none;
 }
 
-mark#cookpad {
+mark#cookpad,
+mark#cookpad a,
+mark#cookpad a:visited {
   background-color: rgb(219, 170, 25);
   color: white;
+  text-decoration: none;
 }
 
-mark#torchbox {
+mark#torchbox,
+mark#torchbox a,
+mark#torchbox a:visited {
   background-color: rgb(220, 43, 169);
   color: white;
+  text-decoration: none;
 }
 
-mark#sift {
+mark#sift,
+mark#sift a,
+mark#sift a:visited {
   background-color: rgb(255, 179, 39);
+  color: white;
+  text-decoration: none;
+}
+
+mark#covid,
+mark#covid a,
+mark#covid a:visited {
+  background-color: rgb(216, 6, 41);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.redacted, .redacted a {
+  background-color: #000;
   color: #000;
 }
