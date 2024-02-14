@@ -1,9 +1,36 @@
 body {
-  width: 75%;
+  /* width: 75%; */
   font-size: 14pt;
   line-height: 20pt;
   font-family: Arial, Helvetica, sans-serif;
+  background: rgb(204,204,204); 
 }
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  /* padding: 2cm; is stupid, but it looks nice */
+  padding: 2cm; 
+}
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+page[size="A4"][layout="landscape"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+
+@media print {
+  body, page {
+    background: white;
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
 #left-col{
   float: left;
   margin-left: 2.5%;
