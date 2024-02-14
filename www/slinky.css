@@ -1,4 +1,9 @@
-
+body {
+  width: 75%;
+  font-size: 14pt;
+  line-height: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
 #left-col{
   float: left;
   margin-left: 2.5%;
@@ -30,6 +35,88 @@ a:hover {
 }
 
 mark {
+  background-color: rgb(255, 255, 201);
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  back
+}
+
+mark#cern {
   background-color: blue;
+  padding: 5px 5px 0px 5px;
   color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+}
+
+.linkedinbutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  width: 200px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #0a66c2;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+}
+
+mark#future {
+  background-color: red;
+  padding: 5px 5px 0px 5px;
+  color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+}
+
+mark#eurostar {
+  background-color: rgb(73, 191, 249);
+  padding: 5px 5px 0px 5px;
+  color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+mark#capgemini {
+  background-color: rgb(9, 97, 141);
+  padding: 5px 5px 0px 5px;
+  color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+mark#adarga {
+  background-color: rgb(40, 70, 46);
+  padding: 5px 5px 0px 5px;
+  color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+  font-style: italic;
+}
+
+mark#cookpad {
+  background-color: rgb(219, 170, 25);
+  padding: 5px 5px 0px 5px;
+  color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+  font-style: italic;
+}
+
+mark#torchbox {
+  background-color: rgb(220, 43, 169);
+  padding: 5px 5px 0px 5px;
+  color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+  font-style: italic;
 }

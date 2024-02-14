@@ -49,12 +49,26 @@
 
     <!-- External resources -->
     <link rel="stylesheet" href="./slinky.css" />
+    <link rel="stylesheet" href="./flag.css" />
   </head>
   <!-- What are your classes? 
     FACT: Subject Access Requests after 30 years are difficult. -->
 
   <body classes="1997 1998 2003 2005 2007">
     <h1>Dan Slinky</h1>
+    <div class="flag">
+      <div class="flag-container">
+          <div id="flag-gb" data-aspect-ratio="1:2">
+              <div class="rect1"></div>
+              <div class="rect2"></div>
+              <div class="rect3"></div>
+              <div class="rect4"></div>
+              <div class="rect5"></div>
+          </div>🔥🔥
+          <!-- <ul class="ratios" data-ratios="1:2,3:5"></ul> -->
+      </div>
+  </div>
+
     <details>
       <summary>Important Information</summary>
       <p>Production performance is currently degraded (see FIT_NOTE)</p>
@@ -71,9 +85,9 @@
     <article id="about">
       <h2>About</h2>
       <p>
-        <strong>This is my website</strong>. There are billions like it, but this
-        one is <mark>MySpace</mark>. It's probably the most professional social
-        media presence I have.
+        <strong>This is my website</strong>. There are billions like it, but
+        this one is <mark>MySpace</mark>. It's probably the most professional
+        social media presence I have.
       </p>
 
       <blockquote>
@@ -116,16 +130,15 @@
         for future workloads as required.
       </p>
       <p>
-        My daily driver is an iPad Pro, which I sadistically enjoy and I run Fedora natively
-        on my 2020 13" Macbook Pro.
+        My daily driver is an iPad Pro, which I sadistically enjoy and I run
+        Fedora natively on my 2020 13" Macbook Pro.
       </p>
     </article>
     <article id="resume">
       <h2>Resume</h2>
       <p>
-        I'm currently looking for a <mark><em>REMOTE</em></mark> job, or a
-        <mark>~hybrid</mark> role. I'm open to re-location discussions if you
-        can provide assistance, and you have a good canteen and mountain views.
+        I'm currently looking for a <mark><em>REMOTE</em></mark> or ~hybrid role. I'm open to re-location discussions if you
+        can assist, and you have a good canteen and mountain views.
         I'm based in Devon, United Kingdom. I maintain a professional home
         office environment; unlike my social media.
       </p>
@@ -133,32 +146,36 @@
       <p>
         I have <em>lots</em> of experience as a
         <mark>Linux Systems Administrator</mark>. I don't know what I want to do
-        next, so feel free to make a suggestion on my
-        <a href="https://linkedin.com/in/danslinky">LinkedIn</a>. Prior to my
-        technical carrier I worked as a kitchen and shop assistant for a local
+        next, so feel free to suggest on my
+        <a href="https://linkedin.com/in/danslinky">LinkedIn</a>. Before my
+        technical career, I worked as a kitchen and shop assistant for a local
         pottery.
       </p>
-
+      <p><a
+        class="linkedinbutton"
+        href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=dan-slinky-50a257230"
+        >Follow on LinkedIn</a
+      ></p>
       <ul>
         <li>
-          Age 16, I was in ALPHA as the IT kid for an
+          At age 16, I was in ALPHA as the IT kid for an
           <a href="http://dktgroup.net/"
-            >audio visual and home cinema installation business</a
+            >audio-visual and home cinema installation business</a
           >
           in my village in Cornwall. I was banned from using Super Glue for life
           in this role.
         </li>
         <li>
-          Age 18, I was BETA testing as Junior Linux SysAdmin for
+          Age 18, I was BETA testing as a Junior Linux SysAdmin for
           <a href="https://whois.domaintools.com/amplifeyesolutions.com"
             >Amplifeye Solutions</a
           >, a small Cornish web design and hosting business. I had a focus on
           general Linux administration and simple e-commerce websites using
           <a rel="tag" href="https://en.wikipedia.org/wiki/OsCommerce"
-            >OScommerce</a
-          >. In this role I learn't how painful the `chmod` command can be if
+            >OSCommerce</a
+          >. In this role, I learned how painful the `chmod` command can be if
           incorrectly used. An experienced Linux Systems Administrator reading
-          this might recognise this situation, and can be reassured I have read
+          this might recognize this situation and can be reassured I have read
           `man` since then. Sorry,
           <a
             href="https://www.digitalpeninsula.org/cornwalls-music-community-brand-amplifeye-launches-fresh-new-event-tickets-website-and-services"
@@ -166,7 +183,7 @@
           >.
         </li>
         <li>
-          At this time I attended Cornwall College, studing for a
+          At this time I attended Cornwall College, studying for a
           <a
             href="https://www.taylorfrancis.com/books/mono/10.4324/9780080546520/btec-first-ict-practitioners-sharon-yull"
             >BTEC National Diploma in Information Technology</a
@@ -175,12 +192,13 @@
           qualifications via the onsite <mark>CISCO</mark> Academy.
         </li>
         <li>
-          Unleashed in to PRODUCTION in 2007, I developed
-          <mark>Linux</mark> installation software at <mark id="cern">CERN</mark> using
-          <mark>Perl</mark>, <mark>RPC/XML</mark> and <mark>Oracle</mark> after
-          being invited as a Technical Student. The software I poorly developed
-          is still in production in 2024 :/ Because the Internet never forgets,
-          I can share some links I have found:
+          Unleashed into PRODUCTION in 2007, I developed
+          <mark>Linux</mark> installation software at
+          <mark id="cern">CERN</mark> using <mark>Perl</mark>,
+          <mark>RPC/XML</mark> and <mark>Oracle</mark> after being invited as a
+          Technical Student. The software I poorly developed is still in
+          production in 2024 :/ Because the Internet never forgets, I can share
+          some links I have found:
           <a href="https://linux.web.cern.ch/installation/aims/">RTFM</a>,
           <a href="https://twiki.cern.ch/twiki/bin/view/LinuxSupport/Aims2"
             >what's Dan doing?</a
@@ -188,16 +206,16 @@
           <a href="https://twiki.cern.ch/twiki/pub/LinuxSupport/Aims2/aims2.ppt"
             >PowerPoint</a
           >
-          presentation to the IT department. My none technical contributions
-          included hosting data centers tours during open days and
+          presentation to the IT department. My non-technical contributions
+          included hosting data center tours during open days and
           <a href="https://cds.cern.ch/record/1120956"
             >lobbying the British Government</a
           >. One day I hope to be able to publish a statement of affairs
           regarding my software being used at the LHC. Some of my friends have
-          made much bigger contributions that me though.
+          made much bigger contributions than me though.
         </li>
         <li>
-          In 2009, I look out a £18,000 loan for a degree in
+          In 2009, I took out an £18,000 loan for a degree in
           <a
             href="https://info.uwe.ac.uk/programmes/specification.asp?file=g710-1040.pdf"
             >Information Systems Analysis</a
@@ -217,10 +235,10 @@
         </li>
         <li>
           2012, I launched a <mark>Drupal 6</mark> website for
-          <a href="https://www.eurostar.com/rw-en">Eurostar</a> which hit its
-          revenue target on day 1. As a team we developed and launched a Drupal
-          + <mark>ActiveMQ</mark> platform to support Eurostar's ecommerce
-          operations. My focus was on DevOps engineering from project iniation
+          <mark id="eurostar">Eurostar</mark> which hit its revenue target on
+          day 1. As an agile team, we developed and launched a Drupal +
+          <mark>ActiveMQ</mark> platform to support Eurostar's e-commerce
+          operations. My focus was on DevOps engineering from project initiation
           through to production and involved technical and technical project
           management with third parties including Rackspace. I also provided
           offshore training to Capgemini India to ensure we were able to support
@@ -234,19 +252,18 @@
         </li>
         <li>
           In 2013, I embraced Xen, <mark>Juniper</mark>, <mark>Nginx</mark> and
-          string rack cabling displine for a
-          <a href="https://futureplc.com/">Future PLC</a>. I started as an
-          Operations Engineer in a small WebOps team, supporting a broad web and
-          digital media estate. This included a multiple physical data center
-          relocations, supporting CDN and Ad delivery platforms and providing
-          mentorship to colleagues. Over time I progress in to a slight
-          leadership role of a larger operations engineering team
+          string rack cabling displine for a <mark id="future">Future</mark>. I
+          started as an Operations Engineer in a small WebOps team, supporting a
+          broad web and digital media estate. This included a multiple physical
+          data center relocations, supporting CDN and Ad delivery platforms and
+          providing mentorship to colleagues. Over time I progress in to a
+          slight leadership role of a larger operations engineering team
         </li>
 
         <li>
           In 2015, I was a Linux SysAdmin for charities and NGOs, and discovered
           Kubernetes and Ubiquiti for
-          <a href="https://torchbox.com/">Torchbox</a>. This role had a focus on
+          <mark id="torchbox">Torchbox</mark>. This role had a focus on
           <a href="https://wagtail.org/"><mark>Wagtail</mark></a> and Drupal
           platform support. This role taught me that organising a company office
           move is hardwork and requires strong planning and collaboration. Some
@@ -256,17 +273,17 @@
         </li>
         <li>
           In 2016, I
-          <a href="https://www.bbc.com/news/politics/eu_referendum/results"
+          🇪🇺 <a href="https://www.bbc.com/news/politics/eu_referendum/results"
             >cried</a
           >
-          and went for a bike ride in France. I have a 2012 Cannondale Carbon
+          and went for a bike ride in 🇫🇷 France. I have a 2012 Cannondale Carbon
           Synapse, with f' SRAM :/
         </li>
         <li>
-          In 2017, I joined <a href="https://adarga.ai/">Adarga</a> by offering
-          my <mark>Kubernetes</mark> DevOps experience to start the foundations
-          of a AI SaaS platform. I'm proud of my contributions iniating a long
-          term relationship with Adarga.
+          In 2017, I joined <mark id="adarga">Adarga</mark> by offering my
+          <mark>Kubernetes</mark> DevOps experience to start the foundations of
+          a AI SaaS platform. I'm proud of my contributions iniating a long term
+          relationship with Adarga.
         </li>
         <li>
           In 2018, I did some
@@ -280,8 +297,8 @@
           have apologised, and will continue to do so.
         </li>
         <li>
-          In 2019, I contracted with Adarga focussing on
-          <mark>CI/CD</mark> for the platform I originally developed in 2017.
+          In 2019, I contracted with <mark id="adarga">Adarga</mark> focussing
+          on <mark>CI/CD</mark> for the platform I originally developed in 2017.
           This was an enjoyable and unique opportunity to review the platform so
           far and to bring a fresh perspective to the Platform Team.
         </li>
@@ -292,33 +309,33 @@
           on Kubernetes deployment and observability using a range of
           <mark>Cloud Native</mark> products including
           <a href="https://kustomize.io/"><mark>Kustomize</mark></a
-          >, <a href="https://fluxcd.io/"><mark>Flux</mark>></a>,
-          <mark>Prometheus</mark> and <mark>Elastic</mark>. We also took time to
-          explore a range of MLops possibilities including
+          >, <a href="https://fluxcd.io/"><mark>Flux</mark></a
+          >, <mark>Prometheus</mark> and <mark>Elastic</mark>. We also took time
+          to explore a range of MLops possibilities including
           <mark>Kubeflow</mark>. I also decided to buy a new house.
         </li>
         <li>
           In 2021, I moved into the Site Reliability Engineering team at
-          Cookpad. A highlight of this role was learning-to-learn
-          <mark>Go</mark>.
+          <mark id="cookpad">Cookpad</mark>. A highlight of this role was
+          learning-to-learn <mark>Go</mark>.
         </li>
         <li>
-          In 2022, I joined Adarga again, as a Lead Platform Engineer focussed
-          on <mark>AWS cost reduction</mark>, Single Sign On
-          (<mark>oAuth2/SAML</mark>), being the technical point of contact for
-          customers and partners including the Ministry of Defence, AWS,
-          Microsoft and Auth0 amongst others. Other aspects of my role here at
-          the time included provided team leadership to the DevOps and DevSecOps
-          teams, helping to plan and scope work, and offering guidance on
-          technical activities including CI/CD using <mark>CircleCI</mark>,
+          In 2022, I joined <mark id="adarga">Adarga</mark> again, as a Lead
+          Platform Engineer focussed on <mark>AWS cost reduction</mark>, Single
+          Sign On (<mark>oAuth2/SAML</mark>), being the technical point of
+          contact for customers and partners including the Ministry of Defence,
+          AWS, Microsoft and Auth0 amongst others. Other aspects of my role here
+          at the time included provided team leadership to the DevOps and
+          DevSecOps teams, helping to plan and scope work, and offering guidance
+          on technical activities including CI/CD using <mark>CircleCI</mark>,
           <mark>GitHub</mark> and <mark>Argo</mark>.
         </li>
         <li>
           In 2024, I updated my website whilst attending an Alumni event at
-          CERN, and registered for Universal Credit in the UK. I still need to
-          <mark>fix the DNS</mark>. Perhaps I can show you on a video call how I
-          will fix the DNS? In the mean time I can show you what this website
-          looked like in
+          <mark id="cern">CERN</mark>, and registered for Universal Credit in
+          the UK. I still need to <mark>fix the DNS</mark>. Perhaps I can show
+          you on a video call how I will fix the DNS? In the mean time I can
+          show you what this website looked like in
           <a
             href="https://web.archive.org/web/20130423100151/http://www.danslinky.co.uk/"
             >2011</a
@@ -327,30 +344,6 @@
             href="https://web.archive.org/web/20141222222740/http://www.danslinky.co.uk/"
             >2014</a
           >, and <a href="">2020</a>.
-        </li>
-        <li>
-          <style>
-            .libutton {
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              padding: 7px;
-              text-align: center;
-              outline: none;
-              text-decoration: none !important;
-              color: #ffffff !important;
-              width: 200px;
-              height: 32px;
-              border-radius: 16px;
-              background-color: #0a66c2;
-              font-family: "SF Pro Text", Helvetica, sans-serif;
-            }
-          </style>
-          <a
-            class="libutton"
-            href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=dan-slinky-50a257230"
-            >Follow on LinkedIn</a
-          >
         </li>
       </ul>
     </article>
