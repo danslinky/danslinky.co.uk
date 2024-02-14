@@ -1,3 +1,29 @@
+span {
+    font-size: 25pt;
+    font-style: italics;
+    font-weight: bold;
+  }
+  
+  .ring-blue {
+    color: blue;
+  }
+  
+  .ring-black {
+    color: black;
+  }
+  
+  .ring-red {
+    color: red;
+  }
+  
+  .ring-yellow {
+    color: yellow;
+  }
+  
+  .ring-green {
+    color: green;
+  }
+  
 .flag {
     width: 12vw;
     /* min-width: 175px; */

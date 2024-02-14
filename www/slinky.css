@@ -181,10 +181,59 @@ a:hover {
   color: green;
 } */
 
+details {
+  font:
+    16px "Open Sans",
+    Calibri,
+    sans-serif;
+  width: 620px;
+}
+
+details > summary {
+  padding: 2px 6px;
+  width: 15em;
+  background-color: #ddd;
+  border: none;
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+}
+
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: #ddd;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+}
+
+details[open] > summary {
+  background-color: #ccf;
+}
+
+
 #resume-summary {
-  border-style: dashed;
+  border: thin dashed #000;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 5%;
+}
+
+.hiremebutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  color: #fff !important;
+  font-weight: bold;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #e008d8;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
 }
 
 .linkedinbutton {
@@ -209,6 +258,11 @@ mark {
   padding: 0.5pc;
   margin: 0;
   border-radius: 1pc;
+}
+
+mark#release {
+  background-color: #000;
+  color: #fff;
 }
 
 mark#cern {
