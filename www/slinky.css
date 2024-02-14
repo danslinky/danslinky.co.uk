@@ -1,79 +1,190 @@
-body {
-  background: rgb(204,204,204); 
+/* body {
+  background: rgb(204, 204, 204);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14pt;
-}
-page {
-  background: white;
-  display: block;
+} */
+
+/* section {
+  background: red;
   margin: 0 auto;
   margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
   padding: 1cm;
-}
-page[size="A4"] {  
+} */
+
+/* section[size="A4"] {
   width: 21cm;
-  height: 29.7cm; 
-  /* padding: 1cm; */
+  height: 29.7cm;
 }
-page[size="A4"][layout="landscape"] {
+section[size="A4"][layout="landscape"] {
   width: 29.7cm;
-  height: 21cm;  
+  height: 21cm;
 }
-page[size="A3"] {
+section[size="A3"] {
   width: 29.7cm;
   height: 42cm;
 }
-page[size="A3"][layout="landscape"] {
+section[size="A3"][layout="landscape"] {
   width: 42cm;
-  height: 29.7cm;  
+  height: 29.7cm;
 }
-page[size="A5"] {
+section[size="A5"] {
   width: 14.8cm;
   height: 21cm;
 }
-page[size="A5"][layout="landscape"] {
+section[size="A5"][layout="landscape"] {
   width: 21cm;
-  height: 14.8cm;  
+  height: 14.8cm;
 }
-@media print {
-  body, page {
+
+*/
+body {
+  max-width: 1024px;
+  background-color: aliceblue;
+  text-align: justify;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25pt;
+
+  /* marquee {
+    background-color: red;
+    color: white;
+    font-size: 16pt;
+  } */
+
+  marquee {
+    background-color: #000;
+    color: #fff;
+    font-size: 16pt;
+    vertical-align: middle;
+    padding-top: 1pc;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  nav {
+    /* background-color: darkorange; */
+    font-size: 20pt;
+    ul {
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      list-style: none;
+      margin: 0;
+      padding: 1pc;
+      display: inline-block;
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+div.marquee #ticker-logo {
+  background-color: rgb(253, 85, 85);
+  color: white;
+  font-weight: 0;
+  display: inline-block;
+  padding: 0 0 0 32px;
+  margin: 0;
+  max-width: 10pc;
+  /* letter-spacing:5px; */
+  line-height: 30pt;
+  text-align: justify;
+  font-style: italic;
+
+}
+
+div.marquee #ticker-tape {
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+  border: 0;
+  padding: 1%;
+  /* display: inline-block; */
+  /* margin: 3rem auto 0; */
+  /* max-width: 95.5pc; */
+  /* overflow: hidden; */
+  margin-left: 4pc;
+  /* margin: 0; */
+  /* position: relative; */
+  /* font-size: 1rem; */
+  display: inline-block;
+  /* padding: 0.7rem 1.4rem; */
+  /* position: relative; */
+  /* transform: translateX(100%); */
+  animation: marquee 7.5s linear -3.75s infinite forwards;
+}
+
+.marquee #ticker-tape:last-child {
+  animation: marquee 7.5s linear 0s infinite forwards;
+  /* left: 0; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* width: 100%; */
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+/* nav ul li a {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+  color: black;
+}  */
+
+/* nav li {
+  background-color: coral;
+  padding: 5px;
+  color: red;
+  
+} */
+
+/* @media print {
+  body,
+  page {
     background: white;
     margin: 0;
     box-shadow: 0;
   }
-}
+} */
 
-details {
+/* details {
   background-color: aliceblue;
-}
+} */
 
-li {
+/* li {
   padding-bottom: 15px;
-}
+} */
 
-a:visited {
+/* a:visited {
   color:cornflowerblue;
 }
 
 a:hover {
   color: green;
-}
+} */
 
-mark {
-  background-color: rgb(255, 255, 201);
-  color: black;
-  padding: 0px;
-  margin: 0px;
-  
-}
-
-mark#cern {
-  background-color: blue;
-  padding: 5px 5px 0px 5px;
-  color: white;
-  text-decoration: dashed;
-  font-weight: bold;
+#resume-summary {
+  border-style: dashed;
+  padding: 10px;
+  border-radius: 5%;
 }
 
 .linkedinbutton {
@@ -92,57 +203,50 @@ mark#cern {
   font-family: "SF Pro Text", Helvetica, sans-serif;
 }
 
+mark {
+  background-color: rgb(255, 255, 201);
+  color: black;
+  padding: 0.5pc;
+  margin: 0;
+  border-radius: 1pc;
+}
+
+mark#cern {
+  background-color: blue;
+  color: white;
+}
+
 mark#future {
   background-color: red;
-  padding: 5px 5px 0px 5px;
   color: white;
-  text-decoration: dashed;
-  font-weight: bold;
 }
 
 mark#eurostar {
   background-color: rgb(73, 191, 249);
-  padding: 5px 5px 0px 5px;
   color: white;
-  text-decoration: dashed;
-  font-weight: bold;
-  font-style: italic;
 }
-
 
 mark#capgemini {
   background-color: rgb(9, 97, 141);
-  padding: 5px 5px 0px 5px;
   color: white;
-  text-decoration: dashed;
-  font-weight: bold;
-  font-style: italic;
 }
-
 
 mark#adarga {
   background-color: rgb(40, 70, 46);
-  padding: 5px 5px 0px 5px;
   color: white;
-  text-decoration: dashed;
-  font-weight: bold;
-  font-style: italic;
 }
 
 mark#cookpad {
   background-color: rgb(219, 170, 25);
-  padding: 5px 5px 0px 5px;
   color: white;
-  text-decoration: dashed;
-  font-weight: bold;
-  font-style: italic;
 }
 
 mark#torchbox {
   background-color: rgb(220, 43, 169);
-  padding: 5px 5px 0px 5px;
   color: white;
-  text-decoration: dashed;
-  font-weight: bold;
-  font-style: italic;
+}
+
+mark#sift {
+  background-color: rgb(255, 179, 39);
+  color: #000;
 }

@@ -22,14 +22,15 @@
     <title>Dangerous Redundant Slinkatron</title>
     <!-- Metadata -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Slinky's stupid website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Slinky's stupid website." />
     <meta
       name="keywords"
-      content="Dan,Slinky,MySpace,Tinder,Facebook,Twitter,Threads,Instagram,Universal,Business,Suisse,British,Crédit,CERN,Adarga,Torchbox,Future,Cookpad,Sift,Eurostar">
-    <meta name="author" content="Dan Slinky">
-    <meta name="generator" content="https://rtfm.danslinky.co.uk/">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+      content="Dan,Slinky,MySpace,Tinder,Facebook,Twitter,Threads,Instagram,Universal,Business,Suisse,British,Crédit,CERN,Adarga,Torchbox,Future,Cookpad,Sift,Eurostar"
+    />
+    <meta name="author" content="Dan Slinky" />
+    <meta name="generator" content="https://rtfm.danslinky.co.uk/" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
 
     <!--[if lt IE 8]>
       <p class="browsehappy">
@@ -51,44 +52,56 @@
     <!-- External resources -->
     <link rel="stylesheet" href="./slinky.css" />
     <link rel="stylesheet" href="./flag.css" />
-
   </head>
   <body>
-    <nav>
-      <a href="https://www.danslinky.co.uk">Home</a> |
-      <a href="#about">About</a> |
-      <a href="https://rtfm.danslinky.co.uk">RTFM</a> |
-      <a href="#resume">Resume</a> | <a href="#contact">Contact</a> |
-      <a href="#links">Links</a> |
-      <a href="#extras">Extras</a>
-    </nav>
-    <page size="A4">
-  
-    <h1>Dan Slinky</h1>
-    <div class="flag">
+    <div class="marquee">
+      <div id="ticker-logo"><h1>Dan Slinky🧯</h1></div>
+      <div id="ticker-tape">Weather this week: 🌩️💨</div>
+    </div>
+
+    <marquee
+      >BREAKING 🚨 MAN SUED BY BBC FOR COPYRIGHT INFRINGEMENT | CSS 💥 HTML ☢️ |
+      WEATHER: COLD, WET & MISERABLE | OFFER: PEUGEOT 2008 starting at £10,000.
+      T&C apply. | BREAKING: NHS WAITING LISTS AT ALL TIME HIGH | BREAKING:
+      BREXIT SUCKS | BREAKING: DEVON MAN UPSETS INTERNET WHILST LOOKING FOR A
+      JOB 🖤</marquee
+    >
+
+    <!-- <h1>Dan Slinky</h1> -->
+    <!-- <div class="flag">
       <div class="flag-container">
-          <div id="flag-gb" data-aspect-ratio="1:2">
-              <div class="rect1"></div>
-              <div class="rect2"></div>
-              <div class="rect3"></div>
-              <div class="rect4"></div>
-              <div class="rect5"></div>
-          </div>HTML🔥CSS🔥JS🔥SERVER🧯
-          <!-- <ul class="ratios" data-ratios="1:2,3:5"></ul> -->
-      </div>
-  </div>
+        <div id="flag-gb" data-aspect-ratio="1:2">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+        </div>
+    </div> -->
 
-    <details>
-      <summary>Important Information</summary>
-      <p>Production performance is currently degraded (see FIT_NOTE)</p>
-    </details>
+    <nav>
+      <ul>
+        <li><a href="https://www.danslinky.co.uk">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="https://rtfm.danslinky.co.uk">RTFM</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#extras">Extras</a></li>
+      </ul>
+    </nav>
 
-    
+    <section size="A4">
+      <details>
+        <summary>Important Information</summary>
+        <p>Production performance is currently degraded (see FIT_NOTE)</p>
+      </details>
 
-    <h2>About</h2>
+      <h2>About</h2>
       <p>
         <strong>This is my website</strong>. There are billions like it, but
-        this one is <mark>MySpace</mark>. It's probably the most professional
+        this one is MySpace on the World Wide Web. It's probably the most professional
         social media presence I have.
       </p>
 
@@ -135,19 +148,18 @@
         My daily driver is an iPad Pro, which I sadistically enjoy and I run
         Fedora natively on my 2020 13" Macbook Pro.
       </p>
+    </section>
 
-  </page>
+    <!-- <section size="A4"></section> -->
 
-  <!-- <page size="A4"></page> -->
-
-  <page size="A4" layout="" id="resume">
-
+    <article id="resume">
       <h2>Resume</h2>
       <p>
-        I'm currently looking for a <mark><em>REMOTE</em></mark> or ~hybrid role. I'm open to re-location discussions if you
-        can assist, and you have a good canteen and mountain views.
-        I'm based in Devon, United Kingdom. I maintain a professional home
-        office environment; unlike my social media.
+        I'm currently looking for a <mark><em>REMOTE</em></mark> or ~hybrid
+        role. I'm open to re-location discussions if you can assist, and you
+        have a good canteen and mountain views. I'm based in Devon, United
+        Kingdom. I maintain a professional home office environment; unlike my
+        social media.
       </p>
 
       <p>
@@ -158,11 +170,38 @@
         technical career, I worked as a kitchen and shop assistant for a local
         pottery.
       </p>
-      <p><a
-        class="linkedinbutton"
-        href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=dan-slinky-50a257230"
-        >Follow on LinkedIn</a
-      ></p>
+      <section id="resume-summary">
+        <p>
+          tl;dr
+          <mark id="cern">CERN</mark>
+          <mark id="sift">Sift</mark>
+          <mark id="eurostar">Eurostar</mark>
+          <mark id="future">Future</mark>
+          <mark id="torchbox">Torchbox</mark>
+          <mark id="cookpad">Cookpad</mark>
+          <mark id="adarga">Adarga</mark>
+        </p>
+        <p>
+          <a
+            class="linkedinbutton"
+            href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=dan-slinky-50a257230"
+            >Follow on LinkedIn</a
+          >
+        </p>  
+      </section>
+      <section>
+        <h3>1970</h3>
+        <p>some text</p>
+      </section>
+      <section>
+        <h3>1971</h3>
+        <p>some text</p>
+      </section>
+    </article>
+
+    <section size="A4" layout="" id="resume">
+      <h2>Resume</h2>
+
       <ul>
         <li>
           At age 16, I was in ALPHA as the IT kid for an
@@ -221,10 +260,6 @@
           regarding my software being used at the LHC. Some of my friends have
           made much bigger contributions than me though.
         </li>
-      </page>
-      <!-- <page size="A4"></page> -->
-
-      <page size="A4" layout="">
 
         <li>
           In 2009, I took out an £18,000 loan for a degree in
@@ -268,9 +303,10 @@
           string rack cabling discipline for <mark id="future">Future</mark>. I
           started as an Operations Engineer in a small WebOps team, supporting a
           broad web and digital media estate. This included multiple physical
-          data center relocations to support consolidation, supporting CDN and Ad delivery platforms and
-          providing mentorship to colleagues. Over time I progress into a
-          slight leadership role of a larger operations engineering team
+          data center relocations to support consolidation, supporting CDN and
+          Ad delivery platforms and providing mentorship to colleagues. Over
+          time I progress into a slight leadership role of a larger operations
+          engineering team
         </li>
 
         <li>
@@ -285,8 +321,8 @@
           <mark>Consul</mark> and <mark>RabbitMQ</mark>.
         </li>
         <li>
-          In 2016, I
-          🇪🇺 <a href="https://www.bbc.com/news/politics/eu_referendum/results"
+          In 2016, I 🇪🇺
+          <a href="https://www.bbc.com/news/politics/eu_referendum/results"
             >cried</a
           >
           and went for a bike ride in 🇫🇷 France. I have a 2012 Cannondale Carbon
@@ -301,18 +337,13 @@
           In 2018, I did some
           <a href="https://www.bbc.co.uk/news/technology-43823532"
             >Cyber Security Incident training for Taskrabbit</a
-          >, resulting in <code>root</code>. Everywhere. They did not ask for it, nor did
-          they like it. They have decided they do not want to talk about it.
-          They made it very easy, and initially I did just tell all about it,
-          but as I said, they don't want to talk about it. I was a bit miffed
-          about that, and gave them a slap in the face for their troubles. I
-          have apologised, and will continue to do so.
+          >, resulting in <code>root</code>. Everywhere. They did not ask for
+          it, nor did they like it. They have decided they do not want to talk
+          about it. They made it very easy, and initially I did just tell all
+          about it, but as I said, they don't want to talk about it. I was a bit
+          miffed about that, and gave them a slap in the face for their
+          troubles. I have apologised, and will continue to do so.
         </li>
-        </page>
-
-        <!-- <page size="A4"></page> -->
-
-        <page size="A4" layout="">
 
         <li>
           In 2019, I contracted with <mark id="adarga">Adarga</mark> focussing
@@ -365,12 +396,9 @@
           >, and <a href="">2020</a>.
         </li>
       </ul>
-  </page>
+    </section>
 
-  <!-- <page size="A4"></page> -->
-
-  <page size="A4" layout="">
-
+    <section size="A4" layout="">
       <details>
         <summary>☕ 🎧</summary>
 
@@ -386,17 +414,13 @@
           change, and it's on, super bon bon. Super bon bon, Super bon bon.
         </blockquote>
       </details>
+    </section>
 
+    <!-- <section size="A4"></section> -->
+    <section size="A4"></section>
 
-</page>
-
-<!-- <page size="A4"></page> -->
-<page size="A4"></page>
-
-
-<page size="A4">
-
-  <h2>Contact Information</h2>
+    <section size="A4">
+      <h2>Contact Information</h2>
       <p>
         You can contact me on most Social Media platforms via
         <a href="#first-contact-1996">@danslinky</a> or you can email me
@@ -406,7 +430,7 @@
         I do have other ways to communicate, but we should probably have a
         coffee first.
       </p>
-      
+
       <h2>Extracurricular DevSecOps and Geekery</h2>
       <p>
         I sometimes undertake vulnerability discovery and reporting in my own
@@ -429,29 +453,27 @@
         source conferences. I'm proud to have introduced many employeers and
         colleagues to FOSDEM over the years.
       </p>
-</page>
-<page size="A4">
-
-  <h2>Kids and Drugs</h2>
-  <p>
-    I don't have kids but if I did, I would tell them
-    <q><b>don't do drugs, kids</b></q
-    >.<br />
-    I do
-    <b
-      ><a
-        href="https://www.snopes.com/fact-check/anti-drug-pencil-slogan-erased/"
-        >do drugs, kids</a
-      ></b
-    >. I unfortuantly have to do drugs for my anxiety and depression, my
-    eating disorder and sometimes I just feel like an imposter in my job. My
-    NHS number is available on request.
-  </p>
-  <p>
-    I do like going to Glastonbury with my friend Frank. I live next to
-    Dartmoor. I like the Tour de France. I like to have fun.
-  </p>
-
+    </section>
+    <section size="A4">
+      <h2>Kids and Drugs</h2>
+      <p>
+        I don't have kids but if I did, I would tell them
+        <q><b>don't do drugs, kids</b></q
+        >.<br />
+        I do
+        <b
+          ><a
+            href="https://www.snopes.com/fact-check/anti-drug-pencil-slogan-erased/"
+            >do drugs, kids</a
+          ></b
+        >. I unfortuantly have to do drugs for my anxiety and depression, my
+        eating disorder and sometimes I just feel like an imposter in my job. My
+        NHS number is available on request.
+      </p>
+      <p>
+        I do like going to Glastonbury with my friend Frank. I live next to
+        Dartmoor. I like the Tour de France. I like to have fun.
+      </p>
 
       <h2>Informal Testimonials</h2>
       <p>For formal testimonials/references, please contact me directly.</p>
@@ -474,7 +496,6 @@
           ></quoteblock
         >
       </p>
-
 
       <h2>A Links page!</h2>
       <ul>
@@ -532,10 +553,29 @@
           </ul>
         </div>
       </ul>
-</page>
-<page size="A4">
-
+    </section>
+    <section size="A4">
       <h2>My Music Collection</h2>
+      <details>
+        <summary>Juxebox</summary>
+
+        <img src="./images/Choons.png" usemap="#musicmap" />
+        <map name="musicmap">
+          <area
+            shape="rect"
+            class="linky"
+            coords="10,10,350,350"
+            alt="choon1"
+            href="https://youtube.com/"
+          />
+          <area
+            shape="rect"
+            coords="360,10,700,350"
+            alt="choon2"
+            href="https://test.com/"
+          />
+        </map>
+      </details>
       <p>
         My
         <a href="https://rtfm.danslinky.co.uk/choons">music collection</a> is
@@ -577,8 +617,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-
-    </page>
+    </section>
 
     <!-- <footer>
       <address>Created by <a href="mailto:@outlook.com">danslinky</a></address>
@@ -586,8 +625,7 @@
        <map>map</map> 
     </footer> -->
 
-   <page size="A4">
-    
+    <section size="A4">
       <p><em>Local Ads, for Local People</em></p>
 
       <h2>My name? Yes, it's D. R. Slinky</h2>
@@ -663,9 +701,6 @@
         <a href="https://careers.cern/">CERN</a>, to name a few. Check out their
         respective websites.
       </p>
-    </page>
-
-
-
+    </section>
   </body>
 </html>
