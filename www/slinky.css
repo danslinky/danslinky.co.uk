@@ -28,3 +28,8 @@ a:visited {
 a:hover {
   color: green;
 }
+
+mark {
+  background-color: blue;
+  color: white;
+}
