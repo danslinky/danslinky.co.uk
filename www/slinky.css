@@ -152,16 +152,19 @@ div.marquee #ticker-logo {
 }
 
 div.marquee #ticker-tape {
-  color: #fff;
-  background-color: #000;
-  border-radius: 50%;
+  /* color: #fff; */
+  background: #000;
+  /* opacity: 100%; */
+  /* border-radius: 100%; */
   border: 0;
-  padding: 1%;
+  padding: 0;
+  box-shadow: 42px 42px 42px 42px black;
+
   /* display: inline-block; */
   /* margin: 3rem auto 0; */
   /* max-width: 95.5pc; */
   /* overflow: hidden; */
-  margin-left: 4pc;
+  /* margin-left: 1pc; */
   /* margin: 0; */
   /* position: relative; */
   /* font-size: 1rem; */
@@ -169,7 +172,7 @@ div.marquee #ticker-tape {
   /* padding: 0.7rem 1.4rem; */
   /* position: relative; */
   /* transform: translateX(100%); */
-  animation: marquee 7.5s linear -3.75s infinite forwards;
+  animation: marquee 7.5s linear -3.75s infinite backwards;
 }
 
 .marquee #ticker-tape:last-child {
@@ -238,12 +241,12 @@ a:active {
 
 details {
   font: 16px "Open Sans", Calibri, sans-serif;
-  width: 620px;
+  /* width: 620px; */
 }
 
 details > summary {
   padding: 2px 6px;
-  width: 15em;
+  width: 32em;
   background-color: #ddd;
   border: none;
   box-shadow: 3px 3px 4px black;
