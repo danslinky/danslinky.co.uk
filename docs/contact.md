@@ -8,7 +8,7 @@ You can send me Signals or Telegrams, and I can read encrypted communications.
 
 If you would like to offer me a job, open a GitHub Issue on my website.
 
-```
+```pgp
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: Keybase OpenPGP v2.0.49
 Comment: https://keybase.io/crypto

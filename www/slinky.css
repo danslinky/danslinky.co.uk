@@ -44,6 +44,10 @@ page[size="A5"][layout="landscape"] {
   }
 }
 
+details {
+  background-color: aliceblue;
+}
+
 li {
   padding-bottom: 15px;
 }

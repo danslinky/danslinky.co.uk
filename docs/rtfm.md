@@ -25,7 +25,7 @@ I'm afraid so. _**I recommend you Disable Javascript**_.
 ## Secret Information
 
 Mission Status Report: Dan Slinky has stolen Klaus Hergersheimer's CERN access card and is currently attempting infiltrating the Meyrin site. He has made contact with assets on the ground.
- 
+
 ## Location
 
 This service experiences extreme latency. Please subscribe to our Premium tier for realtime location information.
