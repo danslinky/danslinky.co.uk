@@ -8,7 +8,12 @@ nav:
   - Contact: contact.md
   - RTFM: rtfm.md
   - Infrastructure:
-    - Router: opnsense.md
+    - DNS: dns.md
+    - Network: opnsense.md
+    - Compute: xcp-ng.md
+    - Billing: billing.md
+    - Office: office.md
+    - Wifi: wireless.md
 theme:
   name: material
 plugins:
