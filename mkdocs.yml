@@ -7,6 +7,8 @@ nav:
   - About: https://www.danslinky.co.uk/
   - Contact: contact.md
   - RTFM: rtfm.md
+  - Infrastructure:
+    - Router: opnsense.md
 theme:
   name: material
 plugins:
