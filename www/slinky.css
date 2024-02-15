@@ -133,10 +133,6 @@ body {
   to {padding-top: 0px;}
 }
 
-
-
-
-
 div.marquee #ticker-logo {
   background-color: rgb(253, 85, 85);
   color: white;
@@ -152,35 +148,16 @@ div.marquee #ticker-logo {
 }
 
 div.marquee #ticker-tape {
-  /* color: #fff; */
   background: #000;
-  /* opacity: 100%; */
-  /* border-radius: 100%; */
   border: 0;
   padding: 0;
   box-shadow: 42px 42px 42px 42px black;
-
-  /* display: inline-block; */
-  /* margin: 3rem auto 0; */
-  /* max-width: 95.5pc; */
-  /* overflow: hidden; */
-  /* margin-left: 1pc; */
-  /* margin: 0; */
-  /* position: relative; */
-  /* font-size: 1rem; */
   display: inline-block;
-  /* padding: 0.7rem 1.4rem; */
-  /* position: relative; */
-  /* transform: translateX(100%); */
   animation: marquee 7.5s linear -3.75s infinite backwards;
 }
 
 .marquee #ticker-tape:last-child {
   animation: marquee 7.5s linear 0s infinite forwards;
-  /* left: 0; */
-  /* position: absolute; */
-  /* top: 0; */
-  /* width: 100%; */
 }
 
 @keyframes marquee {
@@ -193,39 +170,6 @@ div.marquee #ticker-tape {
     transform: translateX(-100%);
   }
 }
-
-/* nav ul li a {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-color: blue;
-  color: black;
-}  */
-
-/* nav li {
-  background-color: coral;
-  padding: 5px;
-  color: red;
-  
-} */
-
-/* @media print {
-  body,
-  page {
-    background: white;
-    margin: 0;
-    box-shadow: 0;
-  }
-} */
-
-/* details {
-  background-color: aliceblue;
-} */
-
-/* li {
-  padding-bottom: 15px;
-} */
 
 a:visited {
   color: blue;
@@ -287,6 +231,24 @@ details[open] > summary {
   height: 32px;
   border-radius: 16px;
   background-color: #042207;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+}
+
+.hiremefiverr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  color: #fff !important;
+  font-weight: bold;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #106d0d;
   font-family: "SF Pro Text", Helvetica, sans-serif;
 }
 
@@ -420,7 +382,6 @@ mark#covid a:visited {
   border: thin dashed #000;
 }
 
-
 mark#royalmail,
 mark#royalmail a,
 mark#royalmail a:visited {
@@ -429,9 +390,6 @@ mark#royalmail a:visited {
   text-decoration: none;
   font-weight: bold;
 }
-
-
-
 
 mark#rackspace,
 mark#rackspace a,
@@ -442,7 +400,6 @@ mark#rackspace a:visited {
   font-weight: bold;
   border: thin solid #000
 }
-
 
 mark#burberry,
 mark#burberry a,
