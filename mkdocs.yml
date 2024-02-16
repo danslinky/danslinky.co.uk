@@ -8,7 +8,11 @@ nav:
   - Contact: contact.md
   - RTFM: rtfm.md
   - Infrastructure:
-    - Router: opnsense.md
+    - DNS: dns.md
+    - Network: opnsense.md
+    - Private Cloud: xcp-ng.md
+    - Wifi: wifi.md
+    - JPod: jpod.md
 theme:
   name: material
 plugins:
