@@ -1,6 +1,10 @@
 # Slinky
 
-This is a MySpace landing page.
+This is a _**MySpace**_ landing page. 
+
+Check out my [slinktr.ee](https://linktr.ee/danslinky)
+
+Enter [mySpace](https://www.danslinky.co.uk)
 
 ## Klaus Hergersheimer
 
