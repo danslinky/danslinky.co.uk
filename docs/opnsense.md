@@ -34,4 +34,6 @@ Alteratviely, use the WebUI. Sometimes it doesn't work.
 
 ## Disaster Recovery Plan
 
-Use the BT HomeHub if it still works. Try the factory reset button if it does not just work after 5 minutes.
+Unplug the red cable, and use the BT HomeHub if it still works. 
+Try the factory reset button if it does not just work after 5 minutes.
+The wifi code is on a sticker on the R&D desk.
