@@ -1,1 +1,6 @@
-Secrets, don't tell anyoneSecrets, don't tell anyoneSecrets, don't tell anyone
+# Infisical
+
+Secrets. Don't tell anyone.
+
+- github app for oauth, and integrations
+- self hosted, docker container, debian
