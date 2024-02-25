@@ -1,13 +1,15 @@
-site_name: Dan Slinky's MySpace
-site_description: This is my website, innit.
+site_name: Dan Slinky
+site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
 nav:
   - Home: index.md
   - About: https://www.danslinky.co.uk/
+  - Resumes:
+    - Google: https://google.danslinky.co.uk/
   - Contact: contact.md
   - RTFM: rtfm.md
-  - IT Deptartment:
+  - IT Department:
     - SSO: sso.md
     - DNS: dns.md
     - Network: opnsense.md
