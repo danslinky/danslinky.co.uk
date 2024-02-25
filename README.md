@@ -1,9 +1,9 @@
-# Daniel Slinky's MySpace
+# Portfolio website
 
-[RTFM](https://rtfm.danslinky.co.uk)
+These is my portfolio website, [RTFM](https://rtfm.danslinky.co.uk/), made with the awesome [mkdocs](https://lmgtfy.com/mkdocs) and Cloudflare.
 
-This is my website landing page.
+The content is under `/docs`, wrangled with `mkdocs.yml` and makes use of a few `/overrides`.
 
-Click [here](https://danslinky.github.io/danslinky.co.uk/) for the _**Staging Environment**_
+The directory `www` contains the site at https://www.danslinky.co.uk/
 
-Please note, Production is currently ~offline~ seriously degraded. 
+The apex domain does not currently work.
