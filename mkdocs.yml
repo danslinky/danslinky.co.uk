@@ -2,7 +2,6 @@ site_name: MySpace
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
-logo: favicon-blue-peter-badge.png
 nav:
   - Home: index.md
   - About: https://www.danslinky.co.uk/
@@ -39,6 +38,12 @@ nav:
     - PagerDuty: pagerduty.md
 theme:
   name: material
+  logo: favicon-blue-peter-badge.png
+  favicon: favicon-blue-peter-badge.png
+  menu: favicon-blue-peter-badge.png
+
+# overrides?? emojis????
+
 plugins:
   - social
 extra:
