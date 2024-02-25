@@ -50,6 +50,21 @@ nav:
 
 theme:
   name: material
+  palette:
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode 
+  - scheme: default
+    media: "(prefers-color-scheme: light)"
+    toggle:
+      icon: material/brightness-4
+      name: Dark mode
+  - scheme: slate
+    media: "(prefers-color-scheme: dark)"
+    toggle:
+      icon: material/brightness-4
+      name: Switch to system preferences
   logo: favicon.png
   favicon: favicon.png
   menu: favicon.png
