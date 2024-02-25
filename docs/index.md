@@ -7,15 +7,18 @@
 <h1><span style=color:green>🆂</span>🆃<span style=color:green>🅸🅽🅺🆈</span></h1>
 <h1><span style=color:green>🆂🅻🅸🅽🅺🆈</span></h1>
 <citation>
-<a href="javascript:alert('Cyber! Cyber! Cyber!')">Share your Wordle result</a>
+<details>
+<summary><a href="javascript:alert('Cyber! Cyber! Cyber!')">Share your Wordle result</a></summary>
+<script src="https://gist.github.com/danslinky/efd6068644802b0c89fa2a488dde4380.js"></script>
 </citation>
 </blockquote>
+</details>
 
 ## hello, world
 
-Welcome to my corner of the World Wide Web! Among the vast digital landscape, this website stands as my personal mySpace - a blend of professionalism and personality. Inspired by Mary Poppins' philosophy, I believe in infusing every task with a touch of enjoyment, turning work into a delightful adventure.
+Welcome to my corner of the <mark>World Wide Web</mark>. Among the vast digital landscape, this website stands as my personal mySpace - a blend of professionalism and personality. Inspired by Mary Poppins' philosophy, I believe in infusing every task with a touch of enjoyment, turning work into a delightful adventure.
 
-I'm known as Slinky, a mix of Eeyore's realism and a dash of Thanos' snap. While my hardware may be considered legacy, it's ripe for upgrades to meet evolving demands. Whether navigating the digital realm on my trusty iPad Pro or exploring the possibilities of [Asahi Fedora](https://asahilinux.org/) on my MacBook Pro, I embrace technology with gusto.
+I'm known as <mark><large>Slinky</large></mark>, a mix of <mark style=color:white;background-color:black><small>Eeyore</small></mark>  and a dash of <mark style=color:red;background-color:white>T̨͈͗̌ͥḣ̖̻͛̓ā̤̓̍͘ṇ̤͛̒̍o̯̱̊͊͢s̠҉͍͊ͅ''</mark> snap. While my hardware may be considered legacy, it's ripe for upgrades to meet evolving demands. Whether navigating the digital realm on my trusty iPad Pro or exploring the possibilities of [Asahi Fedora](https://asahilinux.org/) on my MacBook Pro, I embrace technology with gusto.
 
 One of my cherished reads is [jPod](jpod.md), reflecting my eclectic taste. Join me on my journey via [GitHub](https://github.com/danslinky), where I document my job hunt under [@danslinky](https://github.com/danslinky)'s Job Hunt. Feel free to engage, comment, or spark discussions - it's all about the collective journey forward.
 

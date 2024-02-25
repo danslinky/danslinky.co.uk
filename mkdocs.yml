@@ -6,7 +6,14 @@ nav:
   - Home: index.md
   - About: https://www.danslinky.co.uk/
   - Resumes:
+    - PDF: https://resume.danslinky.co.uk/pdf
+    - HTML: https://resumt.danslinky.co.uk/html
+    - LaTeX: https://resume.danslinky.co.uk/latex
+    - Markdown: https://resume.danslinky.co.uk/markdown
+    - YAML: https://resume.danslinky.co.uk/yaml
+    - JSON: https://resume.danslinky.co.uk/json
     - Google: https://google.danslinky.co.uk/
+    - Word: https://resume.danslinky.co.uk/word
   - Social Media: 
     - Contact: contact.md
     - Slinktr.ee: https://linktr.ee/danslinky
@@ -38,9 +45,9 @@ nav:
 
 theme:
   name: material
-  logo: favicon-blue-peter-badge.png
-  favicon: favicon-blue-peter-badge.png
-  menu: favicon-blue-peter-badge.png
+  logo: favicon.png
+  favicon: favicon.png
+  menu: favicon.png
 
 # overrides?? emojis????
 
