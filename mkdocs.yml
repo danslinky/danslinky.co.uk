@@ -7,18 +7,24 @@ nav:
   - About: https://www.danslinky.co.uk/
   - Resumes:
     - Google: https://google.danslinky.co.uk/
-  - Contact: contact.md
+  - Social Media: 
+    - Contact: contact.md
+    - Slinktr.ee: https://linktr.ee/danslinky
+    - Gravatar: https://gravatar.com/danslinky
+    - Emogram: https://instagram.com/danslinky
+    - X11: https://twitter.com/danslinky
+    - GitHub: https://github.com/danslinky
   - RTFM: rtfm.md
   - IT Department:
     - SSO: sso.md
     - DNS: dns.md
-    - Network: opnsense.md
-    - Private Cloud: xcp-ng.md
+    - TCP/UDP: opnsense.md
+    - Cloud: xcp-ng.md
     - IaC: terraform.md
-    - Wifi: wifi.md
+    - Wifi6: wifi.md
     - JPod: jpod.md
     - SSL: ssl.md
-    - Web Browsers: web-browsers.md
+    - Browser Wars: web-browsers.md
     - Slack: slack.md
     - StatusCake: statuscake.md
     - HashiCorp:
