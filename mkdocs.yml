@@ -24,18 +24,19 @@ nav:
     - Wifi6: wifi.md
     - JPod: jpod.md
     - SSL: ssl.md
+    - GPG: gpg.md
     - Browser Wars: web-browsers.md
     - IRC: slack.md
     - StatusCake: statuscake.md
-    - HashiCorp:
-      - Vault: vault.md
-      - Consul: consul.md
-      - Nomad: nomad.md
+    - EvilCorp: hashicorp.md
+    - GitHub: github.md
     - Slack: slack.md
     - Infisical: infisical.md
     - DataDog: datadog.md
     - NewRelic: newrelic.md
     - PagerDuty: pagerduty.md
+    - Music: choons.md
+
 theme:
   name: material
   logo: favicon-blue-peter-badge.png
@@ -46,6 +47,12 @@ theme:
 
 plugins:
   - social
+
+social:
+  cards_layout_options:
+    background_color: "#000000"
+    background-image: "https://rtfm.danslinky.co.uk/assets/images/favicon.png"
+
 extra:
   analytics:
     provider: google
