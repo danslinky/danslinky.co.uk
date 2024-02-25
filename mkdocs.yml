@@ -50,7 +50,8 @@ theme:
   menu: favicon.png
   features:
   - header.autohide
-  
+  - announce.dismiss
+  custom_dir: overrides
 
 # overrides?? emojis????
 
