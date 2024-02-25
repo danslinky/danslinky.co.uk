@@ -2,7 +2,11 @@ site_name: Dan's mmmkdocs
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
-copyright: Made by Dan Supercalifragilisticexpialidocious
+copyright: >
+  Made by Dan Supercalifragilisticexpialidocious | 
+  <a href="#__consent">Change cookie settings</a>
+language: en
+
 nav:
   - Home: index.md
   - About: about.md
@@ -81,8 +85,20 @@ social:
     background-image: "https://rtfm.danslinky.co.uk/assets/images/favicon.png"
 
 extra:
+  alternate:
+  - name: English
+    link: /
+    lang: en
+  - name: Français
+    link: /fr/
+    lang: fr
+  - name: Cymraeg
+    link: /cy/
+    lang: cy
   consent:
     title: "🇬🇧 ⚖️ Biscuit consent"
+    cookies:
+      chocolate: "Chocolate Chip"
     description: >-
       This website pours cookies down your throat. Only read on if you're hungry for cookies. Please disable javascript. You absolutely should be concerned about your Safety and Privacy when using the Internet and World Wide Web. <mark class="ad">Ad</mark>You can use Tor or NordVPN to protect your Privacy online.
 
