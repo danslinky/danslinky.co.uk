@@ -7,12 +7,26 @@ nav:
   - About: https://www.danslinky.co.uk/
   - Contact: contact.md
   - RTFM: rtfm.md
-  - Infrastructure:
+  - IT Deptartment:
+    - SSO: sso.md
     - DNS: dns.md
     - Network: opnsense.md
     - Private Cloud: xcp-ng.md
+    - IaC: terraform.md
     - Wifi: wifi.md
     - JPod: jpod.md
+    - SSL: ssl.md
+    - Web Browsers: web-browsers.md
+    - Slack: slack.md
+    - StatusCake: statuscake.md
+    - HashiCorp:
+      - Vault: vault.md
+      - Consul: consul.md
+      - Nomad: nomad.md
+    - Slack: slack.md
+    - Infisical: infisical.md
+    - DataDog: datadog.md
+    - NewRelic: newrelic.md
 theme:
   name: material
 plugins:
