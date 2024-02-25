@@ -2,6 +2,8 @@
 
 Remember, it's probably always DNS.
 
+[Check NameServers](https://www.whatsmydns.net/#NS/danslinky.co.uk)
+
 |Domain|Comment|Registra|
 |-|-|-|
 |danslinky.co.uk|Pimp myself out|123reg|
