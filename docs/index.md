@@ -5,7 +5,7 @@
 <h1><span style=color:green>🆂</span>🆃<span style=color:green>🅸🅽🅺🆈</span></h1>
 <h1><span style=color:green>🆂🅻🅸🅽🅺🆈</span></h1>
 <citation>
-<a href="https://www.nytimes.com/games/wordle/index.html">Share your Wordle result</a>
+<a href="javascript:alert('Cyber! Cyber! Cyber!')">Share your Wordle result</a>
 </citation>
 </blockquote>
 ## hello, world
