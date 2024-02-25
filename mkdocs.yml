@@ -2,14 +2,15 @@ site_name: Dan's mmmkdocs
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
+copyright: Made by Dan Supercalifragilisticexpialidocious
 nav:
   - Home: index.md
-  - About: https://www.danslinky.co.uk/
+  - About: about.md
   - Resumes:
+    - Markdown: resume.md
     - PDF: https://resume.danslinky.co.uk/pdf
-    - HTML: https://resumt.danslinky.co.uk/html
+    - HTML: https://resume.danslinky.co.uk/html
     - LaTeX: https://resume.danslinky.co.uk/latex
-    - Markdown: https://resume.danslinky.co.uk/markdown
     - YAML: https://resume.danslinky.co.uk/yaml
     - JSON: https://resume.danslinky.co.uk/json
     - Google: https://google.danslinky.co.uk/
@@ -21,7 +22,7 @@ nav:
     - Emogram: https://instagram.com/danslinky
     - X11: https://twitter.com/danslinky
     - GitHub: https://github.com/danslinky
-  - IT Department:
+  - RTFM:
     - SSO: sso.md
     - DNS: dns.md
     - LAN/WAN: opnsense.md
@@ -48,15 +49,31 @@ theme:
   logo: favicon.png
   favicon: favicon.png
   menu: favicon.png
+  custom_dir: overrides
   features:
   - header.autohide
   - announce.dismiss
-  custom_dir: overrides
+  - search.suggest
+  - search.highlight
+  - search.share
+  - navigation.path
+  - navigation.footer
+  - navigation.instant
+  - navigatin.instant.progress
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+  - toc.integrate
 
 # overrides?? emojis????
 
 plugins:
   - social
+  - search
+
 
 social:
   cards_layout_options:
@@ -64,6 +81,24 @@ social:
     background-image: "https://rtfm.danslinky.co.uk/assets/images/favicon.png"
 
 extra:
+  consent:
+    title: "🇬🇧 ⚖️ Biscuit consent"
+    description: >-
+      This website pours cookies down your throat. Only read on if you're hungry for cookies. Please disable javascript. You absolutely should be concerned about your Safety and Privacy when using the Internet and World Wide Web. <mark class="ad">Ad</mark>You can use Tor or NordVPN to protect your Privacy online.
+
+  social:
+    - name: Email
+      link: mailto:sysadmin@danslinky.co.uk
+      icon: fontawesome/solid/paper-plane
+    - name: SlinkHub
+      link: https://github.com/danslinky
+      icon: fontawesome/brands/github
+    - name: Slinkstergram
+      link: https://instagram.com/danslinky
+      icon: fontawesome/brands/instagram
+    - name: X11
+      link: https://twitter.com/danslinky
+      icon: fontawesome/brands/twitter
   analytics:
     provider: google
     property: G-EFB95GEQJZ
