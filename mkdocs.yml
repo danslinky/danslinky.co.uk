@@ -48,6 +48,9 @@ theme:
   logo: favicon.png
   favicon: favicon.png
   menu: favicon.png
+  features:
+  - header.autohide
+  
 
 # overrides?? emojis????
 
@@ -63,3 +66,16 @@ extra:
   analytics:
     provider: google
     property: G-EFB95GEQJZ
+    feedback: 
+      title: "oi mate, do you like my mkdocs?!"
+      ratings:
+        - icon: material/thumb-up-outline 
+          name: "This is the candidate you're looking for"
+          data: 1
+          note: >-
+            Merci beans!
+        - icon: material/heart-broken 
+          name: "I think you're a bit of a muppet, mate"
+          data: 0
+          note: >-
+            Am I Bovvered
