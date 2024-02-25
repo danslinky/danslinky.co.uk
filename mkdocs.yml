@@ -18,7 +18,7 @@ nav:
   - IT Department:
     - SSO: sso.md
     - DNS: dns.md
-    - TCP/UDP: opnsense.md
+    - LAN/WAN: opnsense.md
     - Cloud: xcp-ng.md
     - IaC: terraform.md
     - Wifi6: wifi.md
