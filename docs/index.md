@@ -1,20 +1,4 @@
-# Wordle member #1691342011986
-
-<blockquote>
-<h1><span style=color:green>🆂</span>🅼🅰🆁🆃<span style=color:green>🆈</span></h1>
-<h1><span style=color:green>🆂</span><span style=color:orange>🅺</span><span style=color:green>🅸</span>🅿🅿<span style=color:green>🆈</span></h1>
-<h1><span style=color:green>🆂</span><span style=color:orange>🅺</span><span style=color:green>🅸🅽</span>🅽<span style=color:green>🆈</span></h1>
-<h1><span style=color:green>🆂</span>🆃<span style=color:green>🅸🅽🅺🆈</span></h1>
-<h1><span style=color:green>🆂🅻🅸🅽🅺🆈</span></h1>
-<citation>
-<details>
-<summary><a href="javascript:alert('Cyber! Cyber! Cyber!')">Share your Wordle result</a></summary>
-<script src="https://gist.github.com/danslinky/efd6068644802b0c89fa2a488dde4380.js"></script>
-</citation>
-</blockquote>
-</details>
-
-## hello, world
+# Dan Slinky
 
 Welcome to my corner of the <mark>World Wide Web</mark>. Among the vast digital landscape, this website stands as my personal mySpace - a blend of professionalism and personality. Inspired by Mary Poppins' philosophy, I believe in infusing every task with a touch of enjoyment, turning work into a delightful adventure.
 
