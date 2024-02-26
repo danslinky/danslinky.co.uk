@@ -3,7 +3,7 @@ User-agent: Bingbot
 User-agent: Slurp
 User-agent: Baiduspider
 User-agent: Seobility
-User-agent: Slinkatron
+User-agent: Slinkotron
 Crawl-delay: 10
 Disallow:
 
