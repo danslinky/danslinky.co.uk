@@ -26,19 +26,19 @@ body:
     render: bash
   validations:
     required: true
-#   - type: dropdown
-#     id: version
-#     attributes:
-#       label: Type
-#       description: What version of our software are you running?
-#       options:
-#         - Friend
-#         - Boss
-#         - Colleague
-#         - Lover
-#       default: 2
-#     validations:
-#       required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What version of our software are you running?
+      options:
+        - Friend
+        - Boss
+        - Colleague
+        - Lover
+      default: 2
+    validations:
+      required: true
 #   - type: dropdown
 #     id: employer
 #     attributes:
