@@ -2,11 +2,17 @@
 name: "Letter of Recommendation"
 description: "Kudos to Dan Slinky"
 title: "[KUDOS] Letter of Recommendation for Dan Slinky" 
-assignees: ["danslinky"]
-#projects:
-#- project
+projects: ["danslinky/1"]
 labels: ["kudos"]
+assignees: ["danslinky"]
 body:
+- type: markdown
+  attributes:
+    value: |
+      # Kudos to Dan Slinky
+      Please fill out the form below to submit a letter of recommendation for Dan Slinky. 
+      If you have any questions, please [RTFM](https://rtfm.danslinky.co.uk) before you ask a question here.
+      If you have a security vulnerability to report, please do so [here](https://bounty.danslinky.co.uk/).
 - type: input
   id: title
   attributes:
