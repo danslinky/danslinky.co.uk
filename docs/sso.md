@@ -1,6 +1,14 @@
 # Single Sign On (SSO)
 
+## Keycloak
+
+ - [ ] Take Keycloak for a spin
+
 ## Auth0
+
+I like using [Auth0](https://auth0.com/), having first proposed and implemented it at [Adarga](https://adarga.ai/careers) in 2017, where we also used the awesome [Auth0 Terraform](https://registry.terraform.io/providers/auth0/auth0/latest/docs) provider to configure multiple tenants, applications, SSO integrations and integrated secrets distribution with [AWS](cloud/aws.md) Secrets.
+
+I don't like Auth0's Enterprise vendor lockin practices, but I do like their platform for implementing Social and Enterprise identity, authentication and authorization, for free.
 
 |Tenant|Region|Purpose|Domain|
 |-|-|-|-|
@@ -18,8 +26,7 @@ Login: https://danslinky.uk.auth0.com/samlp/WxS8x1LdxPVdjbgEnIuWJfVsdKN6zlTx
 Metadata: https://danslinky.uk.auth0.com/samlp/metadata/WxS8x1LdxPVdjbgEnIuWJfVsdKN6zlTx)
 ```
 
-Alternatively, you can add a connection parameter:
-In this case, Auth0 will redirect users to the specified connectionand will not display the Login Widget. Make sure you send the SAMLRequest using HTTP POST.
+Alternatively, you can add a connection parameter. In this case, Auth0 will redirect users to the specified connection, and will not display the Login Widget. Make sure you send the SAMLRequest using HTTP POST.
 
 ## Integrations
 
@@ -28,3 +35,9 @@ In this case, Auth0 will redirect users to the specified connectionand will not 
 ## Social Logins
 
  - All of them.
+
+## Demos
+
+ - [ ] Demo Auth0 Terraform
+ - [ ] Demo Organizations
+ - [ ] Review latest features
