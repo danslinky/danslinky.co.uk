@@ -2,11 +2,9 @@
 name: Letter of Recommendation
 description: Kudos to Dan Slinky
 title: "[KUDOS]"
-labels: ''
-assignees:
-- danslinky
-projects:
-- project
+assignees: ["danslinky"]
+#projects:
+#- project
 labels:
 - endorsement
 body:
