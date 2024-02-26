@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: RTFM
+    url: https://rtfm.danslinky.co.uk
+    about: Please RTFM before you ask a question here.
+  - name: Security Bug Bounty
+    url: https://bounty.danslinky.co.uk/
+    about: Please report security vulnerabilities here.
