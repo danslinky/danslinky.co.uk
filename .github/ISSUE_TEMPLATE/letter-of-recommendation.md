@@ -1,9 +1,12 @@
 ---
 name: Letter of Recommendation
-about: Kudos to Dan Slinky
+description: Kudos to Dan Slinky
 title: "[KUDOS]"
 labels: ''
-assignees: danslinky
+assignees:
+- danslinky
+projects:
+- project
 labels:
 - endorsement
 body:
@@ -28,6 +31,34 @@ body:
     render: bash
   validations:
     required: true
----
+  - type: dropdown
+    id: version
+    attributes:
+      label: Type
+      description: What version of our software are you running?
+      options:
+        - Friend
+        - Boss
+        - Colleague
+        - Lover
+      default: 2
+    validations:
+      required: true
+  - type: dropdown
+    id: employer
+    attributes:
+      label: Who did Dan Slinky work for?
+      multiple: true
+      options:
+        - Adarga
+        - Cookpad
+        - Torchbox
+        - Future
+        - Capgemini
+        - Eurostar
+        - Sift
+        - CERN
+        - UWE
+        - Other
 
-Thank you for your support. Please leave your letter of recommendation below.
+
