@@ -64,7 +64,7 @@ body:
     placeholder: "Yes"
     description: "Please enter 'Yes' if you have been Rick rolled by Dan Slinky"
 - type: input
-  id: rickroll
+  id: security
   attributes:
     label: "Dan contributed to my Safety and Security"
     placeholder: "Yes"
