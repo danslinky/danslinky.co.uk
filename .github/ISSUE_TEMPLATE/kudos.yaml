@@ -13,8 +13,6 @@ body:
     label: Title
     description: "Please enter a title for your letter of recommendation"
     placeholder: "Dan Slinky is the absolute worst colleague I have ever worked with..."
-  validations:
-    required: true
 - type: textarea
   id: letter
   attributes:
