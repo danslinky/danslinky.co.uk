@@ -1,12 +1,11 @@
 ---
-name: Letter of Recommendation
-description: Kudos to Dan Slinky
+name: "Letter of Recommendation"
+description: "Kudos to Dan Slinky"
 title: "[KUDOS]"
 assignees: ["danslinky"]
 #projects:
 #- project
-labels:
-- endorsement
+labels: ["endorsement"]
 body:
 - type: input
   id: title
