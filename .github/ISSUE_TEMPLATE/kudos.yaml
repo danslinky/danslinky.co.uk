@@ -5,7 +5,7 @@ title: "[KUDOS] Letter of Recommendation for Dan Slinky"
 assignees: ["danslinky"]
 #projects:
 #- project
-labels: ["endorsement"]
+labels: ["kudos"]
 body:
 - type: input
   id: title
