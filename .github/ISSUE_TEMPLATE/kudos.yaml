@@ -13,19 +13,19 @@ body:
     label: Title
     description: "Please enter a title for your letter of recommendation"
     placeholder: "Dan Slinky is the absolute worst colleague I have ever worked with..."
-# - type: textarea
-#   id: letter
-#   attributes:
-#     label: Letter of Recommendation
-#     description: "Please say nice things about Dan Slinky"
-#     value: |
-#       x.
-#       y.
-#       z.
-#       ...
-#     render: bash
-#   validations:
-#     required: true
+- type: textarea
+  id: letter
+  attributes:
+    label: Letter of Recommendation
+    description: "Please say nice things about Dan Slinky"
+    value: |
+      x.
+      y.
+      z.
+      ...
+    render: bash
+  validations:
+    required: true
 #   - type: dropdown
 #     id: version
 #     attributes:
