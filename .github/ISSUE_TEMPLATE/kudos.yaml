@@ -39,19 +39,19 @@ body:
     default: 2
   validations:
     required: true
-#   - type: dropdown
-#     id: employer
-#     attributes:
-#       label: Who did Dan Slinky work for?
-#       multiple: true
-#       options:
-#         - Adarga
-#         - Cookpad
-#         - Torchbox
-#         - Future
-#         - Capgemini
-#         - Eurostar
-#         - Sift
-#         - CERN
-#         - UWE
-#         - Other
+- type: dropdown
+  id: employer
+  attributes:
+    label: Who did Dan Slinky work for?
+    multiple: true
+    options:
+      - Adarga
+      - Cookpad
+      - Torchbox
+      - Future
+      - Capgemini
+      - Eurostar
+      - Sift
+      - CERN
+      - UWE
+      - Other
