@@ -3,17 +3,57 @@ let timeoutId;
 
 function resetTimeout() {
     clearTimeout(timeoutId);
-    timeoutId = setTimeout(startScreensaver, 15000); // screensaver timeout
+    timeoutId = setTimeout(startScreensaver, 1000); // screensaver timeout
 }
 
 function startScreensaver() {
 
     // delete the page
     document.body.innerHTML = "";
-
+ 
     // create a screensaver
     const p = document.createElement("p");
-    p.innerHTML = "Stuck in vim? HIRE @danslinky for help!";
+    p.innerHTML = `
+        <!-- I love you https://codepen.io/jh3y/pen/WNXBdyZ -->
+        <div class="container">
+        <div class="scene">
+        <div class="scene__shadow"></div>
+        <div class="plane" style="--ring-count: 21">
+            <div class="plane__shadow"></div>
+            <div class="ring" style="--index: 0; --name: slink-0"></div>
+            <div class="ring" style="--index: 1; --name: slink-1"></div>
+            <div class="ring" style="--index: 2; --name: slink-2"></div>
+            <div class="ring" style="--index: 3; --name: slink-3"></div>
+            <div class="ring" style="--index: 4; --name: slink-4"></div>
+            <div class="ring" style="--index: 5; --name: slink-5"></div>
+            <div class="ring" style="--index: 6; --name: slink-6"></div>
+            <div class="ring" style="--index: 7; --name: slink-7"></div>
+            <div class="ring" style="--index: 8; --name: slink-8"></div>
+            <div class="ring" style="--index: 9; --name: slink-9"></div>
+            <div class="ring" style="--index: 10; --name: slink-10"></div>
+            <div class="ring" style="--index: 11; --name: slink-11"></div>
+            <div class="ring" style="--index: 12; --name: slink-12"></div>
+            <div class="ring" style="--index: 13; --name: slink-13"></div>
+            <div class="ring" style="--index: 14; --name: slink-14"></div>
+            <div class="ring" style="--index: 15; --name: slink-15"></div>
+            <div class="ring" style="--index: 16; --name: slink-16"></div>
+            <div class="ring" style="--index: 17; --name: slink-17"></div>
+            <div class="ring" style="--index: 18; --name: slink-18"></div>
+            <div class="ring" style="--index: 19; --name: slink-19"></div>
+            <div class="ring" style="--index: 20; --name: slink-20"></div>
+        </div>
+        </div>
+        </div>
+
+        <h1><a title="User:D0ktorz, GPL &lt;http://www.gnu.org/licenses/gpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Vimlogo.svg">
+        <img width="64" alt="Vimlogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/64px-Vimlogo.svg.png"></a>
+        saver</h1>
+        <p>Are you stuck in vim?</p>
+        <a href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=dan-slinky-50a257230">
+        <img src="/assets/images/linkedin-240.png"><br />
+        Call @danslinky</a>
+        </p>
+    `;
     document.body.appendChild(p);
 
     // enable dark mode...
@@ -42,7 +82,7 @@ function startScreensaver() {
     }, 10);
 
     // change the tab <title>
-    document.title = "pornhub.com";
+    document.title = "porn.guv";
 
     // reload the page when the mouse is moved
     // document.onmousemove = () => {

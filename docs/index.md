@@ -1,4 +1,18 @@
-# Dan Slinky
+``` mermaid
+  stateDiagram-v2
+  state fork_state <<fork>>
+    Dan --> fork_state
+    fork_state --> Eeyore
+    fork_state --> Thanos
+    fork_state --> Klaus
+
+    state join_state <<join>>
+    Eeyore --> join_state
+    Thanos --> join_state
+    Klaus --> join_state
+    join_state --> Slinky
+    Slinky --> [*]
+```
 
 Welcome to my corner of the <mark>World Wide Web</mark>. Among the vast digital landscape, this website stands as my personal mySpace - a blend of professionalism and personality. Inspired by Mary Poppins' philosophy, I believe in infusing every task with a touch of enjoyment, turning work into a delightful adventure.
 
