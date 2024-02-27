@@ -3,7 +3,7 @@ let timeoutId;
 
 function resetTimeout() {
     clearTimeout(timeoutId);
-    timeoutId = setTimeout(startScreensaver, 15000); // screensaver timeout
+    timeoutId = setTimeout(startScreensaver, 60000); // screensaver timeout
 }
 
 function startScreensaver() {
@@ -15,6 +15,7 @@ function startScreensaver() {
     const p = document.createElement("p");
     p.innerHTML = `
         <!-- I love you https://codepen.io/jh3y/pen/WNXBdyZ -->
+        <!--
         <div class="container">
         <div class="scene">
         <div class="scene__shadow"></div>
@@ -44,7 +45,7 @@ function startScreensaver() {
         </div>
         </div>
         </div>
-
+        -->
         <h1><a title="User:D0ktorz, GPL &lt;http://www.gnu.org/licenses/gpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Vimlogo.svg">
         <img width="64" alt="Vimlogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/64px-Vimlogo.svg.png"></a>
         saver</h1>
