@@ -5,48 +5,93 @@ repo_url: https://github.com/danslinky/danslinky.co.uk
 copyright: >
   Made by Dan Supercalifragilisticexpialidocious | 
   <a href="#__consent">Change cookie settings</a>
-language: en
+# language: en
+extra_css:
+- extra_css/rtfm-branding.css
+
+extra_javascript:
+- extra_js/rtfm-evil.js
 
 nav:
   - Home: index.md
-  - About: about.md
+  - About:
+    - about/index.md
+    - Contact: about/contact.md
+    - Music: about/choons.md
   - Resumes:
-    - Markdown: resume.md
-    - PDF: https://resume.danslinky.co.uk/pdf
+    - resumes/index.md
     - HTML: https://resume.danslinky.co.uk/html
-    - LaTeX: https://resume.danslinky.co.uk/latex
-    - YAML: https://resume.danslinky.co.uk/yaml
     - JSON: https://resume.danslinky.co.uk/json
-    - Google: https://google.danslinky.co.uk/
+    - LaTeX: https://resume.danslinky.co.uk/latex
+    - Markdown:
+      - resumes/markdown/index.md
+    - PDF: https://resume.danslinky.co.uk/pdf
     - Word: https://resume.danslinky.co.uk/word
-  - Social Media: 
-    - Contact: contact.md
-    - Slinktr.ee: https://linktr.ee/danslinky
-    - Gravatar: https://gravatar.com/danslinky
-    - Emogram: https://instagram.com/danslinky
-    - X11: https://twitter.com/danslinky
-    - GitHub: https://github.com/danslinky
+    - YAML: https://resume.danslinky.co.uk/yaml
   - RTFM:
-    - SSO: sso.md
-    - DNS: dns.md
-    - LAN/WAN: opnsense.md
-    - Cloud: xcp-ng.md
-    - IaC: terraform.md
-    - Wifi6: wifi.md
-    - JPod: jpod.md
-    - SSL: ssl.md
-    - GPG: gpg.md
-    - Browser Wars: web-browsers.md
-    - IRC: slack.md
-    - StatusCake: statuscake.md
-    - EvilCorp: hashicorp.md
-    - GitHub: github.md
-    - Slack: slack.md
-    - Infisical: infisical.md
-    - DataDog: datadog.md
-    - NewRelic: newrelic.md
-    - PagerDuty: pagerduty.md
-    - Music: choons.md
+    - rtfm/index.md
+    - "*Ops":
+      - DevOps: rtfm/devops.md
+      - CSS: rtfm/css.md
+      - Cloud: rtfm/xcp-ng.md
+      - Fastly: rtfm/fastly.md
+      - HashiCorp: rtfm/hashicorp.md
+      - GitHub: rtfm/github.md
+      - Slack: rtfm/slack.md
+      - Infisical: rtfm/security/infisical.md
+      - DataDog: rtfm/datadog.md
+      - NewRelic: rtfm/newrelic.md
+      - PagerDuty: rtfm/pagerduty.md
+      - Browser Wars: rtfm/web-browsers.md
+      - Slack: rtfm/slack.md
+      - StatusCake: rtfm/statuscake.md
+      - Terraform: rtfm/terraform.md
+    - Misc: rtfm/misc.md
+    - Network:
+      - rtfm/network/byod.md
+      - DNS: rtfm/network/dns.md
+      - LAN/WAN: rtfm/network/opnsense.md
+      - WIFI: rtfm/network/wifi.md
+      - VPN: rtfm/network/wireguard.md
+      - Geo: rtfm/network/geo.md
+    - Security:
+      - rtfm/security/bounty.md
+      - SSO: rtfm/security/sso.md
+      - GPG: rtfm/security/gpg.md
+      - SSL: rtfm/security/ssl.md
+      - Secrets: rtfm/security/infisical.md
+  - Social Media: 
+    - about/contact.md
+    - Apple Music: https://music.apple.com/danslinky
+    - bit.ly: https://bit.ly/m/danslinky
+    - Blogger: https://blogger.com/danslinky
+    - Deezer: https://deezer.com/danslinky
+    - Discord: https://discordapp.com/users/danslinky
+    - Etsy: https://danslinky.etsy.com/
+    - Facebook: https://facebook.com/danslinky
+    - GitHub: https://github.com/danslinky
+    - Google Developer: https://developers.google.com/danslinky
+    - Google Play: https://play.google.com/danslinky
+    - Gravatar: https://gravatar.com/danslinky
+    - Instagram: https://instagram.com/danslinky
+    - LinkedIn: https://linktr.ee/danslinky
+    - Medium: https://medium.com/danslinky
+    - Pinterest: https://pinterest.com/danslinky
+    - Reddit: https://reddit.com/danslinky
+    - rick.ly: https://bit.ly/danslinky
+    - Signal: https://signal.com/danslinky
+    - Slack: https://slack.com/danslinky
+    - Snapchat: https://snapchat.com/danslinky
+    - SoundCloud: https://soundcloud.com/danslinky
+    - Spotify: https://spotify.com/danslinky
+    - Telegram: https://telegram.com/danslinky
+    - TikTok: https://tiktok.com/danslinky
+    - Tinder: https://tinder.com/@danslinky
+    - Tumblr: https://tumblr.com/danslinky
+    - WhatsApp: https://whatsapp.com/danslinky
+    - WordPress: https://wordpress.com/danslinky
+    - X: https://twitter.com/danslinky
+    - YouTube: https://youtube.com/danslinky
 
 theme:
   name: material
@@ -86,6 +131,10 @@ theme:
   - navigation.expand
   - navigation.top
   - toc.integrate
+  - content.tabs.link
+  - content.code.copy
+  - content.code.select
+  - content.code.annotate
 
 # overrides?? emojis????
 
@@ -94,11 +143,24 @@ plugins:
   - search
   - offline
 
-
-social:
-  cards_layout_options:
-    background_color: "#000000"
-    background-image: "https://rtfm.danslinky.co.uk/assets/images/favicon.png"
+markdown_extensions:
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra:
   alternate:
@@ -119,6 +181,9 @@ extra:
       Only continue on if you're hungry for biscuits. Please disable javascript. You absolutely should be concerned about your Safety and Privacy when using the Internet and World Wide Web. <mark class="ad">Ad.</mark> You can use Tor or NordVPN to protect your Privacy online.
 
   social:
+    # - cards_layout_options:
+    #     background_color: "#000000"
+    #     background-image: "https://rtfm.danslinky.co.uk/assets/images/favicon.png"
     - name: Email
       link: mailto:sysadmin@danslinky.co.uk
       icon: fontawesome/solid/paper-plane
