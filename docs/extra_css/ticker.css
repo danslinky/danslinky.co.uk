@@ -1,0 +1,38 @@
+
+div.marquee #ticker-logo {
+    background-color: rgb(253, 85, 85);
+    color: white;
+    font-weight: 0;
+    display: inline-block;
+    padding: 0 0 0 32px;
+    margin: 0;
+    max-width: 10pc;
+    /* letter-spacing:5px; */
+    line-height: 30pt;
+    text-align: justify;
+    font-style: italic;
+  }
+  
+  div.marquee #ticker-tape {
+    background: #000;
+    border: 0;
+    padding: 0;
+    box-shadow: 42px 42px 42px 42px black;
+    display: inline-block;
+    animation: marquee 7.5s linear -3.75s infinite backwards;
+  }
+  
+  .marquee #ticker-tape:last-child {
+    animation: marquee 7.5s linear 0s infinite forwards;
+  }
+  
+  @keyframes marquee {
+    0% {
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }

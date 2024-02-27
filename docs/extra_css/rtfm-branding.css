@@ -1,0 +1,15 @@
+h1 {
+    font-size: 3vw;
+    font-weight: 400;
+    letter-spacing: 0.3vw;
+    margin: 5vw auto 2.5vw 2vw;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+h1 > img {
+    display: inline;
+    margin: 0 2vw 0 0;
+    max-height: 4vw;
+    max-width: 4vw;
+}
