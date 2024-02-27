@@ -3,7 +3,7 @@ let timeoutId;
 
 function resetTimeout() {
     clearTimeout(timeoutId);
-    timeoutId = setTimeout(startScreensaver, 1000); // screensaver timeout
+    timeoutId = setTimeout(startScreensaver, 15000); // screensaver timeout
 }
 
 function startScreensaver() {
