@@ -1,15 +1,24 @@
 # StatusCake
 
-<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=7149148&Days=1&Design=1" /></a>
+!!! info inline "[My Status Page](/status)"
+    Please check my realtime status page for up to date information on the latest status of my page.
 
-HTTP, SSL, DNS and Domain monitoring using StatusCake.
+> HTTP, SSL, DNS and Domain monitoring using StatusCake.
 
 - Google & Microsoft accounts are linked, with 2FA configured.
 - Main dashboard at [app.statuscake.com](https://app.statuscake.com/)
+
+## Developer 
+
 - API documentation at [developers.statuscake.com](https://developers.statuscake.com/api)
 - API key at [app.statuscake.com/User.php](https://app.statuscake.com/User.php)
 
-Example
+## Terraform
+
+- `danslinky/shenanigans/terraform/statuscake`
+- it reads `statuscake.yaml`, and creates the tests and contact group
+
+### Example statuscake.yaml
 
 ```yaml
 tests:

@@ -1,0 +1,50 @@
+{
+    "firstname":"Dan",
+    "surname":"Slinky",
+    "dob":"[redacted]",
+    "email":"sysadmin@danslinky.co.uk",
+    "statement":"I'm really good at creating Resumes.", 
+    "career": [
+        {
+            "employer":"W.W.W Techtronics",
+            "role":"sysadmin",
+            "from":"2023",
+            "to": "present"
+        },
+        {
+            "employer": "adarga",
+            "from": "2017",
+            "to": "2023",
+            "role":"Platform Engineer",
+            "duties": ["kubernetes","terraform","helm"],
+            "highlights": [
+                "I received an Certificate for Innovation",
+                "Gained qualifications in AWS Cost Explorer and AWS Billing Console",
+                "Trained in Adobe Creative Cloud"
+            ]
+        },
+        {
+            "employer": "CERN",
+            "role": "Technical Student",
+            "from":"2007",
+            "to": "2008",
+            "duties":["linux","pxe","kickstart"],
+            "highlights": [
+                "Met my future wife",
+                "Lobbied the British Government",
+                "Spoke some mal French"
+            ]
+        }
+    ],
+    "education":[
+        {"subject": "BA (Honest) Information Systems Analysis", "institute": "UWE, Bristol"},
+        {"subject": "BTEC IT Practitioner", "institute": "UWE, Bristol"}
+    ],
+    "hobbies": [
+        "cycling",
+        "baking",
+        "reading",
+        "hacking"
+    ],
+    "single": true
+}

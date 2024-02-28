@@ -3,8 +3,10 @@ site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
 copyright: >
-  Made by Dan Supercalifragilisticexpialidocious | 
-  <a href="#__consent">Change cookie settings</a>
+  &copy;&reg;🄰🄿&trade; Daniel Supercalifragilisticexpialidocious 2024 | 
+  <a href="#__consent">Change cookie settings</a> |
+  Login | Lock Screen | 
+  <a href="/status">Status Page</a>
 # language: en
 extra_css:
 # - extra_css/slinky.css
@@ -12,7 +14,7 @@ extra_css:
 
 extra_javascript:
 - extra_js/linkedin-profile.js
-- extra_js/rtfm-evil.js
+# - extra_js/rtfm-evil.js
 
 nav:
   - Home: index.md
@@ -22,14 +24,10 @@ nav:
     - Music: about/choons.md
   - Resumes:
     - resumes/index.md
-    - HTML: https://resume.danslinky.co.uk/html
-    - JSON: https://resume.danslinky.co.uk/json
-    - LaTeX: https://resume.danslinky.co.uk/latex
-    - Markdown:
-      - resumes/markdown/index.md
-    - PDF: https://resume.danslinky.co.uk/pdf
-    - Word: https://resume.danslinky.co.uk/word
-    - YAML: https://resume.danslinky.co.uk/yaml
+    - JSON: resumes/json.md
+    - LaTeX: resumes/resume.pdf
+    - Word: resumes/resume.docx
+    - YAML: resumes/yaml.md
   - RTFM:
     - rtfm/index.md
     - Cloud:
@@ -173,26 +171,36 @@ plugins:
   - offline
 
 markdown_extensions:
+  - admonition # squidfunk/mkdocs-material/reference/admonitions
+  - pymdownx.details
+  - pymdownx.tilde # ~~strikethrough~~ and ++underline++
   - def_list
   - attr_list
   - md_in_html
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  # emojis and images
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # code highlighting
+  - codehilite:
+      linenums: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets # include code snippets from files
   - pymdownx.superfences
+  # diagrams
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  # lists
   - pymdownx.tasklist:
       custom_checkbox: true
+  # tabs
   - pymdownx.tabbed:
       alternate_style: true
 

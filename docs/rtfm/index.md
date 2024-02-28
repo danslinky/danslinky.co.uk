@@ -1,48 +1,81 @@
 # Welcome to the IT Department
 
-Embracing Linux and `mkdocs` since 1986.
+Established 1986, powered by :simple-linux:
+:simple-asahilinux:
+:simple-archlinux:
+:simple-alpinelinux:
+:simple-debian:
+:simple-fedora:
+:simple-ubuntu:
+:simple-macos: and :simple-opensourceinitiative: friends.
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+- :simple-cncf: __Cloud Native__ DevOps using
+    :fontawesome-brands-amazon: __AWS__,
+    :fontawesome-brands-google: __Google__ Cloud Platform[^1],
+    :fontawesome-brands-microsoft: __Microsoft__ Azure,
+    :simple-oracle: __Oracle__,
+    :simple-alibabadotcom: __Alibaba__,
+    :fontawesome-brands-digital-ocean: __DigitalOcean__,
+    and [more]().
 
-    ---
+- __GitOps__ :robot: __CI/CD__ using
+    :simple-github: __GitHub Actions__,
+    :fontawesome-brands-gitlab: __GitLab__,
+    :simple-circleci: __CircleCI__,
+    :simple-flux: __Flux__,
+    :simple-argo: __Argo__,
+    :simple-azuredevops:, __Azure__
+    and :fontawesome-brands-jenkins: __Jenkins__.
 
-    Using [RTFM](/rtfm) you can get up
-    and running in minutes
+    [Read more]()
 
-    [:octicons-arrow-right-24: Getting started](devops.md)
+- Using __IaC__ tools
+    :simple-terraform: __Terraform__,
+    :material-terraform: __Terragrunt__,
+    :simple-ansible: __Ansible__ to manage
+    :fontawesome-brands-docker: __Docker__,
+    :simple-kubernetes: __Kubernetes__,
+    :simple-virtualbox: and :pizza::material-server:
 
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+    [Read more]()
 
-    ---
+- Friendly neighbourhood :material-security: __SecOps__ with
+    :simple-hackerone:
+    :safety_vest:
+    :fire_extinguisher:
+    because
+    :fire:
+    :material-server:
+    :cloud_lightning:
+    :space_invader:
 
-    Focus on your content and generate a responsive and searchable static site
+    [hello, friend](javascript:alert\('cyber! cyber! cyber!'\))
 
-    [:octicons-arrow-right-24: Reference](#)
+    :fontawesome-brands-square-hacker-news: <small>[favs](https://news.ycombinator.com/favorites?id=danslinky)</small>
 
--   :material-format-font:{ .lg .middle } __Made to measure__
+- Using bleeding edge
+    :simple-opensourceinitiative: Open Source and 
+    :simple-opnsense: OPNSense.
+    My Code of Conduct and :simple-torproject: __Privacy Policy__ are available [here]().
 
-    ---
+- :fontawesome-brands-internet-explorer: :simple-firefox: :simple-googlechrome: :simple-safari: :fontawesome-brands-brave: :simple-torbrowser: __Browser Wars__
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+## Onboarding
 
-    [:octicons-arrow-right-24: Customization](#)
+Welcome, noob.
 
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
-
+```sh hl_lines="7"
+uname -a
+:simple-awesomewm: :simple-asahilinux: :simple-apple:
+EDITOR=:simple-vimESC:wq
+mv :simple-gnuemacs: /dev/null
+EDITOR=:simple-visualstudiocode: 
+touch resume.bin
+edit resume.bin
+```
 </div>
 
-<div class="grid cards" markdown>
-
-- :fontawesome-brands-html5: __HTML__ for content and structure
-- :fontawesome-brands-js: __JavaScript__ for interactivity
-- :fontawesome-brands-css3: __CSS__ for text running out of boxes
-- :fontawesome-brands-internet-explorer: __Browser Wars__ ... [huh?](web-browsers.md)
-</div>
+[^1]: killedbygoogle.com
+    Please check https://killedbygoogle.com/ for latest information.
