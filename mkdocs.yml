@@ -1,13 +1,23 @@
-site_name: Dan's mmmkdocs
+# Title: Dan Slinky's mmmkdocs
+# Description: Dan Slinky's personal mkdocs portfolio website.
+# URL: https://rtfm.danslinky.co.uk
+# Repo: https://github.com/danslinky/danslinky.co.uk
+#
+# SUPPORT MKDOCS + MATERIAL THEME
+#
+site_name: Dan Slinky's mmmkdocs
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
+##
+# Copyright
+##
 copyright: >
   &copy;&reg;🄰🄿&trade; Daniel Supercalifragilisticexpialidocious 2024 | 
   <a href="#__consent">Change cookie settings</a> |
-  Login | Lock Screen | 
+  <a href="https://sso.danslinky.co.uk/login">Extranet</a> | <a href="javascript:alert('I have locked your screen.');">Lock Screen</a> | 
   <a href="/status">Status Page</a>
-# language: en
+
 extra_css:
 # - extra_css/slinky.css
 - extra_css/rtfm-branding.css
@@ -16,12 +26,16 @@ extra_javascript:
 - extra_js/linkedin-profile.js
 # - extra_js/rtfm-evil.js
 
+##
+# Navigation  
+##
 nav:
   - Home: index.md
   - About:
     - about/index.md
     - Contact: about/contact.md
     - Music: about/choons.md
+  - Blog: blog
   - Resumes:
     - resumes/index.md
     - JSON: resumes/json.md
@@ -119,9 +133,13 @@ nav:
     - WordPress: https://wordpress.com/danslinky
     - X: https://twitter.com/danslinky
     - YouTube: https://youtube.com/danslinky
-
+##
+# Theme
+##
 theme:
   name: material
+  font:
+    text: "Open Sans"
   palette:
   - media: "(prefers-color-scheme)"
     toggle:
@@ -141,6 +159,9 @@ theme:
   favicon: favicon.png
   menu: favicon.png
   custom_dir: overrides
+  ##
+  # Feature flags
+  ##
   features:
   - header.autohide
   - announce.dismiss
@@ -163,13 +184,25 @@ theme:
   - content.code.select
   - content.code.annotate
 
-# overrides?? emojis????
-
+##
+# Plugins
+##
 plugins:
+  - blog:
+      post_date_format: full
+      blog_dir: blog
+      post_dir: blog/posts
+      authors_file: blog/.authors.yml
+      blog_toc: true
+      authors_profiles: true
+      authors_profiles_name: Authors
   - social
   - search
   - offline
 
+##
+# Markdown Extensions
+##
 markdown_extensions:
   - admonition # squidfunk/mkdocs-material/reference/admonitions
   - pymdownx.details
@@ -204,6 +237,10 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+##
+# Extra, Extra (in french accent), Extra (in German accent)SIRI OPEN GOOGLE TRANSLATE
+# mkdocs-material is fantanstique! 
+##
 extra:
   alternate:
   - name: 🇬🇧 English 
@@ -219,12 +256,15 @@ extra:
     link: /de/
     lang: de
   consent:
+    # @TODO: this is serious stuff. I need to make this more professional.
     title: "🇬🇧 ⚖️ Biscuit consent"
     cookies:
       chocolate: "Chocolate Chip"
     description: >-
       Only continue on if you're hungry for biscuits. Please disable javascript. You absolutely should be concerned about your Safety and Privacy when using the Internet and World Wide Web. <mark class="ad">Ad.</mark> You can use Tor or NordVPN to protect your Privacy online.
-
+  ##
+  # Social Media
+  ##
   social:
     # - cards_layout_options:
     #     background_color: "#000000"
@@ -241,9 +281,15 @@ extra:
     - name: X11
       link: https://twitter.com/danslinky
       icon: fontawesome/brands/twitter
+  ##
+  # EvilCorp Tracking
+  ##
   analytics:
     provider: google
     property: G-EFB95GEQJZ
+    ##
+    # Feedback widget
+    ##
     feedback: 
       title: "oi mate, do you like my mkdocs?!"
       ratings:

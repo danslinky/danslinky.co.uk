@@ -1,19 +1,6 @@
 # Resume as a Service (RaaS)
 
-!!! note "#opentowork"
-
-    I'm actively seeking a new <large><b>remote</b></large> or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.
-
-Welcome to my RaaS! <small>~~RAaS~~ ~~rAAS~~ ~~rAPI~~</small> :eyes:
-
-<div class="grid cards" markdown>
-- Demonstrating :fontawesome-brands-html5: __HTML__ with a structured Resume
-- Abusing :fontawesome-brands-js: __JavaScript__ with an interactive Resume
-- Showcasing :fontawesome-brands-css3: __CSS__ with a pretty Resume
-- Celebrating :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
-</div>
-
-## Quickstart
+Hello, and welcome to my RaaS, you may! <small>~~RAaS~~ ~~rAAS~~ ~~rAPI~~</small> :eyes: How the devil are you? Have you had a good day? My name's Dan and I'm watching You....
 
 ```mermaid
 graph LR
@@ -25,13 +12,26 @@ graph LR
   B ---->|No| F[Sad];
 ```
 
+The RaaS allows you, a potential technical recruiter, hiring manager or fellow Platform comrade, to export and download my Resume. It's so good, you're already exporting and download it just by reading this paragraph of text.
+
+This Software as a Service Cloud Native platform is:
+
+<div class="grid cards" markdown>
+- Demonstrating :fontawesome-brands-html5: __HTML__ with a structured Resume
+- Abusing :fontawesome-brands-js: __JavaScript__ with an interactive Resume
+- Showcasing :fontawesome-brands-css3: __CSS__ with a pretty Resume
+- Celebrating :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+</div>
+
+## Features
+
 <div class="grid cards" markdown>
 
 -   :material-clock-fast:{ .lg .middle } __Enterprise SLA__
 
     ---
 
-    Download the Resume of an experienced, hard-working, and skilled Platform Engineer, SRE, DevOps and Linux sysadmin
+    Download the Resume of an experienced, hard-working, and skilled Platform Engineer, SRE, DevOps and Linux sysadmin.
 
     [:octicons-arrow-right-24: Getting started](#)
 
@@ -39,7 +39,7 @@ graph LR
 
     ---
 
-    See how I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site
+    See how I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site.
 
     [:octicons-arrow-right-24: Download](/resumes/markdown)
 
@@ -47,7 +47,7 @@ graph LR
 
     ---
 
-    Download my Resume in [`.json`](json.md), [LaTeX](resume.pdf), [Word](resume.docx) or [`yaml:`](yaml.md), and use my [CLI](#command-line-interface)
+    Download my Resume in [`.json`](json.md), [LaTeX](resume.pdf), [Word](resume.docx) or [`yaml:`](yaml.md), or use my [CLI](#command-line-interface) release candidate.
 
     [:octicons-arrow-right-24: curl $danslinky | sh](#)
 
@@ -66,7 +66,7 @@ You can also view my Resume in [HTML](https://rtfm.danslinky.co.uk/resumes/markd
 
 ## Command Line Interface
 
-You can install `slinkctl`, my Resume CLI:
+You can install `slinkctl`, my Resume CLI using `curl` or `nc`.
 
 ```sh
 curl -sSL https://resume.danslinky.co.uk/resume.sh | sh

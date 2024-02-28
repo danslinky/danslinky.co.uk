@@ -1,4 +1,31 @@
+# Dan Slinky
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1CU6QK1zSaMH8uRUsEPELEWo4MQJ2ejhrmYNnKkLwstJTVePr6LTEKqNmRWSVYEjRhzrFwWefA?gv=true',
+      color: '#039BE5',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+<details>
+<summary>Backup Appointment Scheduling</summary>
+You can use the <a href="https://cal.com/danslinky/">Backup Appointment Scheduling system</a> if Google has killed another product.
+</details>
+
 ## Project Documentation
+
+The project currently looks something like this.
 
 ``` mermaid
 classDiagram
