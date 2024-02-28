@@ -80,14 +80,17 @@ RaaS does not require you to authenticate. If you do need to add Social and Ente
 
 ## Customer Feedback
 
-[Letters of Recommendation](https://github.com/danslinky/danslinky.co.uk/issues/new/choose) and [Endorsements](https://linkedin.com/in/danslinky) for Dan Slinky can be managed using GitHub or LinkedIn.
+[Letters of Recommendation](https://github.com/danslinky/danslinky.co.uk/issues/new/choose) and [Endorsements](https://linkedin.com/in/danslinky) for Dan Slinky can be submitted using GitHub or LinkedIn.
 
-<blockquote>
-Dan is one of the best platform engineers I've worked with. He has a vast knowledge of AWS, Kubernetes, Terraform and similar platform technologies. I learned a lot while working together. He is capable of taking a vague requirement and converting it into working infrastructure. He puts thought into the maintainability, scalability and observability of his solutions and writes good accompanying documentation. Dan is also a good mentor helping other in the team and even outside of his team upskill and learn from him.
-<cite>
-<a href="https://www.linkedin.com/in/robertmarsal/" target="_blank">Robert Marsal, Enterprise Architect at Adarga</a>
-</cite>
-</blockquote>
+> Dan is one of the best platform engineers I've worked with. He has a vast knowledge of AWS, Kubernetes, Terraform and similar platform technologies. I learned a lot while working together. He is capable of taking a vague requirement and converting it into working infrastructure. He puts thought into the maintainability, scalability and observability of his solutions and writes good accompanying documentation. Dan is also a good mentor helping other in the team and even outside of his team upskill and learn from him.
+>
+> -- <cite><a href="https://www.linkedin.com/in/robertmarsal/" target="_blank">Robert Marsal</a>, Enterprise Architect at Adarga</cite>
+
+<hr />
+
+> Dan is one of the most technical platform engineers I've worked with. I would watch in awe as he calmly debugged and resolved production incidents. Day to day he is a thoughtful colleague whose advice I would trust on the design and implementation of cloud native infrastructure and the general practice of platform engineering.
+>
+> -- <cite><a href="https://www.linkedin.com/in/mark-devilliers-36627a11/" target="_blank">Mark deVilliers</a>, Engineering Leader</cite>
 
 ## Release Notes
 
