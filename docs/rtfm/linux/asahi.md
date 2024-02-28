@@ -1,5 +1,23 @@
 # Asahi Linux
 
-:heart:
+I :heart: Asahi Linux; probably the best Linux installation I have ever performed.
 
-<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Asahi Linux</title><path d="m13.835 0-1.72 1.323v.97h2.178zm-1.95.057L9.81 1.095l2.076 4.153zm.23 3.768V6.22l-1.057-2.113L6.43 5.678 12 8.009l5.57-2.331zM6.21 5.835.533 15.957 11.885 24V8.21L6.222 5.84Zm11.58 0-.012.004-5.6 2.345 7.512 10.449 3.777-2.675zm-3.955 7.926v5.422l1.952-2.711zm2.864 3.981-4.411 6.135 5.846-4.14z"/></svg>
+I run Asahi Linux on my 2020 13" Macbook Pro after I literally `curl | sh` it one day after getting fed up with the bloat of :simple-macos:.
+
+Initially Asahi Linux used Arch, which was a familiar and pleasant experience but pretty much nothing worked. No speakers, camera, USB, touchbar (I have a physical ESC key, because 2020 13") and I enjoyed semi daily driving it.
+
+Then one day the folks at Fedora dropped their initial remix and once again I was booting up :simple-macos: to `curl linux | sh` on to my ~~new~~ Apple device.
+
+Running Fedora Wayland KDE Plasma on it is a wonderful Linux Laptop experience, but for ~~personal~~ memory reasons I've stripped that all away and going back to running [AwesomeWM](awesome.md). I might have insulted Emacs elsewhere on my website, but you can rest assured my fingers are being contorted.
+
+Pros:
+- Linux builds don't sound like a jet airplane taking off
+- KVM (qemu) on `arm64` :chef-kiss: (mostly)
+- Reclaimed my hard disk space, after I purged some :simple-macos:
+
+Cons:
+- HDMI, fingerprint reader no worky
+- USB detection/hotplug needs some work
+- I'm running awesomewm, which is awesome, but I have no idea what I'm doing with it most of the time
+- I did not know dnf was a thing now, and was initially very confused.
+- Only finding a linux_arm64
