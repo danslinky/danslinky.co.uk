@@ -2,15 +2,17 @@
 
 ``` mermaid
 classDiagram
-  Slinky <|-- Government
-  Website <|-- Recruiter:visiting
-  Role <--> Recruiter:has
+  Slinky <|-- Government:is helping
+  Website <|-- Recruiter:is visiting
+  Role <--> Recruiter:might have
   Slinky <--> Website:is building
   Slinky : +String name
   Slinky : +String phoneNumber
-  Slinky : +String emailAddress
+  Slinky : +String emailAlias
+  Slinky : +String domain
   Slinky: +acquireDoorPass()
   Address "" <-- "" Slinky:lives at
+  Resume "" <-- "" Slinky:has a
   class Government{
     +int passportNumber
     +int universalCreditNumber
@@ -19,20 +21,26 @@ classDiagram
     +getResume()
   }
   class Website {
-    +String url
+    +String subdomain
+    +Markdown resume
+    -validate()
+    +outputAsHTML()
   }
   class www{
     +String html
   }
   class rtfm{
-    +Markdown resume
+    +String resume
   }
   class Cloudflare{ }
   class GitHub{ }
-  Cloudflare "D" <-- "A" rtfm:hosts
-  GitHub "N" <-- "S" www:hosts
-  Website "L" <-- "I" www
-  Website "K" <-- "Y" rtfm
+
+  rtfm "" <-- "" Cloudflare:CI/CD
+  www "" <-- "" GitHub:GitOps
+  
+  Website "H" <-- "T" www
+  Website "T" <-- "P" rtfm
+  
   class Recruiter{
     +getRole()
     -validate()
