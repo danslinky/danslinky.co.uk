@@ -5,7 +5,7 @@
 
     __I'm actively seeking a new __remote__ or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.__
 
-This is another test of footnotes[2] [^2]
+This is another test of footnotes[^2]
 
 [^2]: testing 1 2 3 testing
 
