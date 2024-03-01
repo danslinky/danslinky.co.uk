@@ -2,13 +2,20 @@
 
 Welcome to my personal extranet which I've built using the mkdocs + material.
 
-!!! note inline "#opentowork"
+<div class="grid" markdown>
 
+=== "Open to work"
+    !!! note inline "#opentowork"
     I'm currently actively seeking a new __remote__ or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.
 
-[View my Resume](/resumes/markdown){ .md-button .md-button--primary }
+title="Find out more"
+=== "Discover more now"
+  [View my Resume](/resumes/markdown){ .md-button .md-button--primary }
 
-[Schedule a call](https://cal.com/danslinky){ .md-button .md-button--primary }
+  [Schedule a call](https://cal.com/danslinky){ .md-button .md-button--primary }
+```
+
+</div>
 
 ## Current Project Diagram
 
