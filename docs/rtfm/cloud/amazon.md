@@ -1,4 +1,4 @@
-# Amazon Web Services
+# :fontawesome-brands-amazon: Amazon Web Services
 
 I am an experienced member of Jeff's Cloud Nativity, having gained battle hardered experience using AWS roles at Capgemini, Torchbox, Cookpad and Adarga. I use Terraform, Terragrunt, and my mouse and keyboard to maintain my AWS Cloud.
 

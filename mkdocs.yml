@@ -50,7 +50,7 @@ nav:
     - rtfm/index.md
     - Cloud:
       - Alibaba: rtfm/cloud/china.md
-      - Amazon: rtfm/cloud/amazon.md
+      - rtfm/cloud/amazon.md
       - DigitalOcean: rtfm/cloud/digitalocean.md
       - Google: rtfm/cloud/google.md
       - Microsoft: rtfm/cloud/microsoft.md
