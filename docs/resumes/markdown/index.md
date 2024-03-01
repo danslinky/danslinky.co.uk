@@ -1,6 +1,8 @@
 # Dan Slinky
 > Platform Engineer | SRE | DevSecOps | MLOps | FinOps | Sysadmin
 
+[Schedule a call](https://cal.com/danslinky){ .md-button .md-button--primary }
+
 ## Introduction
 
 === "Personal Statement"
