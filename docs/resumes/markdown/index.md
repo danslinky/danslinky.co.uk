@@ -7,8 +7,6 @@
 
 This is another test of footnotes[^2]
 
-[^2]: testing 1 2 3 testing
-
 ## Experience
 
 === "CERN"
@@ -18,9 +16,6 @@ This is another test of footnotes[^2]
     ### 2007-2008
     - Linux installation software, AIMS2[^1]
     - Perl, XML/RPC, Oracle, PXE, tftpboot, LanDB, ia64, twiki, bldg513
-
-    [^1]:
-        Testing.
 
 === "Sift"
 
@@ -146,3 +141,13 @@ Cornwall College
 - Digital Art, Apple Pencil
 - Metal springs and steps
 - Douglas Coupland
+
+## Footnotes
+
+[^1]:
+    Testing.
+    Testing
+
+    Testing
+
+[^2]: this is another test
