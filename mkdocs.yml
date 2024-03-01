@@ -49,7 +49,7 @@ nav:
   - RTFM:
     - rtfm/index.md
     - Cloud:
-      - Alibaba: rtfm/cloud/china.md
+      - rtfm/cloud/alibaba.md
       - rtfm/cloud/amazon.md
       - rtfm/cloud/digitalocean.md
       - rtfm/cloud/google.md
