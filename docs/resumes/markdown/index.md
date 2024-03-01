@@ -15,11 +15,11 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 === "Personal Statement"
 
-    With over 15 years of experience in Platform, Site Reliability, and DevSecOps Engineering, I have been fortunate enough to experience the evolution of Kubernetes and the Cloud Native landscape and have developed an expertise in Identity and SSO implementations, Infrastructure as Code and GitOps pipelines
+    An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer, I have been fortunate enough to experience the evolution of Kubernetes and the Cloud Native landscape and have developed an expertise in GitOps, Identity and SSO implementation and Infrastructure as Code across on-prem and Cloud deployments.
 
-    Additionally, I have proficiency in container technologies including containerd and Docker, along with (some) proficiency in Perl, Python, and Golang. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented. Additionally, I like to foster a culture of continuous learning, skill development and knowledge sharing.
-
-    In my previous roles I have contributed to the design, development, and maintenance of the global platforms that serves lots of angry users. I leveraged my skills in container orchestration, on-premise and Cloud deployments, and I ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation.
+    In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. 
+    
+    I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented, and I like to foster a culture of continuous learning, skill development and knowledge sharing.
 
 === "Strengths"
 
