@@ -15,11 +15,11 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 ## Introduction
 
-An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer, I have been fortunate enough to experience the evolution of Kubernetes and the Cloud Native landscape and have developed an expertise in GitOps, Identity and SSO implementation and Infrastructure as Code across on-prem and Cloud deployments.
+    An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer, I have been fortunate enough to experience the evolution of Kubernetes and the Cloud Native landscape and have developed an expertise in GitOps, Identity and SSO implementation and Infrastructure as Code across on-prem and Cloud deployments.
 
-In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. 
+    In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. 
 
-I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented, and I like to foster a culture of continuous learning, skill development and knowledge sharing.
+    I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented, and I like to foster a culture of continuous learning, skill development and knowledge sharing.
 
 <div class="grid cards" markdown>
 
