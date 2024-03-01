@@ -13,7 +13,6 @@ title="Find out more"
   [View my Resume](/resumes/markdown){ .md-button .md-button--primary }
 
   [Schedule a call](https://cal.com/danslinky){ .md-button .md-button--primary }
-```
 
 </div>
 
