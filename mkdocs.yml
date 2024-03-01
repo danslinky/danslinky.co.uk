@@ -5,10 +5,14 @@
 #
 # SUPPORT MKDOCS + MATERIAL THEME
 #
+title: "Dan Slinky's mmmkdocs"
+subtitle: Personal portfolio of Dan Slinky
 site_name: Dan Slinky's mmmkdocs
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
+#icon: material/sad
+
 ##
 # Copyright
 ##

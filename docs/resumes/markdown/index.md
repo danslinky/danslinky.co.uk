@@ -10,6 +10,29 @@ __TOC__
 
     __I'm actively seeking a new <large><b>remote</b></large> or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.__
 
+## blank
+
+=== "block 1"
+
+    some content in block 1
+    
+    * list
+    * list
+    * list
+
+=== "block 2"
+
+    some content in block 2
+
+    1. list
+    2. list
+    3. list
+
+    ```markdown
+    # Testing
+    [#2](https://github.com/danslinky/danslinky.co.uk/issues/2)
+    ```
+
 ## Key Skills
 
 - Linux
