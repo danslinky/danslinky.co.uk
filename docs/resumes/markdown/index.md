@@ -65,6 +65,15 @@ I also collaborated with other engineers, product managers, and stakeholders to 
     :simple-opnsense: __OPNSense__ to build my personal infrastructure. 
 
 - :fontawesome-brands-internet-explorer: :simple-firefox: :simple-googlechrome: :simple-safari: :fontawesome-brands-brave: :simple-torbrowser: __Browser Wars__
+    <br />
+    :simple-linux:
+    :simple-asahilinux:
+    :simple-archlinux:
+    :simple-alpinelinux:
+    :simple-debian:
+    :simple-fedora:
+    :simple-ubuntu:
+    :simple-macos: and :simple-opensourceinitiative: friends.
 
 </div>
 
