@@ -25,46 +25,38 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 <div class="grid cards" markdown>
 
-    -   :material-clock-fast:{ .lg .middle } __Strong Work Ethic__
+-   :material-clock-fast:{ .lg .middle } __Strong Work Ethic__
 
-        ---
+    ---
 
-        You are reading theResume of an experienced, hard-workling, and skilled Platform Engineer, SRE, Devops Engineer, who takes pride in his behaviour, collaboration and contributions.
+    You are reading theResume of an experienced, hard-workling, and skilled Platform Engineer, SRE, Devops Engineer, who takes pride in his behaviour, collaboration and contributions.
 
-    -   :fontawesome-brands-markdown:{ .lg .middle } __Innovative__
+-   :fontawesome-brands-markdown:{ .lg .middle } __Innovative__
 
-        ---
+    ---
 
-        Recognised as an innovative colleague, I enjoy finding solutions and novel approaches to achieve a happy result. See how by using mkdocs I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site.
+    Recognised as an innovative colleague, I enjoy finding solutions and novel approaches to achieve a happy result. See how by using mkdocs I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site.
 
-        [:octicons-arrow-right-24: Download](/resumes/markdown)
+    [:octicons-arrow-right-24: Download](/resumes/markdown)
 
-    -   :material-format-font:{ .lg .middle } __Collaborative__
+-   :material-format-font:{ .lg .middle } __Collaborative__
 
-        ---
+    ---
 
-        Executive colleagues.
-        I enjoy working with other engineers and professionals, and enjoy sharing our passion for our work, skills and experience. I have demonostrated collaborative and confident incident management capabilities, both technical and ceremonial, and I'm able to work with a range of stakeholders on technical issues, including directly with the Executive.
-        
-        [:octicons-arrow-right-24: curl $danslinky | sh](#)
+    Executive colleagues.
+    I enjoy working with other engineers and professionals, and enjoy sharing our passion for our work, skills and experience. I have demonostrated collaborative and confident incident management capabilities, both technical and ceremonial, and I'm able to work with a range of stakeholders on technical issues, including directly with the Executive.
+    
+    [:octicons-arrow-right-24: curl $danslinky | sh](#)
 
-    -   :material-scale-balance:{ .lg .middle } __FOSS Evangelist__
+-   :material-scale-balance:{ .lg .middle } __FOSS Evangelist__
 
-        ---
+    ---
 
-        You can contribute to `mkResume` on [GitHub](https://github.com/danslinky) or
-        meet me at [FOSDEM](https://fosdem.org/)
+    You can contribute to `mkResume` on [GitHub](https://github.com/danslinky) or
+    meet me at [FOSDEM](https://fosdem.org/)
 
-        [:octicons-arrow-right-24: SORRY THE ROOM IS FULL](#)
-<!--
-    -   Strong Work Ethic
-        Collaborative
-        Problem Solver
-        Collaborative incident management capabilities, both technical and ceremonial, and able to work with a range of stakeholders on technical issues, including directly with Executive colleagues.
-        I enjoy working with other engineers and professionals, and enjoy sharing our passion for our work, skills and experience.
-        Knowledgeable
-        But there's still a lot I don't know, and I'm excited about learning more from the Wizards in Building 31, 513 and wider community again.
--->
+    [:octicons-arrow-right-24: SORRY THE ROOM IS FULL](#)
+
 </div>
 
 ## Experience
