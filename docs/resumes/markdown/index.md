@@ -88,8 +88,8 @@ I also collaborated with other engineers, product managers, and stakeholders to 
     - Linux installation software, AIMS2[^1]
     - Perl, XML/RPC, Oracle, PXE, tftpboot, LanDB, ia64, twiki, bldg513[^2]
 
-    [^1]: #Test
-    [^2]: this is another test
+[^1]: #Test test
+[^2]: this is another test
 
 === "Sift"
 
