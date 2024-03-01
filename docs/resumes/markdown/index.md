@@ -27,37 +27,56 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Strong Work Ethic__
+- :simple-cncf: __Cloud Native__ DevOps using
+    :fontawesome-brands-amazon: __AWS__,
+    :fontawesome-brands-google: __Google__ Cloud Platform[^1],
+    :fontawesome-brands-microsoft: __Microsoft__ Azure,
+    :simple-oracle: __Oracle__,
+    :simple-alibabadotcom: __Alibaba__,
+    :fontawesome-brands-digital-ocean: __DigitalOcean__,
+    and [more]().
 
-    ---
+- __GitOps__ :robot: __CI/CD__ using
+    :simple-github: __GitHub Actions__,
+    :fontawesome-brands-gitlab: __GitLab__,
+    :simple-circleci: __CircleCI__,
+    :simple-flux: __Flux__,
+    :simple-argo: __Argo__,
+    :simple-azuredevops:, __Azure__
+    and :fontawesome-brands-jenkins: __Jenkins__.
 
-    You are reading theResume of an experienced, hard-workling, and skilled Platform Engineer, SRE, Devops Engineer, who takes pride in his behaviour, collaboration and contributions.
+    [Read more]()
 
--   :fontawesome-brands-markdown:{ .lg .middle } __Innovative__
+- Using __IaC__ tools
+    :simple-terraform: __Terraform__,
+    :material-terraform: __Terragrunt__,
+    :simple-ansible: __Ansible__ to manage
+    :fontawesome-brands-docker: __Docker__,
+    :simple-kubernetes: __Kubernetes__,
+    :simple-virtualbox: and :pizza::material-server:
 
-    ---
+    [Read more]()
 
-    Recognised as an innovative colleague, I enjoy finding solutions and novel approaches to achieve a happy result. See how by using mkdocs I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site.
+- Friendly neighbourhood :material-security: __SecOps__ with
+    :simple-hackerone:
+    :safety_vest:
+    :fire_extinguisher:
+    because
+    :fire:
+    :material-server:
+    :cloud_lightning:
+    :space_invader:
 
-    [:octicons-arrow-right-24: Download](/resumes/markdown)
+    [hello, friend](javascript:alert\('cyber! cyber! cyber!'\))
 
--   :material-format-font:{ .lg .middle } __Collaborative__
+    :fontawesome-brands-square-hacker-news: <small>[favs](https://news.ycombinator.com/favorites?id=danslinky)</small>
 
-    ---
+- Using bleeding edge
+    :simple-opensourceinitiative: Open Source and 
+    :simple-opnsense: OPNSense.
+    My Code of Conduct and :simple-torproject: __Privacy Policy__ are available [here]().
 
-    Executive colleagues.
-    I enjoy working with other engineers and professionals, and enjoy sharing our passion for our work, skills and experience. I have demonostrated collaborative and confident incident management capabilities, both technical and ceremonial, and I'm able to work with a range of stakeholders on technical issues, including directly with the Executive.
-    
-    [:octicons-arrow-right-24: curl $danslinky | sh](#)
-
--   :material-scale-balance:{ .lg .middle } __FOSS Evangelist__
-
-    ---
-
-    You can contribute to `mkResume` on [GitHub](https://github.com/danslinky) or
-    meet me at [FOSDEM](https://fosdem.org/)
-
-    [:octicons-arrow-right-24: SORRY THE ROOM IS FULL](#)
+- :fontawesome-brands-internet-explorer: :simple-firefox: :simple-googlechrome: :simple-safari: :fontawesome-brands-brave: :simple-torbrowser: __Browser Wars__
 
 </div>
 
