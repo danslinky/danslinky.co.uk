@@ -10,19 +10,19 @@ __TOC__
 
     __I'm actively seeking a new __remote__ or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.__
 
-## blank
+## Experience
 
 === "CERN"
 
-    some content in block 1
-    
+    # Technical Student 
+
     * list
     * list
     * list
 
 === "Sift"
 
-    some content in block 2
+    # Operationg Engineer
 
     1. list
     2. list
@@ -30,7 +30,7 @@ __TOC__
  
 === "Capgemini"
 
-    some content in block 2
+    # DevOps Engineer
 
     1. list
     2. list
@@ -38,7 +38,7 @@ __TOC__
 
 === "Eurostar"
 
-    some content in block 2
+    # Drupal DevOps Engineer
 
     1. list
     2. list
@@ -46,36 +46,24 @@ __TOC__
 
 === "Future"
 
+    # Operations Engineer
+
 === "Torchbox"
 
+    ## Linux Systems Administrator
+
 === "Adarga"
+
+    # Platform Engineer
 
     - I don't know if this is a good format, or not.
 
-=== Cookpad"
+=== "Cookpad"
+
+    ## Machine Learning Infrastructure Engineer
+    ## Site Reliability Engineer
 
 === "Adarga"
-
-
-## Key Skills
-
-- Linux
-- Sysadmin
-- DevOps
-- Google
-- AWS
-- Cloud Native
-- Kubernetes
-- on-prem
-- IaC
-- GitOps
-- Observability
-- SSO
-- SRE
-- Libre Software
-- CERN
-- mkdocs
-
 
 ## Strengths
 
