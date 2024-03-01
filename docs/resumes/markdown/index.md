@@ -61,13 +61,13 @@
 
     ## Platform Engineer
 
-    Inaugural DevOps at Adarga, I played a role in establishing the foundation of an AI SaaS platform, leveraging Kubernetes and collaborating closely with the wider engineering and data science teams.  
+    Inaugural DevOps at Adarga, I played a role in establishing the foundation of an AI SaaS platform, leveraging Kubernetes and collaborating closely with the wider engineering and data science teams.
+    
+    - My responsibilities spanned AWS and Google Cloud environments, where I implemented Ansible and YAML for deploying self-hosted and Google Kubernetes clusters and applications.
 
-- My responsibilities spanned AWS and Google Cloud environments, where I implemented Ansible and YAML for deploying self-hosted and Google Kubernetes clusters and applications.
+    - Adopting a microservice's architecture, I integrated technologies such as Kafka, Python, Java, Node.js, single-page applications (SPAs), and OAuth2 via Auth0, while also implementing the platform API gateway using Kong/nginx, and explored service mesh options such istio and Weave.
 
-- Adopting a microservice's architecture, I integrated technologies such as Kafka, Python, Java, Node.js, single-page applications (SPAs), and OAuth2 via Auth0, while also implementing the platform API gateway using Kong/nginx, and explored service mesh options such istio and Weave.
-
-- Additionally, I managed onboarding processes using Apple MDM, fleet DM, osquery, munki, and handled app packaging and deployment, I deployed and maintained the Atlassian stack, including Jira, Confluence, and Bamboo, on AWS.
+    - Additionally, I managed onboarding processes using Apple MDM, fleet DM, osquery, munki, and handled app packaging and deployment, I deployed and maintained the Atlassian stack, including Jira, Confluence, and Bamboo, on AWS.
 
 
 === "Cookpad"
