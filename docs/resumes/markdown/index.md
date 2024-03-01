@@ -69,8 +69,8 @@ I also collaborated with other engineers, product managers, and stakeholders to 
     :fontawesome-brands-square-hacker-news: <small>[favs](https://news.ycombinator.com/favorites?id=danslinky)</small>
 
 - I enjoy using bleeding edge
-    :simple-opensourceinitiative: Open Source and my 
-    :simple-opnsense: OPNSense to build my personal infrastructure. My Code of Conduct and :simple-torproject: __Privacy Policy__ are available [here](#).
+    :simple-opensourceinitiative: __Open Source__ and my 
+    :simple-opnsense: __OPNSense__ to build my personal infrastructure. My Code of Conduct and :simple-torproject: __Privacy Policy__ are available [here](#).
 
 - :fontawesome-brands-internet-explorer: :simple-firefox: :simple-googlechrome: :simple-safari: :fontawesome-brands-brave: :simple-torbrowser: __Browser Wars__
 
