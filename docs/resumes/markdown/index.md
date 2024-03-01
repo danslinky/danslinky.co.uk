@@ -79,6 +79,8 @@ I also collaborated with other engineers, product managers, and stakeholders to 
 
 ## Career
 
+I have gained experience with a range of organisations and businesses which you can explore further in the tabs below. You can also read endorsements from recent colleagues.
+
 === "CERN"
 
     ## Technical Student 
