@@ -43,16 +43,12 @@ I also collaborated with other engineers, product managers, and stakeholders to 
     and :fontawesome-brands-jenkins: __Jenkins__,
     amongst others.
 
-    [Read more]()
-
 - Skilled with __IaC__ tools including 
     :simple-terraform: __Terraform__,
     :material-terraform: __Terragrunt__,
     :simple-ansible: __Ansible__, and container orchestration using
     :fontawesome-brands-docker: __Docker__ and
     :simple-kubernetes: __Kubernetes__.
-
-    [Read more]()
 
 - Sometimes a friendly neighbourhood :material-security: __SecOps__ using
     :simple-hackerone:
@@ -62,15 +58,11 @@ I also collaborated with other engineers, product managers, and stakeholders to 
     :fire:
     :material-server:
     :cloud_lightning:
-    :space_invader:
-
-    [hello, friend](javascript:alert\('cyber! cyber! cyber!'\))
-
-    :fontawesome-brands-square-hacker-news: <small>[favs](https://news.ycombinator.com/favorites?id=danslinky)</small>
+    :space_invader: [hello, friend](javascript:alert\('cyber! cyber! cyber!'\)) :fontawesome-brands-square-hacker-news: <small>[favs](https://news.ycombinator.com/favorites?id=danslinky)</small>
 
 - I enjoy using bleeding edge
     :simple-opensourceinitiative: __Open Source__ and my 
-    :simple-opnsense: __OPNSense__ to build my personal infrastructure. My Code of Conduct and :simple-torproject: __Privacy Policy__ are available [here](#).
+    :simple-opnsense: __OPNSense__ to build my personal infrastructure. 
 
 - :fontawesome-brands-internet-explorer: :simple-firefox: :simple-googlechrome: :simple-safari: :fontawesome-brands-brave: :simple-torbrowser: __Browser Wars__
 
