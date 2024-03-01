@@ -27,7 +27,7 @@ I also collaborated with other engineers, product managers, and stakeholders to 
 
 - :simple-cncf: __Cloud Native__ DevOps using
     :fontawesome-brands-amazon: __AWS__,
-    :fontawesome-brands-google: __Google__ Cloud Platform[^1],
+    :fontawesome-brands-google: __Google__ Cloud Platform,
     :fontawesome-brands-microsoft: __Microsoft__ Azure,
     :simple-oracle: __Oracle__,
     :simple-alibabadotcom: __Alibaba__,
