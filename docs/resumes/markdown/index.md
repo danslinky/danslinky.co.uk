@@ -25,41 +25,40 @@ I also collaborated with other engineers, product managers, and stakeholders to 
 
 <div class="grid cards" markdown>
 
-- :simple-cncf: __Cloud Native__ DevOps using
+- Passionate :simple-cncf: __Cloud Native__ DevOps with experience of
     :fontawesome-brands-amazon: __AWS__,
     :fontawesome-brands-google: __Google__ Cloud Platform,
     :fontawesome-brands-microsoft: __Microsoft__ Azure,
-    :simple-oracle: __Oracle__,
     :simple-alibabadotcom: __Alibaba__,
     :fontawesome-brands-digital-ocean: __DigitalOcean__,
-    and [more]().
+    et al.
 
-- __GitOps__ :robot: __CI/CD__ using
+- Innovative __GitOps__ and __CI/CD__ using
     :simple-github: __GitHub Actions__,
     :fontawesome-brands-gitlab: __GitLab__,
     :simple-circleci: __CircleCI__,
     :simple-flux: __Flux__,
     :simple-argo: __Argo__,
     :simple-azuredevops:, __Azure__
-    and :fontawesome-brands-jenkins: __Jenkins__.
+    and :fontawesome-brands-jenkins: __Jenkins__,
+    amongst others.
 
     [Read more]()
 
-- Using __IaC__ tools
+- Skilled with __IaC__ tools including 
     :simple-terraform: __Terraform__,
     :material-terraform: __Terragrunt__,
-    :simple-ansible: __Ansible__ to manage
-    :fontawesome-brands-docker: __Docker__,
-    :simple-kubernetes: __Kubernetes__,
-    :simple-virtualbox: and :pizza::material-server:
+    :simple-ansible: __Ansible__, and container orchestration using
+    :fontawesome-brands-docker: __Docker__ and
+    :simple-kubernetes: __Kubernetes__.
 
     [Read more]()
 
-- Friendly neighbourhood :material-security: __SecOps__ with
+- Sometimes a friendly neighbourhood :material-security: __SecOps__ using
     :simple-hackerone:
     :safety_vest:
     :fire_extinguisher:
-    because
+    because sometimes 
     :fire:
     :material-server:
     :cloud_lightning:
@@ -69,10 +68,9 @@ I also collaborated with other engineers, product managers, and stakeholders to 
 
     :fontawesome-brands-square-hacker-news: <small>[favs](https://news.ycombinator.com/favorites?id=danslinky)</small>
 
-- Using bleeding edge
-    :simple-opensourceinitiative: Open Source and 
-    :simple-opnsense: OPNSense.
-    My Code of Conduct and :simple-torproject: __Privacy Policy__ are available [here]().
+- I enjoy using bleeding edge
+    :simple-opensourceinitiative: Open Source and my 
+    :simple-opnsense: OPNSense to build my personal infrastructure. My Code of Conduct and :simple-torproject: __Privacy Policy__ are available [here](#).
 
 - :fontawesome-brands-internet-explorer: :simple-firefox: :simple-googlechrome: :simple-safari: :fontawesome-brands-brave: :simple-torbrowser: __Browser Wars__
 
@@ -85,10 +83,10 @@ I also collaborated with other engineers, product managers, and stakeholders to 
     ## Technical Student 
 
     ### 2007-2008
-    - I joined IT/FIO/LA and developed new Linux PXE/kickstart installation software under supervision of J. Polok
-    - AIMS2 made use of Perl, XML/RPC and Oracle. You can read more here, here and view the final presentation to the IT Department here. I'm reliable informed that some parts of it are still in production in 2024 :/
-    - I [Volunteered](/blog/xxxx) at 2008 CERN Open Door, giving guided tours of the CERN Computing Centre and sharing my passion for CERN's IT infrastructure.
-    - Helped CERN [lobby](https://cds.cern.ch/record/xxxxx) the British Government to help promote the Technical Student programme.
+    - I joined __IT/FIO/LA__ and developed new Linux PXE/kickstart installation software under supervision of J. Polok
+    - AIMS2 made use of Perl, XML/RPC and Oracle. You can read more here, here and view the final presentation to the IT Department here. I'm reliably informed that some parts of it are still in production in 2024 :/
+    - I [volunteered](/blog/xxxx) at 2008 CERN Open Door, giving guided tours of the CERN Computing Centre and enjoyed sharing my passion for CERN's IT infrastructure.
+    - I helped CERN [lobby](https://cds.cern.ch/record/xxxxx) the British Government to help promote the Technical Student programme.
 
 === "Sift"
 
