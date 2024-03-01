@@ -231,6 +231,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets # include code snippets from files
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   # diagrams
   - pymdownx.superfences:
       custom_fences:

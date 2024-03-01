@@ -5,7 +5,31 @@
 
     __I'm actively seeking a new __remote__ or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.__
 
-This is another test of footnotes[^2]
+=== Personal Statement
+
+    With over 15 years of experience in Platform, Site Reliability, and DevSecOps Engineering, I have been fortunate enough to experience the evolution of Kubernetes and the Cloud Native landscape and have developed an expertise in Identity and SSO implementations, Infrastructure as Code using Terragrunt, Terraform, Ansible, and Puppet, and automated security and dependency pipelines. I'm skilled in GitOps workflows hosted on AWS, Google, GitHub Actions, GitLab, CircleCI, and others, leveraging CD/CD ArgoCD, FluxCD, helm, kustomize and jsonnet.
+
+    Additionally, I have proficiency in container technologies including containerd and Docker, along with (some) proficiency in Perl, Python, and Golang. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented. Additionally, I like to fostering a culture of continuous learning, skill development and knowledge sharing.
+
+    In my previous roles I have contributed to the design, development, and maintenance of the global platforms that serves lots of angry users. I leveraged my skills in Kubernetes, Amazon Web Services (AWS), and other on-premise and Cloud Native technologies to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the business.
+
+=== Strengths
+
+    Strong Work Ethic
+    I'm hard-working, and take pride in my work and my behaviour,  collaboration and contribution.
+
+    Problem Solver
+    Collaborative incident management capabilities, both technical and ceremonial, and able to work with a range of stakeholders on technical issues, including directly with Executive colleagues.
+
+    Innovation
+    Recognised as an innovative colleague, I enjoy finding solutions and novel approaches to achieve a happy result.
+
+    Collaborative
+    I enjoy working with other engineers and professionals, and enjoy sharing our passion for our work, skills and experience.
+
+    Knowledgeable
+
+    But there's still a lot I don't know, and I'm excited about learning more from the Wizards in Building 31, 513 and wider community again.
 
 ## Experience
 
@@ -15,7 +39,7 @@ This is another test of footnotes[^2]
 
     ### 2007-2008
     - Linux installation software, AIMS2[^1]
-    - Perl, XML/RPC, Oracle, PXE, tftpboot, LanDB, ia64, twiki, bldg513
+    - Perl, XML/RPC, Oracle, PXE, tftpboot, LanDB, ia64, twiki, bldg513[^2]
 
 === "Sift"
 
@@ -84,7 +108,6 @@ This is another test of footnotes[^2]
 
     I later moved in to the SRE team, taking on a more Global platform responsibility working closely with colleagues at Cookpad Japan. I embraced learning Golang and discovered the power of Jsonnet in this new role. I collaborated with colleagues in the SRE team to improve documentation, respond to on call incidents, migrate Kafka from the Managed Cloud to team managed Kubernetes, and respond to ad hoc support requests.
 
-
 === "Adarga.2"
 
     Technical leadership in the Platform Engineering and SecOps team, operating a multi-tenanted AI SaaS platform on AWS.
@@ -96,43 +119,23 @@ This is another test of footnotes[^2]
     - I undertook a technical feasibility of Plausible web analytics for usage in the platform, and mentored team members working on the implementation of Tigergraph and Neo4j as part of some feature development.
     - I also had responsibility for recruitment in to the team, conducting Interviews, promoting team planning before handling over to a permanent Engineering Manager and recruitement team.
 
-
-## Strengths
-Strong Work Ethic
-I'm hard-working, and take pride in my work and my behaviour,  collaboration and contribution.
-
-Problem Solver
-Collaborative incident management capabilities, both technical and ceremonial, and able to work with a range of stakeholders on technical issues, including directly with Executive colleagues.
-
-Innovation
-Recognised as an innovative colleague, I enjoy finding solutions and novel approaches to achieve a happy result.
-
-Collaborative
-I enjoy working with other engineers and professionals, and enjoy sharing our passion for our work, skills and experience.
-
-Knowledgeable
-
-But there's still a lot I don't know, and I'm excited about learning more from the Wizards in Building 31, 513 and wider community again.
-
-
-## Personal Statement
-
-With over 15 years of experience in Platform, Site Reliability, and DevSecOps Engineering, I have been fortunate enough to experience the evolution of Kubernetes and the Cloud Native landscape and have developed an expertise in Identity and SSO implementations, Infrastructure as Code using Terragrunt, Terraform, Ansible, and Puppet, and automated security and dependency pipelines. I'm skilled in GitOps workflows hosted on AWS, Google, GitHub Actions, GitLab, CircleCI, and others, leveraging CD/CD ArgoCD, FluxCD, helm, kustomize and jsonnet.
-
-Additionally, I have proficiency in container technologies including containerd and Docker, along with (some) proficiency in Perl, Python, and Golang. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented. Additionally, I like to fostering a culture of continuous learning, skill development and knowledge sharing.
-
-In my previous roles I have contributed to the design, development, and maintenance of the global platforms that serves lots of angry users. I leveraged my skills in Kubernetes, Amazon Web Services (AWS), and other on-premise and Cloud Native technologies to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the business.
-
+<hr />
 
 ## Education
 
-### BA (Hons) Information Systems Analysis
-2005-2009
-UWE, Bristol
+=== Degree
 
-### BTEC National Diploma IT Practitioner
-2003-2005
-Cornwall College
+    ### BA (Hons) Information Systems Analysis
+    2005-2009
+    University of the West of England, Bristol
+
+=== Diplomas
+
+    ### BTEC National Diploma IT Practitioner
+    2003-2005
+    Cornwall College
+
+<hr />
 
 ## NSFW Hobbies
 
@@ -144,9 +147,5 @@ Cornwall College
 
 ## Footnotes
 
-[^1]: Test
-    Testing
-    Testing
-    Testing
-
-[^2]: this is another test
+    [^1]: Test
+    [^2]: this is another test
