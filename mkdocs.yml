@@ -55,35 +55,6 @@ nav:
       - rtfm/cloud/google.md
       - rtfm/cloud/microsoft.md
       - Private: rtfm/cloud/xcp-ng.md
-    - "*Ops":
-      - Ansible: rtfm/iac/ansible.md
-      - Argo: rtfm/cloudnative/argo.md
-      - Atlantis: rtfm/cloudnative/atlantis.md
-      - DataDog: rtfm/cloud/datadog.md
-      - DevOps: rtfm/devops.md
-      - Fastly: rtfm/cloud/fastly.md
-      - FluxCD: rtfm/cloudnative/fluxcd.md
-      - GitHub: rtfm/cloud/github.md
-      - HashiCorp: rtfm/cloud/hashicorp.md
-      - Helm: rtfm/cloudnative/helm.md
-      - Infisical: rtfm/security/infisical.md
-      # - jsonnnet: rtfm/cloudnative/jsonnet.md
-      - Kubernetes: rtfm/cloudnative/kubernetes.md
-      - Kustomize: rtfm/cloudnative/kustomize.md
-      - NewRelic: rtfm/cloud/newrelic.md
-      - PagerDuty: rtfm/cloud/pagerduty.md
-      - Slack: rtfm/cloud/slack.md
-      - StatusCake: rtfm/cloud/statuscake.md
-      - Terraform: rtfm/iac/terraform.md
-    - Misc:
-      - rtfm/misc/index.md
-      - Asahi: rtfm/linux/asahi.md
-      - awesomeWM: rtfm/linux/awesome.md
-      - Browser Wars: rtfm/misc/web-browsers.md
-      - CSS: rtfm/misc/css.md
-      - jPod: rtfm/misc/jpod.md
-      - SHIELD: rtfm/misc/slinky.md
-      - TARDIS: rtfm/misc/tardis.md 
     - Network:
       - rtfm/network/byod.md
       - DNS: rtfm/network/dns.md
@@ -91,19 +62,47 @@ nav:
       - WIFI: rtfm/network/wifi.md
       - VPN: rtfm/network/wireguard.md
       - Geo: rtfm/network/geo.md
+    - "*Ops":
+      - rtfm/iac/ansible.md
+      - rtfm/cloudnative/argo.md
+      - rtfm/cloudnative/atlantis.md
+      - rtfm/cloud/datadog.md
+      - rtfm/devops.md
+      - rtfm/cloudnative/fluxcd.md
+      - rtfm/cloud/github.md
+      # - rtfm/cloud/hashicorp.md
+      - rtfm/cloudnative/helm.md
+      # - Infisical: rtfm/security/infisical.md
+      # - jsonnnet: rtfm/cloudnative/jsonnet.md
+      - rtfm/cloudnative/kubernetes.md
+      - rtfm/cloudnative/kustomize.md
+      - rtfm/cloud/newrelic.md
+      - rtfm/cloud/pagerduty.md
+      - rtfm/cloud/slack.md
+      - rtfm/cloud/statuscake.md
+      - rtfm/iac/terraform.md
     - Security:
       - rtfm/security/bounty.md
-      - SSO: rtfm/security/sso.md
-      - GPG: rtfm/security/gpg.md
-      - SSL: rtfm/security/ssl.md
+      - rtfm/security/sso.md
+      - rtfm/security/gpg.md
+      - rtfm/security/ssl.md
       - Secrets: rtfm/security/infisical.md
-    - Software:
-      - Drupal: rtfm/oss/drupal.md
-      - ElasticSearch: rtfm/oss/elasticsearch.md
-      - Jenkins: rtfm/oss/jenkins.md
-      - JMeter: rtfm/oss/jmeter.md 
-      - nginx: rtfm/oss/nginx.md
-      - Wordpress: rtfm/oss/wordpress.md
+    - Misc:
+      - rtfm/misc/index.md
+      - rtfm/linux/asahi.md
+      - rtfm/linux/awesome.md
+      - rtfm/misc/web-browsers.md
+      - rtfm/misc/css.md
+      - jPod: rtfm/misc/jpod.md
+      - SHIELD: rtfm/misc/slinky.md
+      - TARDIS: rtfm/misc/tardis.md 
+    # - Software:
+    #   - Drupal: rtfm/oss/drupal.md
+    #   - ElasticSearch: rtfm/oss/elasticsearch.md
+    #   - Jenkins: rtfm/oss/jenkins.md
+    #   - JMeter: rtfm/oss/jmeter.md 
+    #   - nginx: rtfm/oss/nginx.md
+    #   - Wordpress: rtfm/oss/wordpress.md
   - Social Media: 
     - about/contact.md
     - Apple Music: https://music.apple.com/danslinky
