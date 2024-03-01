@@ -208,6 +208,9 @@ plugins:
 # Markdown Extensions
 ##
 markdown_extensions:
+  - toc: 
+      permalink: true
+      title: On this page
   - admonition # squidfunk/mkdocs-material/reference/admonitions
   - pymdownx.details
   - pymdownx.tilde # ~~strikethrough~~ and ++underline++

@@ -144,10 +144,9 @@ Cornwall College
 
 ## Footnotes
 
-[^1]:
-    Testing.
+[^1]: Test
     Testing
-
+    Testing
     Testing
 
 [^2]: this is another test
