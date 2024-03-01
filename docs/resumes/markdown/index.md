@@ -1,9 +1,4 @@
 # Dan Slinky
-
-__TOC__
-
-(this really is work-in-progress, CI/CD, pushing direct to `main`) - please ask for a formal CV if you have a formal interest xxx)
-
 > Platform Engineer | SRE | DevSecOps | MLOps | FinOps | Sysadmin
 
 !!! note "#opentowork"
@@ -22,7 +17,7 @@ __TOC__
 
 === "Sift"
 
-    ## Operationg Engineer
+    ## Operations Engineer
 
     1. list
     2. list
