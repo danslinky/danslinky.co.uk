@@ -85,11 +85,10 @@ I also collaborated with other engineers, product managers, and stakeholders to 
     ## Technical Student 
 
     ### 2007-2008
-    - Linux installation software, AIMS2[^1]
-    - Perl, XML/RPC, Oracle, PXE, tftpboot, LanDB, ia64, twiki, bldg513[^2]
-
-[^1]: #Test test
-[^2]: this is another test
+    - I joined IT/FIO/LA and developed new Linux PXE/kickstart installation software under supervision of J. Polok
+    - AIMS2 made use of Perl, XML/RPC and Oracle. You can read more here, here and view the final presentation to the IT Department here. I'm reliable informed that some parts of it are still in production in 2024 :/
+    - I [Volunteered](/blog/xxxx) at 2008 CERN Open Door, giving guided tours of the CERN Computing Centre and sharing my passion for CERN's IT infrastructure.
+    - Helped CERN [lobby](https://cds.cern.ch/record/xxxxx) the British Government to help promote the Technical Student programme.
 
 === "Sift"
 
