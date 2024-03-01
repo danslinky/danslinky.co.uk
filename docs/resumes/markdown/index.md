@@ -21,6 +21,8 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
     I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented, and I like to foster a culture of continuous learning, skill development and knowledge sharing.
 
+## Experience
+
 <div class="grid cards" markdown>
 
 - :simple-cncf: __Cloud Native__ DevOps using
