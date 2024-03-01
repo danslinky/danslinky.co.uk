@@ -8,11 +8,11 @@ __TOC__
 
 !!! note "#opentowork"
 
-    __I'm actively seeking a new <large><b>remote</b></large> or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.__
+    __I'm actively seeking a new __remote__ or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.__
 
 ## blank
 
-=== "block 1"
+=== "CERN"
 
     some content in block 1
     
@@ -20,7 +20,7 @@ __TOC__
     * list
     * list
 
-=== "block 2"
+=== "Sift"
 
     some content in block 2
 
@@ -28,10 +28,34 @@ __TOC__
     2. list
     3. list
 
-    ```markdown
-    # Testing
-    [#2](https://github.com/danslinky/danslinky.co.uk/issues/2)
-    ```
+=== "Capgemini"
+
+    some content in block 2
+
+    1. list
+    2. list
+    3. list
+
+=== "Eurostar"
+
+    some content in block 2
+
+    1. list
+    2. list
+    3. list
+
+=== "Future"
+
+=== "Torchbox"
+
+=== "Adarga"
+
+    - I don't know if this is a good format, or not.
+
+=== Cookpad"
+
+=== "Adarga"
+
 
 ## Key Skills
 
