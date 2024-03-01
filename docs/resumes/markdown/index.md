@@ -12,10 +12,10 @@
     ## Technical Student 
 
     ### 2007-2008
-    - Linux installation software, AIMS2 [^1]
+    - Linux installation software, AIMS2[^1]
     - Perl, XML/RPC, Oracle, PXE, tftpboot, LanDB, ia64, twiki, bldg513
 
-    [1] test
+    [^1]: test
 
 === "Sift"
 
