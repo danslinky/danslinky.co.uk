@@ -92,7 +92,6 @@ nav:
       - rtfm/linux/asahi.md
       - rtfm/linux/awesome.md
       - rtfm/misc/web-browsers.md
-      - rtfm/misc/css.md
       - jPod: rtfm/misc/jpod.md
       - SHIELD: rtfm/misc/slinky.md
       - TARDIS: rtfm/misc/tardis.md 

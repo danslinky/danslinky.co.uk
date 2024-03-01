@@ -1,4 +1,4 @@
-# :fontawesome-brands-datadog: Datadog
+# :simple-datadog: Datadog
 
 `sudo systemctl status datadog-agent` runs on:
 
