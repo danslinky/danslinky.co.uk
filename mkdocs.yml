@@ -159,7 +159,7 @@ theme:
   - search.highlight
   - search.share
   - navigation.path
-  - navigation.footer
+  # - navigation.footer
   - navigation.instant
   - navigatin.instant.progress
   - navigation.tracking
