@@ -1,31 +1,21 @@
-# Dan Slinky
+# hello, friend
 
-<!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1CU6QK1zSaMH8uRUsEPELEWo4MQJ2ejhrmYNnKkLwstJTVePr6LTEKqNmRWSVYEjRhzrFwWefA?gv=true',
-      color: '#039BE5',
-      label: 'Book an appointment',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
+Welcome to my personal Extranet which I've built using mkdocs + material, and hosted with a Cloudflare worker.
 
-<details>
-<summary>Backup Appointment Scheduling</summary>
-You can use the <a href="https://cal.com/danslinky/">Backup Appointment Scheduling system</a> if Google has killed another product.
-</details>
+!!! note "#opentowork"
 
-## Project Documentation
+<div class="grid" markdown>
+I'm currently actively seeking a new __remote__ or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.
+{ .card }
+  
+- [View my Resume](/resumes/markdown){ .md-button .md-button--primary }
+- [Schedule a call](https://cal.com/danslinky){ .md-button .md-button--primary }
 
-The project currently looks something like this.
+</div>
+
+## Current Project Diagram
+
+The active project currently looks something like this:
 
 ``` mermaid
 classDiagram

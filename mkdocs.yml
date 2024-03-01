@@ -5,10 +5,14 @@
 #
 # SUPPORT MKDOCS + MATERIAL THEME
 #
+title: "Dan Slinky's mmmkdocs"
+subtitle: Personal portfolio of Dan Slinky
 site_name: Dan Slinky's mmmkdocs
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
+#icon: material/sad
+
 ##
 # Copyright
 ##
@@ -45,12 +49,11 @@ nav:
   - RTFM:
     - rtfm/index.md
     - Cloud:
-      - Alibaba: rtfm/cloud/china.md
-      - Amazon: rtfm/cloud/amazon.md
-      - DigitalOcean: rtfm/cloud/digitalocean.md
-      - Google: rtfm/cloud/google.md
-      - Microsoft: rtfm/cloud/microsoft.md
-      - Oracle: rtfm/cloud/oracle.md
+      - rtfm/cloud/alibaba.md
+      - rtfm/cloud/amazon.md
+      - rtfm/cloud/digitalocean.md
+      - rtfm/cloud/google.md
+      - rtfm/cloud/microsoft.md
       - Private: rtfm/cloud/xcp-ng.md
     - "*Ops":
       - Ansible: rtfm/iac/ansible.md
@@ -204,6 +207,9 @@ plugins:
 # Markdown Extensions
 ##
 markdown_extensions:
+  - toc: 
+      permalink: true
+      title: On this page
   - admonition # squidfunk/mkdocs-material/reference/admonitions
   - pymdownx.details
   - pymdownx.tilde # ~~strikethrough~~ and ++underline++
@@ -224,6 +230,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets # include code snippets from files
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   # diagrams
   - pymdownx.superfences:
       custom_fences:
