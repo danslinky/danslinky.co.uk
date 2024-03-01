@@ -54,7 +54,6 @@ nav:
       - rtfm/cloud/digitalocean.md
       - rtfm/cloud/google.md
       - rtfm/cloud/microsoft.md
-      - rtfm/cloud/oracle.md
       - Private: rtfm/cloud/xcp-ng.md
     - "*Ops":
       - Ansible: rtfm/iac/ansible.md
