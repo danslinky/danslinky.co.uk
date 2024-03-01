@@ -14,7 +14,7 @@ __TOC__
 
 === "CERN"
 
-    # Technical Student 
+    ## Technical Student 
 
     * list
     * list
@@ -22,7 +22,7 @@ __TOC__
 
 === "Sift"
 
-    # Operationg Engineer
+    ## Operationg Engineer
 
     1. list
     2. list
@@ -30,7 +30,7 @@ __TOC__
  
 === "Capgemini"
 
-    # DevOps Engineer
+    ## DevOps Engineer
 
     1. list
     2. list
@@ -38,7 +38,7 @@ __TOC__
 
 === "Eurostar"
 
-    # Drupal DevOps Engineer
+    ## Drupal DevOps Engineer
 
     1. list
     2. list
@@ -46,15 +46,15 @@ __TOC__
 
 === "Future"
 
-    # Operations Engineer
+    ## Operations Engineer
 
 === "Torchbox"
 
     ## Linux Systems Administrator
 
-=== "Adarga"
+=== "Adarga.1"
 
-    # Platform Engineer
+    ## Platform Engineer
 
     - I don't know if this is a good format, or not.
 
@@ -63,7 +63,9 @@ __TOC__
     ## Machine Learning Infrastructure Engineer
     ## Site Reliability Engineer
 
-=== "Adarga"
+=== "Adarga.2"
+
+    Wows.
 
 ## Strengths
 
