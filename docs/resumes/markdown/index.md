@@ -12,8 +12,10 @@
     ## Technical Student 
 
     ### 2007-2008
-    - Linux installation software, AIMS2
+    - Linux installation software, AIMS2 [^1]
     - Perl, XML/RPC, Oracle, PXE, tftpboot, LanDB, ia64, twiki, bldg513
+
+    [1] test
 
 === "Sift"
 
@@ -62,7 +64,7 @@
     ## Platform Engineer
 
     Inaugural DevOps at Adarga, I played a role in establishing the foundation of an AI SaaS platform, leveraging Kubernetes and collaborating closely with the wider engineering and data science teams.
-    
+
     - My responsibilities spanned AWS and Google Cloud environments, where I implemented Ansible and YAML for deploying self-hosted and Google Kubernetes clusters and applications.
 
     - Adopting a microservice's architecture, I integrated technologies such as Kafka, Python, Java, Node.js, single-page applications (SPAs), and OAuth2 via Auth0, while also implementing the platform API gateway using Kong/nginx, and explored service mesh options such istio and Weave.
