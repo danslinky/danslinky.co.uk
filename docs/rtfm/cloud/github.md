@@ -1,4 +1,4 @@
-# GitHub
+# :fontawesome-brands-github: GitHub
 
 ## CLI
 
