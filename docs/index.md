@@ -1,6 +1,6 @@
 # hello, friend
 
-Welcome to my personal extranet which I've built using the mkdocs + material.
+Welcome to my personal Extranet which I've built using the mkdocs + material.
 
 !!! note "#opentowork"
 
