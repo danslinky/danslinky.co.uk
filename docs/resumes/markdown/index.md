@@ -25,31 +25,30 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 <div class="grid cards" markdown>
 
-    -   :material-clock-fast:{ .lg .middle } __Enterprise SLA__
+    -   :material-clock-fast:{ .lg .middle } __Strong Work Ethic__
 
         ---
 
-        Download the Resume of an experienced, hard-working, and skilled Platform Engineer, SRE, DevOps and Linux sysadmin.
+        You are reading theResume of an experienced, hard-workling, and skilled Platform Engineer, SRE, Devops Engineer, who takes pride in his behaviour, collaboration and contributions.
 
-        [:octicons-arrow-right-24: Getting started](#)
-
-    -   :fontawesome-brands-markdown:{ .lg .middle } Download my Resume in __Markdown__
+    -   :fontawesome-brands-markdown:{ .lg .middle } __Innovative__
 
         ---
 
-        See how I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site.
+        Recognised as an innovative colleague, I enjoy finding solutions and novel approaches to achieve a happy result. See how by using mkdocs I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site.
 
         [:octicons-arrow-right-24: Download](/resumes/markdown)
 
-    -   :material-format-font:{ .lg .middle } __Made to measure__
+    -   :material-format-font:{ .lg .middle } __Collaborative__
 
         ---
 
-        Download my Resume in [`.json`](json.md), [LaTeX](resume.pdf), [Word](resume.docx) or [`yaml:`](yaml.md), or use my [CLI](#command-line-interface) release candidate.
-
+        Executive colleagues.
+        I enjoy working with other engineers and professionals, and enjoy sharing our passion for our work, skills and experience. I have demonostrated collaborative and confident incident management capabilities, both technical and ceremonial, and I'm able to work with a range of stakeholders on technical issues, including directly with the Executive.
+        
         [:octicons-arrow-right-24: curl $danslinky | sh](#)
 
-    -   :material-scale-balance:{ .lg .middle } __Open Source__
+    -   :material-scale-balance:{ .lg .middle } __FOSS Evangelist__
 
         ---
 
@@ -57,22 +56,15 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
         meet me at [FOSDEM](https://fosdem.org/)
 
         [:octicons-arrow-right-24: SORRY THE ROOM IS FULL](#)
-
+<!--
     -   Strong Work Ethic
-        I'm hard-working, and take pride in my work and my behaviour,  collaboration and contribution.
-
+        Collaborative
         Problem Solver
         Collaborative incident management capabilities, both technical and ceremonial, and able to work with a range of stakeholders on technical issues, including directly with Executive colleagues.
-
-        Innovation
-        Recognised as an innovative colleague, I enjoy finding solutions and novel approaches to achieve a happy result.
-
-        Collaborative
         I enjoy working with other engineers and professionals, and enjoy sharing our passion for our work, skills and experience.
-
         Knowledgeable
-
         But there's still a lot I don't know, and I'm excited about learning more from the Wizards in Building 31, 513 and wider community again.
+-->
 </div>
 
 ## Experience
