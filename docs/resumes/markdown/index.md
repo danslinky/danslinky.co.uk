@@ -1,7 +1,7 @@
 # Dan Slinky
 > Platform Engineer | SRE | DevSecOps | MLOps | FinOps | Sysadmin
 
-!!! note "#opentowork"
+!!! note inline "#opentowork"
 
     __I'm actively seeking a new __remote__ or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.__
 
@@ -125,13 +125,13 @@
 
 ## Education
 
-=== Degree
+=== "Degree"
 
     ### BA (Hons) Information Systems Analysis
     2005-2009
     University of the West of England, Bristol
 
-=== Diplomas
+=== "Diplomas"
 
     ### BTEC National Diploma IT Practitioner
     2003-2005
