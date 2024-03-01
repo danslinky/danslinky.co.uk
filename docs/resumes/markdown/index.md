@@ -196,5 +196,5 @@ I also collaborated with other engineers, product managers, and stakeholders to 
 
 ## Footnotes
 
-    [^1]: Test
-    [^2]: this is another test
+[^1]: Test
+[^2]: this is another test
