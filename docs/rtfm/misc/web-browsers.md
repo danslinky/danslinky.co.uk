@@ -1,4 +1,4 @@
-# Web Browsers
+# :fontawesome-brands-internet-explorer: Web Browsers
 
 |Browser|Comment|
 |-|-|
