@@ -21,9 +21,11 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
     In my previous roles I have contributed to the design, development, and maintenance of the global platforms that serves lots of angry users. I leveraged my skills in Kubernetes, Amazon Web Services (AWS), and other on-premise and Cloud Native technologies to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation.
 
-<div class="grid cards" markdown>
-
 === "Strengths"
+
+    Cloud, Kubernetes.
+
+<div class="grid cards" markdown>
 
 -   :material-clock-fast:{ .lg .middle } __Strong Work Ethic__
 
