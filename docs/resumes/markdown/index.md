@@ -1,4 +1,6 @@
-# Dan Slinky
+# Resume
+
+## Dan Slinky
 > Platform Engineer | SRE | DevSecOps | MLOps | FinOps | Sysadmin
 
 <div class="grid" markdown>
