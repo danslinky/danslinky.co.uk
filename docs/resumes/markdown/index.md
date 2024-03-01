@@ -1,7 +1,54 @@
 # Dan Slinky
 > Platform Engineer | SRE | DevSecOps | MLOps | FinOps | Sysadmin
 
+<div class="grid" markdown>
+
 [Schedule a call](https://cal.com/danslinky){ .md-button .md-button--primary }
+
+[Follow on LinkedIn](https://linkedin.com/in/danslinky){ .md-button .md-button--primary }
+
+</div>
+
+You can also view this Resume in other formats using my [Resume as a Service](/resumes).
+
+## Summary
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Enterprise SLA__
+
+    ---
+
+    Download the Resume of an experienced, hard-working, and skilled Platform Engineer, SRE, DevOps and Linux sysadmin.
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } Download my Resume in __Markdown__
+
+    ---
+
+    See how I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site.
+
+    [:octicons-arrow-right-24: Download](/resumes/markdown)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Download my Resume in [`.json`](json.md), [LaTeX](resume.pdf), [Word](resume.docx) or [`yaml:`](yaml.md), or use my [CLI](#command-line-interface) release candidate.
+
+    [:octicons-arrow-right-24: curl $danslinky | sh](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source__
+
+    ---
+
+    You can contribute to `mkResume` on [GitHub](https://github.com/danslinky) or
+    meet me at [FOSDEM](https://fosdem.org/)
+
+    [:octicons-arrow-right-24: SORRY THE ROOM IS FULL](#)
+
+</div>
 
 ## Introduction
 

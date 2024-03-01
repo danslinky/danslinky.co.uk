@@ -1,6 +1,6 @@
 # hello, friend
 
-Welcome to my personal Extranet which I've built using mkdocs + material, and hosted by a Cloudflare worker.
+Welcome to my personal Extranet which I've built using mkdocs + material, and hosted with a Cloudflare worker.
 
 !!! note "#opentowork"
 
