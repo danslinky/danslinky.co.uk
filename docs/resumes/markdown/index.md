@@ -61,7 +61,8 @@ I also collaborated with other engineers, product managers, and stakeholders to 
     :space_invader: [hello, friend](javascript:alert\('cyber! cyber! cyber!'\)) :fontawesome-brands-square-hacker-news: <small>[favs](https://news.ycombinator.com/favorites?id=danslinky)</small>
 
 - I enjoy using bleeding edge
-    :simple-opensourceinitiative: __Open Source__ like :simple-asahi: Asahi Linux and using my :simple-opnsense: __OPNSense__ to extend my personal infrastructure. 
+    :simple-opensourceinitiative: __Open Source__ and my 
+    :simple-opnsense: __OPNSense__ to build my personal infrastructure. 
 
 - :fontawesome-brands-internet-explorer: :simple-firefox: :simple-googlechrome: :simple-safari: :fontawesome-brands-brave: :simple-torbrowser: __Browser Wars__
     <br />

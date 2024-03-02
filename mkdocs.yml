@@ -7,10 +7,14 @@
 #
 title: "Dan Slinky's mmmkdocs"
 subtitle: Personal portfolio of Dan Slinky
+title: "Dan Slinky's mmmkdocs"
+subtitle: Personal portfolio of Dan Slinky
 site_name: Dan Slinky's mmmkdocs
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
+#icon: material/sad
+
 #icon: material/sad
 
 ##
@@ -201,6 +205,9 @@ markdown_extensions:
   - toc: 
       permalink: true
       title: On this page
+  - toc: 
+      permalink: true
+      title: On this page
   - admonition # squidfunk/mkdocs-material/reference/admonitions
   - pymdownx.details
   - pymdownx.tilde # ~~strikethrough~~ and ++underline++
@@ -221,6 +228,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets # include code snippets from files
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tabbed:
       alternate_style: true
   # diagrams
