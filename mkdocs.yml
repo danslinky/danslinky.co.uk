@@ -5,10 +5,6 @@
 #
 # SUPPORT MKDOCS + MATERIAL THEME
 #
-title: "Dan Slinky's mmmkdocs"
-subtitle: Personal portfolio of Dan Slinky
-title: "Dan Slinky's mmmkdocs"
-subtitle: Personal portfolio of Dan Slinky
 site_name: Dan Slinky's mmmkdocs
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
@@ -52,9 +48,6 @@ nav:
     - YAML: resumes/yaml.md
   - RTFM:
     - rtfm/index.md
-    - Observability:
-      - Grafana: https://danslinky.grafana.net/login
-      - 
     - Cloud:
       - rtfm/cloud/alibaba.md
       - rtfm/cloud/amazon.md
@@ -161,22 +154,22 @@ theme:
   # Feature flags
   ##
   features:
-  - header.autohide
+  # - header.autohide
   - announce.dismiss
   - search.suggest
   - search.highlight
   - search.share
-  - navigation.path
-  # - navigation.footer
-  - navigation.instant
-  - navigatin.instant.progress
-  - navigation.tracking
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.sections
-  - navigation.expand
-  - navigation.top
-  - toc.integrate
+  # - navigation.path
+  - navigation.footer
+  # - navigation.instant
+  # - navigatin.instant.progress
+  # - navigation.tracking
+  # - navigation.tabs
+  # - navigation.tabs.sticky
+  # - navigation.sections
+  # - navigation.expand
+  # - navigation.top
+  # - toc.integrate
   - content.tabs.link
   - content.code.copy
   - content.code.select
@@ -192,8 +185,8 @@ plugins:
       post_dir: blog/posts
       authors_file: blog/.authors.yml
       blog_toc: true
-      authors_profiles: true
-      authors_profiles_name: Authors
+      # authors_profiles: true
+      # authors_profiles_name: Authors
   - social
   - search
   - offline
