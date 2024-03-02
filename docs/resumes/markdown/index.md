@@ -15,13 +15,13 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 ## Introduction
 
-An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer. In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. 
+An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer. In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services.
 
 I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented, and I like to foster a culture of continuous learning, skill development and knowledge sharing.
 
 ## Experience
 
-I have been fortunate enough to experience the evolution of :simple-docker: Docker,  :simple-kubernetes: Kubernetes and the :simple-cncf: __Cloud Native__ landscape and have developed an expertise in GitOps, Identity and SSO implementation and Infrastructure as Code across on-prem and Cloud deployments.
+I've had the privilege of witnessing the evolution of :simple-docker: Docker,  :simple-kubernetes: Kubernetes and the :simple-cncf: __Cloud Native__ landscape. Through this journey, I've honed expertise in GitOps, Identity and Single Sign-On (SSO) implementation, and Infrastructure as Code (IaC), spanning both on-premises and cloud deployments.
 
 <div class="grid cards" markdown>
 
@@ -79,7 +79,7 @@ I have been fortunate enough to experience the evolution of :simple-docker: Dock
 
 ## Career
 
-I have gained experience with a range of organisations and businesses which you can explore further in the tabs below. You can also read endorsements from recent colleagues.
+I've accumulated experience across various organisations and businesses, which you can delve into through the tabs below. Additionally, you'll find endorsements from recent colleagues available for your review.
 
 === "CERN"
 
