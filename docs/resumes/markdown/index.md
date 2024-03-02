@@ -15,7 +15,7 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 ## Introduction
 
-An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer. In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services.
+I'm an experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer. In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services.
 
 I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented, and I like to foster a culture of continuous learning, skill development and knowledge sharing.
 
@@ -25,13 +25,12 @@ I've had the privilege of witnessing the evolution of :simple-docker: Docker,  :
 
 <div class="grid cards" markdown>
 
-- __DevOps__ with experience of
-    :fontawesome-brands-amazon: __AWS__,
+- __DevOps__ experience with
+    :fontawesome-brands-amazon: __Ama`on Web Services__,
     :fontawesome-brands-google: __Google__ Cloud Platform,
     :fontawesome-brands-microsoft: __Microsoft__ Azure,
     :simple-alibabadotcom: __Alibaba__,
     :fontawesome-brands-digital-ocean: __DigitalOcean__,
-    et al.
 
 - Innovative __GitOps__ and __CI/CD__ using
     :simple-github: __GitHub Actions__,
@@ -39,13 +38,11 @@ I've had the privilege of witnessing the evolution of :simple-docker: Docker,  :
     :simple-circleci: __CircleCI__,
     :simple-flux: __Flux__,
     :simple-argo: __Argo__,
-    :simple-azuredevops:, __Azure__
-    and :fontawesome-brands-jenkins: __Jenkins__,
-    amongst others.
+    and :fontawesome-brands-jenkins: __Jenkins__
 
 - Skilled with __IaC__ tools including 
     :simple-terraform: __Terraform__,
-    :material-terraform: __Terragrunt__,
+    __Terragrunt__,
     :simple-ansible: __Ansible__, and container orchestration using
     :fontawesome-brands-docker: __Docker__ and
     :simple-kubernetes: __Kubernetes__.
@@ -137,8 +134,8 @@ I've accumulated experience across various organisations and businesses, which y
 
     Digital Agency supporting Charity and NGO
 
-    - Wagtail and Drupal, 
-    - Tool ownership of the Bristol office move, deploying Fibre, Ubiquiti and Mikrotek to provide a working new office on Monday morning.
+    - Wagtail and Drupal.
+    - Took ownership of the Bristol office move, deploying Fibre, Ubiquiti and Mikrotek to provide a working new office on Monday morning.
     - Discovered and explored Kubernetes, whilst deploying Sensu and Riemann and other technoligies to support the agency.
     - Tested my stiff upper lip in June 2016. 
 
@@ -212,4 +209,16 @@ I've accumulated experience across various organisations and businesses, which y
 - I have a perclusion for metal springs and steps.
 - I enjoy reading Douglas Coupland.
 
-## Footnotes
+## Endorsements
+
+[Letters of Recommendation](https://github.com/danslinky/danslinky.co.uk/issues/new/choose) and [Endorsements](https://linkedin.com/in/danslinky) for Dan Slinky can be submitted using GitHub or LinkedIn.
+
+> Dan is one of the best platform engineers I've worked with. He has a vast knowledge of AWS, Kubernetes, Terraform and similar platform technologies. I learned a lot while working together. He is capable of taking a vague requirement and converting it into working infrastructure. He puts thought into the maintainability, scalability and observability of his solutions and writes good accompanying documentation. Dan is also a good mentor helping other in the team and even outside of his team upskill and learn from him.
+>
+> -- <cite><a href="https://www.linkedin.com/in/robertmarsal/" target="_blank">Robert Marsal</a>, Enterprise Architect at Adarga</cite>
+
+<hr />
+
+> Dan is one of the most technical platform engineers I've worked with. I would watch in awe as he calmly debugged and resolved production incidents. Day to day he is a thoughtful colleague whose advice I would trust on the design and implementation of cloud native infrastructure and the general practice of platform engineering.
+>
+> -- <cite><a href="https://www.linkedin.com/in/mark-devilliers-36627a11/" target="_blank">Mark deVilliers</a>, Engineering Leader</cite>
