@@ -42,6 +42,8 @@ nav:
   - Blog: blog
   - Resumes:
     - resumes/index.md
+    - Markdown: resumes/markdown
+    - HTML: resumes/markdown
     - JSON: resumes/json.md
     - LaTeX: resumes/resume.pdf
     - Word: resumes/resume.docx
@@ -292,15 +294,15 @@ extra:
     # Feedback widget
     ##
     feedback: 
-      title: "oi mate, do you like my mkdocs?!"
+      title: "What do you think of this mkdocs implementation?"
       ratings:
         - icon: material/thumb-up-outline 
-          name: "This is the candidate you're looking for"
+          name: "I like your website, Dan"
           data: 1
           note: >-
-            Merci beans!
+            This is the candidate you're looking for
         - icon: material/heart-broken 
-          name: "I think you're a bit of a muppet, mate"
+          name: "This website is awful, Dan"
           data: 0
           note: >-
             Am I Bovvered

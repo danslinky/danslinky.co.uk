@@ -1,17 +1,18 @@
 # hello, friend
 
+<details markdown>
+<summary>#opentowork</summary>
+I'm currently actively seeking a new __remote__ or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.
+</details>
+
+<div class=grid markdown>
+
 Welcome to my personal Extranet which I've built using mkdocs + material, and hosted with a Cloudflare worker.
 
-!!! note "#opentowork"
-
-<div class="grid" markdown>
-I'm currently actively seeking a new __remote__ or <small>hybrid</small> role, with the possibility of relocation if the opportunity offers breathtaking mountain views and a stellar canteen. I'm currently rooted in the ~~EU~~:flag_gb::fire:, where my [home office](https://github.com/danslinky/danslinky.co.uk/issues/2) exudes professionalism, contrasting with the casual flair of my [social media](/about) presence.
-{ .card }
-  
-- [View my Resume](/resumes/markdown){ .md-button .md-button--primary }
-- [Schedule a call](https://cal.com/danslinky){ .md-button .md-button--primary }
-
+[View my Resume](/resumes/markdown){ .md-button .md-button--primary }
 </div>
+
+You can laugh [about](/about) me, follow my [blog](/blog), throw my [resume](/resumes/markdown) down the stairs, read the fantastic [manual](/rtfm), or cringe at my [social media](/about).
 
 ## Current Project Diagram
 

@@ -22,4 +22,3 @@ EDITOR=:simple-visualstudiocode:
 touch resume.bin
 edit resume.bin
 ```
-</div>
