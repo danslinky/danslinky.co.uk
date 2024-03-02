@@ -1,4 +1,4 @@
-# Asahi Linux
+#  :simple-asahilinux: Asahi :simple-fedora: Linux (and :simple-archlinux:)
 
 I :heart: Asahi Linux; probably the best Linux installation I have ever performed.
 

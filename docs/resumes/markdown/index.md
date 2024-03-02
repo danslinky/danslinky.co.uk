@@ -15,17 +15,17 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 ## Introduction
 
-An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer, I have been fortunate enough to experience the evolution of Kubernetes and the Cloud Native landscape and have developed an expertise in GitOps, Identity and SSO implementation and Infrastructure as Code across on-prem and Cloud deployments.
-
-In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. 
+An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer. In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. 
 
 I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented, and I like to foster a culture of continuous learning, skill development and knowledge sharing.
 
 ## Experience
 
+I have been fortunate enough to experience the evolution of :simple-docker: Docker,  :simple-kubernetes: Kubernetes and the :simple-cncf: __Cloud Native__ landscape and have developed an expertise in GitOps, Identity and SSO implementation and Infrastructure as Code across on-prem and Cloud deployments.
+
 <div class="grid cards" markdown>
 
-- Passionate :simple-cncf: __Cloud Native__ DevOps with experience of
+- __DevOps__ with experience of
     :fontawesome-brands-amazon: __AWS__,
     :fontawesome-brands-google: __Google__ Cloud Platform,
     :fontawesome-brands-microsoft: __Microsoft__ Azure,
@@ -84,7 +84,6 @@ I have gained experience with a range of organisations and businesses which you 
 === "CERN"
 
     ## Technical Student 
-
     ### 2007-2008
     - I joined __IT/FIO/LA__ and developed new Linux PXE/kickstart installation software under the supervision of J. Polok
     - AIMS2 made use of Perl, XML/RPC and Oracle. You can read more on [twiki](https://twiki.cern.ch/twiki/bin/view/LinuxSupport/Aims2), which also includes a final presentation to the IT Department. I'm reliably informed that some parts of it are still in production in 2024 :/
@@ -94,6 +93,7 @@ I have gained experience with a range of organisations and businesses which you 
 === "Sift"
 
     ## Operations Engineer
+    ### 2009-2011
 
     Supporting Drupal, Workdpress on premise and in the Cloud
 
@@ -102,12 +102,14 @@ I have gained experience with a range of organisations and businesses which you 
 === "Capgemini"
 
     ## DevOps Engineer
+    ### 2011-2013
 
     See Eurostar.
 
 === "Eurostar"
 
     ## Drupal DevOps Engineer
+    ### 2012-2013
 
     - Drupal DevOps Engineer working on Enterprise digital transformation projects.
     - Relaunched eurostar.com using Drupal and ActiveMQ, and working closely with technical partner SNCF. CI/CD deployment using Jenkins, Puppet & Capistrano.
@@ -115,6 +117,7 @@ I have gained experience with a range of organisations and businesses which you 
 === "Future"
 
     ## Operations Engineer
+    ### 2013-2015
 
     - Print and Digital Publisher focussed on Consumer hobbies and interests.
 
@@ -122,10 +125,10 @@ I have gained experience with a range of organisations and businesses which you 
     - Lead on Data Centre and Xen/XCP infrastructure consolidation and upgrade, and collaborated on Sensu observability .
     - Designed and deployed more robust storage, with recommend LACP groupings and an expensive Storage array.
 
-
 === "Torchbox"
 
-    ## Linux Systems Administrator
+    ## Systems Administrator
+    ### 2015-2016
 
     Digital Agency supporting Charity and NGO
 
@@ -135,7 +138,8 @@ I have gained experience with a range of organisations and businesses which you 
 
 === "Adarga.1"
 
-    ## Platform Engineer
+    ## DevOps Engineer
+    ### 2017-2019
 
     Inaugural DevOps at Adarga, I played a role in establishing the foundation of an AI SaaS platform, leveraging Kubernetes and collaborating closely with the wider engineering and data science teams.
 
@@ -149,16 +153,21 @@ I have gained experience with a range of organisations and businesses which you 
 === "Cookpad"
 
     ## Machine Learning Infrastructure Engineer
- 
+    ### 2020
+
     - I began my journey with the MLOps team on a short term contract, initially focusing on Kubernetes observability, and then joined on a permanent basis focussing on Kubernetes ML application deployment.
     - I deployed Elastic and Prometheus/Thanos for longer duration metric storage, alongside Grafana/Loki to help foster ownership of ML applications as they were deployed.
     - I revitalized the Kubernetes application distribution and deployment by making use of Kustomize and Flux CD, while evaluating Kubeflow/Argo Pipelines for potential future investment.
 
     ## Site Reliability Engineer
+    ### 2021
 
     I later moved in to the SRE team, taking on a more Global platform responsibility working closely with colleagues at Cookpad Japan. I embraced learning Golang and discovered the power of Jsonnet in this new role. I collaborated with colleagues in the SRE team to improve documentation, respond to on call incidents, migrate Kafka from the Managed Cloud to team managed Kubernetes, and respond to ad hoc support requests.
 
 === "Adarga.2"
+
+    ## Platform Engineer
+    ### 2022-2023
 
     Technical leadership in the Platform Engineering and SecOps team, operating a multi-tenanted AI SaaS platform on AWS.
 
@@ -189,12 +198,12 @@ I have gained experience with a range of organisations and businesses which you 
 
 <hr />
 
-## Personal interests
+## Personal Interests
 
-- Alpe d'Huez, Braus, Turini
-- Blue Peter Badge (Standard Issue)
-- Digital Art, Apple Pencil
-- Metal springs and steps
-- Douglas Coupland
+- I enjoy road :material-bike: and have Alpe d'Huez, Col de Braus and Col du Turini on my Strava.
+- Blue Peter Badge (Standard Issue), issued circa 1996.
+- I enjoy digital art, and learning how to use my Apple Pencil.
+- I have a perclusion for metal springs and steps.
+- I enjoy reading Douglas Coupland.
 
 ## Footnotes

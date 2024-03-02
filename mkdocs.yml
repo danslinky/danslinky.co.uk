@@ -5,12 +5,12 @@
 #
 # SUPPORT MKDOCS + MATERIAL THEME
 #
-title: "Dan Slinky's mmmkdocs"
-subtitle: Personal portfolio of Dan Slinky
 site_name: Dan Slinky's mmmkdocs
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
+#icon: material/sad
+
 #icon: material/sad
 
 ##
@@ -42,6 +42,8 @@ nav:
   - Blog: blog
   - Resumes:
     - resumes/index.md
+    - Markdown: resumes/markdown
+    - HTML: resumes/markdown
     - JSON: resumes/json.md
     - LaTeX: resumes/resume.pdf
     - Word: resumes/resume.docx
@@ -53,57 +55,45 @@ nav:
       - rtfm/cloud/amazon.md
       - rtfm/cloud/digitalocean.md
       - rtfm/cloud/google.md
+      - rtfm/cloud/grafana.md
       - rtfm/cloud/microsoft.md
       - Private: rtfm/cloud/xcp-ng.md
+    - Network:
+      - rtfm/network/byod.md
+      - rtfm/network/dns.md
+      - rtfm/network/opnsense.md
+      - rtfm/network/wifi.md
+      - rtfm/network/wireguard.md
+      - rtfm/network/geo.md
     - "*Ops":
-      - Ansible: rtfm/iac/ansible.md
-      - Argo: rtfm/cloudnative/argo.md
-      - Atlantis: rtfm/cloudnative/atlantis.md
-      - DataDog: rtfm/cloud/datadog.md
-      - DevOps: rtfm/devops.md
-      - Fastly: rtfm/cloud/fastly.md
-      - FluxCD: rtfm/cloudnative/fluxcd.md
-      - GitHub: rtfm/cloud/github.md
-      - HashiCorp: rtfm/cloud/hashicorp.md
-      - Helm: rtfm/cloudnative/helm.md
-      - Infisical: rtfm/security/infisical.md
-      # - jsonnnet: rtfm/cloudnative/jsonnet.md
-      - Kubernetes: rtfm/cloudnative/kubernetes.md
-      - Kustomize: rtfm/cloudnative/kustomize.md
-      - NewRelic: rtfm/cloud/newrelic.md
-      - PagerDuty: rtfm/cloud/pagerduty.md
-      - Slack: rtfm/cloud/slack.md
-      - StatusCake: rtfm/cloud/statuscake.md
-      - Terraform: rtfm/iac/terraform.md
+      - rtfm/iac/ansible.md
+      - rtfm/cloudnative/argo.md
+      - rtfm/cloudnative/atlantis.md
+      - rtfm/cloud/datadog.md
+      - rtfm/devops.md
+      - rtfm/cloudnative/fluxcd.md
+      - rtfm/cloud/github.md
+      - rtfm/cloudnative/helm.md
+      - rtfm/cloudnative/kubernetes.md
+      - rtfm/cloudnative/kustomize.md
+      - rtfm/cloud/newrelic.md
+      - rtfm/cloud/pagerduty.md
+      - rtfm/cloud/slack.md
+      - rtfm/cloud/statuscake.md
+      - rtfm/iac/terraform.md
+    - Security:
+      - rtfm/security/bounty.md
+      - rtfm/security/sso.md
+      - rtfm/security/gpg.md
+      - rtfm/security/ssl.md
+      - rtfm/security/infisical.md
     - Misc:
-      - rtfm/misc/index.md
-      - Asahi: rtfm/linux/asahi.md
-      - awesomeWM: rtfm/linux/awesome.md
-      - Browser Wars: rtfm/misc/web-browsers.md
-      - CSS: rtfm/misc/css.md
+      - rtfm/linux/asahi.md
+      - rtfm/linux/awesome.md
+      - rtfm/misc/web-browsers.md
       - jPod: rtfm/misc/jpod.md
       - SHIELD: rtfm/misc/slinky.md
       - TARDIS: rtfm/misc/tardis.md 
-    - Network:
-      - rtfm/network/byod.md
-      - DNS: rtfm/network/dns.md
-      - LAN/WAN: rtfm/network/opnsense.md
-      - WIFI: rtfm/network/wifi.md
-      - VPN: rtfm/network/wireguard.md
-      - Geo: rtfm/network/geo.md
-    - Security:
-      - rtfm/security/bounty.md
-      - SSO: rtfm/security/sso.md
-      - GPG: rtfm/security/gpg.md
-      - SSL: rtfm/security/ssl.md
-      - Secrets: rtfm/security/infisical.md
-    - Software:
-      - Drupal: rtfm/oss/drupal.md
-      - ElasticSearch: rtfm/oss/elasticsearch.md
-      - Jenkins: rtfm/oss/jenkins.md
-      - JMeter: rtfm/oss/jmeter.md 
-      - nginx: rtfm/oss/nginx.md
-      - Wordpress: rtfm/oss/wordpress.md
   - Social Media: 
     - about/contact.md
     - Apple Music: https://music.apple.com/danslinky
@@ -166,22 +156,22 @@ theme:
   # Feature flags
   ##
   features:
-  - header.autohide
+  # - header.autohide
   - announce.dismiss
   - search.suggest
   - search.highlight
   - search.share
-  - navigation.path
+  # - navigation.path
   - navigation.footer
-  - navigation.instant
-  - navigatin.instant.progress
-  - navigation.tracking
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.sections
-  - navigation.expand
-  - navigation.top
-  - toc.integrate
+  # - navigation.instant
+  # - navigatin.instant.progress
+  # - navigation.tracking
+  # - navigation.tabs
+  # - navigation.tabs.sticky
+  # - navigation.sections
+  # - navigation.expand
+  # - navigation.top
+  # - toc.integrate
   - content.tabs.link
   - content.code.copy
   - content.code.select
@@ -197,8 +187,8 @@ plugins:
       post_dir: blog/posts
       authors_file: blog/.authors.yml
       blog_toc: true
-      authors_profiles: true
-      authors_profiles_name: Authors
+      # authors_profiles: true
+      # authors_profiles_name: Authors
   - social
   - search
   - offline
@@ -207,6 +197,9 @@ plugins:
 # Markdown Extensions
 ##
 markdown_extensions:
+  - toc: 
+      permalink: true
+      title: On this page
   - toc: 
       permalink: true
       title: On this page
@@ -230,6 +223,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets # include code snippets from files
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tabbed:
       alternate_style: true
   # diagrams
@@ -299,15 +294,15 @@ extra:
     # Feedback widget
     ##
     feedback: 
-      title: "oi mate, do you like my mkdocs?!"
+      title: "What do you think of this mkdocs implementation?"
       ratings:
         - icon: material/thumb-up-outline 
-          name: "This is the candidate you're looking for"
+          name: "I like your website, Dan"
           data: 1
           note: >-
-            Merci beans!
+            This is the candidate you're looking for
         - icon: material/heart-broken 
-          name: "I think you're a bit of a muppet, mate"
+          name: "This website is awful, Dan"
           data: 0
           note: >-
             Am I Bovvered
