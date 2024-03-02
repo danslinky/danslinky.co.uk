@@ -48,11 +48,15 @@ nav:
     - YAML: resumes/yaml.md
   - RTFM:
     - rtfm/index.md
+    - Observability:
+      - Grafana: https://danslinky.grafana.net/login
+      - 
     - Cloud:
       - rtfm/cloud/alibaba.md
       - rtfm/cloud/amazon.md
       - rtfm/cloud/digitalocean.md
       - rtfm/cloud/google.md
+      - rtfm/cloud/grafana.md
       - rtfm/cloud/microsoft.md
       - Private: rtfm/cloud/xcp-ng.md
     - Network:
