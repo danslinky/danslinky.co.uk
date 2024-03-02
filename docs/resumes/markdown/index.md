@@ -95,16 +95,19 @@ I've accumulated experience across various organisations and businesses, which y
     ## Operations Engineer
     ### 2009-2011
 
-    Supporting Drupal, Workdpress on premise and in the Cloud
-
-    - VMWare/ESXi Cloud, XEN co-location, Drupal 5/6, LAMP, CentOS, Jenkins, DevOps, mysql, drdb
+    - Supported Drupal and WordPress installations on premise and in the Cloud
+    - Proficient in VMWare/ESXi Cloud and XEN co-location environments
+    - Experienced with Drupal 5/6, LAMP stacks, CentOS, Jenkins and DevOps practices
+    - Supporting self-hosted MySQL cluster using `drdb`.
 
 === "Capgemini"
 
     ## DevOps Engineer
     ### 2011-2013
 
-    See Eurostar.
+    - Providing Enterprise DevOps capabilities to Royal Mail, Burberry and Michael Page.
+    - Deploying solutions on AWS and Rackspace.
+    - Relaunching eurostar.com on Drupal
 
 === "Eurostar"
 
@@ -113,6 +116,8 @@ I've accumulated experience across various organisations and businesses, which y
 
     - Drupal DevOps Engineer working on Enterprise digital transformation projects.
     - Relaunched eurostar.com using Drupal and ActiveMQ, and working closely with technical partner SNCF. CI/CD deployment using Jenkins, Puppet & Capistrano.
+    - Technical guidance and implementation of Global Load Balancing using Stingray/ZXTM/Zeus.
+    - Training offshore teams in Mumbai, India
 
 === "Future"
 
@@ -132,9 +137,10 @@ I've accumulated experience across various organisations and businesses, which y
 
     Digital Agency supporting Charity and NGO
 
-    - Wagtail and Drupal, Office move, Ubiquiti, Mikrotek
-    - Discovered and explored Kubernetes, whilst deploying Sensu and Riemann.
-    - Tested my stiff upper lip in June 2016
+    - Wagtail and Drupal, 
+    - Tool ownership of the Bristol office move, deploying Fibre, Ubiquiti and Mikrotek to provide a working new office on Monday morning.
+    - Discovered and explored Kubernetes, whilst deploying Sensu and Riemann and other technoligies to support the agency.
+    - Tested my stiff upper lip in June 2016. 
 
 === "Adarga.1"
 
