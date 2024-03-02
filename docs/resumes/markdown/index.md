@@ -15,13 +15,13 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 ## Introduction
 
-An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer. In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services. 
+An experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer. In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services.
 
 I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented, and I like to foster a culture of continuous learning, skill development and knowledge sharing.
 
 ## Experience
 
-I have been fortunate enough to experience the evolution of :simple-docker: Docker,  :simple-kubernetes: Kubernetes and the :simple-cncf: __Cloud Native__ landscape and have developed an expertise in GitOps, Identity and SSO implementation and Infrastructure as Code across on-prem and Cloud deployments.
+I've had the privilege of witnessing the evolution of :simple-docker: Docker,  :simple-kubernetes: Kubernetes and the :simple-cncf: __Cloud Native__ landscape. Through this journey, I've honed expertise in GitOps, Identity and Single Sign-On (SSO) implementation, and Infrastructure as Code (IaC), spanning both on-premises and cloud deployments.
 
 <div class="grid cards" markdown>
 
@@ -79,7 +79,7 @@ I have been fortunate enough to experience the evolution of :simple-docker: Dock
 
 ## Career
 
-I have gained experience with a range of organisations and businesses which you can explore further in the tabs below. You can also read endorsements from recent colleagues.
+I've accumulated experience across various organisations and businesses, which you can delve into through the tabs below. Additionally, you'll find endorsements from recent colleagues available for your review.
 
 === "CERN"
 
@@ -95,16 +95,19 @@ I have gained experience with a range of organisations and businesses which you 
     ## Operations Engineer
     ### 2009-2011
 
-    Supporting Drupal, Workdpress on premise and in the Cloud
-
-    - VMWare/ESXi Cloud, XEN co-location, Drupal 5/6, LAMP, CentOS, Jenkins, DevOps, mysql, drdb
+    - Supported Drupal and WordPress installations on premise and in the Cloud
+    - Proficient in VMWare/ESXi Cloud and XEN co-location environments
+    - Experienced with Drupal 5/6, LAMP stacks, CentOS, Jenkins and DevOps practices
+    - Supporting self-hosted MySQL cluster using `drdb`.
 
 === "Capgemini"
 
     ## DevOps Engineer
     ### 2011-2013
 
-    See Eurostar.
+    - Providing Enterprise DevOps capabilities to Royal Mail, Burberry and Michael Page.
+    - Deploying solutions on AWS and Rackspace.
+    - Relaunching eurostar.com on Drupal
 
 === "Eurostar"
 
@@ -113,6 +116,8 @@ I have gained experience with a range of organisations and businesses which you 
 
     - Drupal DevOps Engineer working on Enterprise digital transformation projects.
     - Relaunched eurostar.com using Drupal and ActiveMQ, and working closely with technical partner SNCF. CI/CD deployment using Jenkins, Puppet & Capistrano.
+    - Technical guidance and implementation of Global Load Balancing using Stingray/ZXTM/Zeus.
+    - Training offshore teams in Mumbai, India
 
 === "Future"
 
@@ -132,9 +137,10 @@ I have gained experience with a range of organisations and businesses which you 
 
     Digital Agency supporting Charity and NGO
 
-    - Wagtail and Drupal, Office move, Ubiquiti, Mikrotek
-    - Discovered and explored Kubernetes, whilst deploying Sensu and Riemann.
-    - Tested my stiff upper lip in June 2016
+    - Wagtail and Drupal, 
+    - Tool ownership of the Bristol office move, deploying Fibre, Ubiquiti and Mikrotek to provide a working new office on Monday morning.
+    - Discovered and explored Kubernetes, whilst deploying Sensu and Riemann and other technoligies to support the agency.
+    - Tested my stiff upper lip in June 2016. 
 
 === "Adarga.1"
 
