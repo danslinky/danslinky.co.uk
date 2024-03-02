@@ -137,8 +137,8 @@ I've accumulated experience across various organisations and businesses, which y
 
     Digital Agency supporting Charity and NGO
 
-    - Wagtail and Drupal, 
-    - Tool ownership of the Bristol office move, deploying Fibre, Ubiquiti and Mikrotek to provide a working new office on Monday morning.
+    - Wagtail and Drupal.
+    - Took ownership of the Bristol office move, deploying Fibre, Ubiquiti and Mikrotek to provide a working new office on Monday morning.
     - Discovered and explored Kubernetes, whilst deploying Sensu and Riemann and other technoligies to support the agency.
     - Tested my stiff upper lip in June 2016. 
 
