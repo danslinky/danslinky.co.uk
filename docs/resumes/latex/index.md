@@ -1,4 +1,4 @@
-# LaTeX
+# :simple-latex: LaTeX
 
 This is work in progress.
 
