@@ -26,7 +26,7 @@ I've had the privilege of witnessing the evolution of :simple-docker: Docker,  :
 <div class="grid cards" markdown>
 
 - __DevOps__ experience with
-    :fontawesome-brands-amazon: __Ama`on Web Services__,
+    :fontawesome-brands-amazon: __Amazon Web Services__,
     :fontawesome-brands-google: __Google__ Cloud Platform,
     :fontawesome-brands-microsoft: __Microsoft__ Azure,
     :simple-alibabadotcom: __Alibaba__,
