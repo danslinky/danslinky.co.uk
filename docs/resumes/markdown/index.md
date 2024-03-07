@@ -15,9 +15,9 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 ## Introduction
 
-I'm an experienced and knowledable Platform, Site Reliability, and DevSecOps Engineer. In my previous roles I have contributed to the design, development, and maintenance, and leveraged my skills in container orchestration to ensure high availability, performance, and security of the platform, as well as to enable the deployment and integration of machine learning models and services.
+As an experienced engineer with specializations in Platform, Site Reliability, and DevSecOps, I have played a pivotal role in designing, developing, and maintaining various projects. My expertise in container orchestration has enabled me to optimize platform performance, ensuring robust security and seamless integration of machine learning models and services.
 
-I also collaborated with other engineers, product managers, and stakeholders to identify and resolve technical issues, improve processes, and deliver value to the users and the organisation. I prioritise maintainability, scalability, and observability, ensuring that my solutions are not only functional but also well-documented, and I like to foster a culture of continuous learning, skill development and knowledge sharing.
+I am a collaborative team player and have effectively collaborated with diverse teams, including engineers, product managers, and stakeholders, to overcome technical challenges and enhance organizational processes. My priority is always to ensure that solutions are not only functional but also easily maintainable, scalable, and observable. I am also passionate about creating a culture of continuous learning and knowledge sharing to drive innovation and promote team growth.
 
 ## Experience
 
@@ -26,7 +26,7 @@ I've had the privilege of witnessing the evolution of :simple-docker: Docker,  :
 <div class="grid cards" markdown>
 
 - __DevOps__ experience with
-    :fontawesome-brands-amazon: __Ama`on Web Services__,
+    :fontawesome-brands-amazon: __Amazon Web Services__,
     :fontawesome-brands-google: __Google__ Cloud Platform,
     :fontawesome-brands-microsoft: __Microsoft__ Azure,
     :simple-alibabadotcom: __Alibaba__,
