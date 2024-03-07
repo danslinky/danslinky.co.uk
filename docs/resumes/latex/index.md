@@ -8,3 +8,4 @@ Run `make` in this directory to convert the markdown to [resume.tex](resume.tex)
 
 - fix errors with `[link](javascript:xxx)`
 - `fontawesome.lua` could be improved with more icon support
+- superfences markdown tabbed content doesn't render yet
