@@ -42,7 +42,7 @@ nav:
   - Blog: blog
   - Resumes:
     - resumes/index.md
-    - Markdown: resumes/markdown
+    - Markdown: resumes/markdown/index.md
     - resumes/latex/index.md
     - HTML: resumes/markdown/index.md
     - PDF: resumes/resume.pdf
