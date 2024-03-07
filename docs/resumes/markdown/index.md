@@ -15,9 +15,9 @@ You can also view this Resume in other formats using my [Resume as a Service](/r
 
 ## Introduction
 
-As an adept Platform, Site Reliability, and DevSecOps Engineer, I've spearheaded crucial aspects of design, development, and maintenance in previous roles. With a strong focus on container orchestration, I've consistently optimized platform performance, ensuring robust security and seamless integration of machine learning models and services.
+As an experienced engineer with specializations in Platform, Site Reliability, and DevSecOps, I have played a pivotal role in designing, developing, and maintaining various projects. My expertise in container orchestration has enabled me to optimize platform performance, ensuring robust security and seamless integration of machine learning models and services.
 
-My collaborative nature has seen me effectively engage with diverse teams, including engineers, product managers, and stakeholders, to tackle technical challenges and enhance organizational processes. Prioritizing maintainability, scalability, and observability, I ensure solutions are not only functional but also meticulously documented. Moreover, I'm passionate about cultivating a culture of continuous learning and knowledge sharing to drive innovation and team growth.
+I am a collaborative team player and have effectively collaborated with diverse teams, including engineers, product managers, and stakeholders, to overcome technical challenges and enhance organizational processes. My priority is always to ensure that solutions are not only functional but also easily maintainable, scalable, and observable. I am also passionate about creating a culture of continuous learning and knowledge sharing to drive innovation and promote team growth.
 
 ## Experience
 
