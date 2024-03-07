@@ -1,4 +1,4 @@
-# Resume
+# :simple-markdown: Resume
 
 ## Dan Slinky
 > Platform Engineer | SRE | DevSecOps | MLOps | FinOps | Sysadmin
