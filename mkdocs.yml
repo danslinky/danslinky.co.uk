@@ -44,7 +44,7 @@ nav:
     - resumes/index.md
     - Markdown: resumes/markdown
     - resumes/latex/index.md
-    - HTML: resumes/markdown
+    - HTML: resumes/markdown/index.md
     - PDF: resumes/resume.pdf
     - JSON: resumes/json.md
     - Word: resumes/resume.docx
