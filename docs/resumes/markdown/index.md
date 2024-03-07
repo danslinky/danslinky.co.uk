@@ -55,7 +55,7 @@ I've had the privilege of witnessing the evolution of :simple-docker: Docker,  :
     :fire:
     :material-server:
     :cloud_lightning:
-    :space_invader: [hello, friend](javascript:alert\('cyber! cyber! cyber!'\)) :fontawesome-brands-square-hacker-news: <small>[favs](https://news.ycombinator.com/favorites?id=danslinky)</small>
+    :space_invader: [hello, friend]() :fontawesome-brands-square-hacker-news: <small>[favs](https://news.ycombinator.com/favorites?id=danslinky)</small>
 
 - I enjoy using bleeding edge
     :simple-opensourceinitiative: __Open Source__ and my 
