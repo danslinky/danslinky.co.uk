@@ -43,7 +43,7 @@ nav:
   - Resumes:
     - resumes/index.md
     - Markdown: resumes/markdown
-    - resumes/latex.pdf
+    - resumes/latex/index.md
     - HTML: resumes/markdown
     - PDF: resumes/resume.pdf
     - JSON: resumes/json.md
