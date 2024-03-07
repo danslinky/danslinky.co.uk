@@ -43,10 +43,10 @@ nav:
   - Resumes:
     - resumes/index.md
     - Markdown: resumes/markdown
+    - resumes/latex.pdf
     - HTML: resumes/markdown
     - PDF: resumes/resume.pdf
     - JSON: resumes/json.md
-    - LaTeX: resumes/resume.pdf
     - Word: resumes/resume.docx
     - YAML: resumes/yaml.md
   - RTFM:
