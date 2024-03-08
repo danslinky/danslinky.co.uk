@@ -1,103 +1,92 @@
-# :simple-markdown: Resume of Dan Slinky [:material-linkedin:](https://linkedin.com/in/danslinky) [:simple-github:](https://github.com/danslinky) [:material-email:](mailto:sysadmin@danslinky.co.uk)
+# :simple-markdown: CV of Dan Slinky ![](../../favicon.png "Dan Slinky's Blue Peter badge"){ align=right }
 
-You can also view this Resume in other formats using my [Resume as a Service](https://rtfm.danslinky.co.uk/resumes).
+<!-- > You can also view this CV in other formats using my [website](https://rtfm.danslinky.co.uk/resumes). -->
+
+[__www__](https://rtfm.danslinky.co.uk/resumes)  [:material-linkedin:](https://linkedin.com/in/danslinky "Visit Dan Slinky's LinkedIn profile")  [:simple-github:](https://github.com/danslinky "Visit Dan Slinky's GitHub profile")  [:material-email:](mailto:sysadmin@danslinky.co.uk "Email Dan Slinky")
+
 
 ## :fontawesome-solid-terminal: Introduction
 
-As an experienced engineer specializing in Platform, Site Reliability, and DevSecOps Engineering, I've contributed significantly to designing, developing, and maintaining diverse projects. With expertise in container orchestration, I optimize platform performance while ensuring robust security and seamless integration of machine learning models and services. Collaborating effectively with multidisciplinary teams, including engineers, product managers, and stakeholders, I tackle technical challenges and enhance organizational processes. My focus is always on delivering solutions that are not only functional but also easily maintainable, scalable, and observable. Passionate about fostering a culture of continuous learning and knowledge sharing, I drive innovation and promote team growth.
+- Technical experience and leadership on diverse projects in __Platform Engineering__, __SRE__, and __DevSecOps__ roles, focussing on container orchestration and seamless integration.
+- Proficient in :material-docker: __Docker__, :material-dharmachakra: __Kubernetes__, and the wider :simple-cncf: Cloud Native ecosystem, with expertise in __GitOps__, __CI/CD__, and __Infrastructure as Code (IaC)__ on __AWS__, __GCP__, and __Azure__.
 
-I've had the privilege of witnessing the progression of :material-docker: __Docker__, :material-dharmachakra: __Kubernetes__, and the :simple-cncf: __Cloud Native__ landscape. Throughout my career, I've refined my expertise in __GitOps__, Identity and __Single Sign-On (SSO)__ integration, and __Infrastructure as Code (IaC)__, working across a diverse range cloud platforms. I embrace innovation and actively explore cutting-edge :simple-opensourceinitiative: __open-source__ technologies and manage my personal infrastructure using __xcp-ng__ and :simple-opnsense: __OPNSense__. My unwavering dedication to excellence and continual learning drives me to deliver top-notch solutions that consistently surpass organizational goals.
+I'm an experienced engineer, adept at designing, developing, and maintaining diverse projects. Specializes in optimizing platform performance, ensuring security, and integrating services. I can collaborate effectively across multidisciplinary teams, tackling technical challenges and enhancing organizational processes. I'm committed to delivering functional, maintainable, scalable, and observable solutions and I'm paassionate about driving innovation, fostering continuous learning, and promoting team growth.
+
+<!-- I've had the privilege of witnessing the progression of :material-docker: __Docker__, :material-dharmachakra: __Kubernetes__, and the :simple-cncf: __Cloud Native__ landscape. Throughout my career, I've refined my expertise in __GitOps__, Identity and __Single Sign-On (SSO)__ integration, and __Infrastructure as Code (IaC)__, working across a diverse range cloud platforms. I embrace innovation and actively explore cutting-edge :simple-opensourceinitiative: __open-source__ technologies and manage my personal infrastructure using __xcp-ng__ and :simple-opnsense: __OPNSense__. My unwavering dedication to excellence and continual learning drives me to deliver top-notch solutions that consistently surpass organizational goals. -->
 
 ## :material-briefcase: Career
 
 <!-- I've accumulated experience across various organisations and businesses, which you can delve into below. Additionally, you'll find endorsements from recent colleagues available for your review. -->
 
+### :material-office-building: Hergersheimer GmbH
+
+#### 2024 Freelance sysadmin
+
+- Focussing on :simple-asahilinux: __Linux__ information systems management and retrieval, system documentation, and __Lua__ scripting. I'm responsible for the deployments of __OPNSense__, __XCP-ng__, self-hosted __Infisical__ and __Cloudflare__.
+
 ### :material-office-building: Adarga
 
-#### 2022-2023 Platform Engineer
+#### 2022/23 Lead Platform Engineer
 
-As a technical leader in the Platform Engineering and SecOps team, I oversaw operations for a multi-tenanted AI SaaS platform. Utilizing __Terragrunt__, :material-terraform: __Terraform__, :fontawesome-brands-aws: , and other platforms, I ensure robust security and secrets management to meet rigorous customer requirements, facilitating efficient and reliable deployments through __CI/CD__ pipelines like :simple-github: __GitHub Actions__, :simple-circleci: __CircleCI__, and :simple-argo: __ArgoCD__. Additionally, I spearhead a significant AWS cost reduction initiative, advocating for FinOps practices and optimizing cloud spending reporting using tools such as __opencost.io__, kubecost, __Prometheus__, and SysDig, fostering service ownership and identifying areas for further optimization. Collaborating on OpenTracing/Telemetry implementation enhances application observability and performance, particularly in environments utilizing :simple-apachekafka: __Kafka__ and Benthos for message routing. Expanding the __SSO__ offering by implementing __SAML__ Microsoft AD integration, supported by Auth0, ensures a seamless user experience. I assessed the technical feasibility of Plausible web analytics for platform usage and provide mentorship on implementing Tigergraph and Neo4j for feature development. Furthermore, I oversaw recruitment into the team, conducting interviews, promoting team planning, before transitioning responsibilities to a permanent Engineering Manager and recruitment team.
+- As a technical leader in the Platform Engineering and SecOps team, I oversaw operations for a multi-tenanted AI SaaS platform for Enterprise and Defense customers utilizing __Terragrunt__, :material-terraform: __Terraform__,  on :fontawesome-brands-aws: , and other platforms.
 
-#### 2017-2019 DevOps Engineer
+- Promoted robust security and secrets management, aligning with stringent customer requirements and integrating SecOps practices into deployment pipelines. Utilized __CI/CD__ tools such as :simple-github: __GitHub Actions__, :simple-circleci: __CircleCI__, and :simple-argo: __ArgoCD__ to facilitate efficient and reliable deployments while ensuring compliance with security standards and protocols.
 
-As the inaugural DevOps at Adarga, I played a pivotal role in establishing the foundation of an AI SaaS platform, collaborating closely with engineering and data science teams while leveraging __Kubernetes__. My responsibilities encompassed both :fontawesome-brands-aws: and :fontawesome-brands-google:  Cloud environments, where I employed :simple-ansible: Ansible and :material-yaml: YAML for deploying self-hosted and Cloud Kubernetes clusters and applications. Embracing a __microservices__ architecture, I integrated technologies such as __Kafka__, Python, Java, Node.js, __React__ single-page applications (SPAs), and __OAuth2__ via Auth0, alongside implementing the platform API gateway using Kong/nginx and exploring service mesh options like __Istio__ and Weave. Moreover, I managed onboarding processes utilizing Apple MDM, fleet DM, __osquery__, and Munki, overseeing app packaging and deployment, while also deploying and maintaining the Atlassian stack, including __Jira__, Confluence, and Bamboo.
+- Spearheaded a significant AWS cost reduction initiative, championing __FinOps__ practices and optimizing cloud cost reporting using tools like [opencost.io](https://www.opencost.io/ "OpenCost.io"), kubecost, __Prometheus__, and SysDig. I implemented strategies to foster service ownership and identified areas for further optimisation, emphasising the importance of financial responsibility and efficiency within the organisation.
+
+- Collaborated on OpenTracing/Telemetry implementation to enhance application observability and performance, particularly in environments utilizing :simple-apachekafka: __Kafka__ and Benthos for message routing.
+
+- I expanded the platforms __SSO__ offering by implementing __SAML__, __Azure AD__ integration, supported by Auth0. I also assessed the technical feasibility of Plausible web analytics and contributed to implementations of Tigergraph and Neo4j.
+
+<!-- - I also oversaw recruitment into the team, conducting interviews, promoting team planning, before transitioning responsibilities to a permanent Engineering Manager and recruitment team. -->
+
+#### 2017/19 DevOps Engineer
+
+- Instrumental in establishing the foundation of a __Kubernetes__ SaaS platform using a microservices architecture with Kafka, __Python__, Java, Node.js, and __React__ SPAs. Contributed __OAuth2__, __API__ management with __Kong__, __nginx__, and collaborated closely with engineering and _data science_ teams.
+
+<!-- - Moreover, I managed onboarding processes utilizing Apple MDM, fleet DM, __osquery__, and Munki, overseeing app packaging and deployment, while also deploying and maintaining the Atlassian stack, including __Jira__, Confluence, and Bamboo. -->
 
 ### :material-office-building: Cookpad
 
 #### 2021 Site Reliability Engineer
 
-I moved in to the SRE team, taking on a more Global platform responsibility working closely with colleagues at Cookpad Japan. I embraced learning __Golang__ and discovered the power of __Jsonnet__ in this new role. I collaborated with colleagues in the SRE team to improve documentation, respond to on call incidents, lead migrations to Kubernetes, and responded to ad hoc support requests.
+- Transitioned to the SRE team, assuming a broader global platform responsibility and collaborating closely with colleagues at Cookpad Japan. Embraced learning __Golang__ and leveraged the power of __Jsonnet__.
+
+- Collaborated with SRE team members to enhance documentation, address on-call incidents, lead __Kubernetes__ migrations, and fulfill ad hoc support requests. Additionally, contributed to platform stability and automation by utilizing __Helm__ and __Ruby__ within our infrastructure.
 
 #### 2020 Machine Learning Infrastructure Engineer
 
-Starting with the MLOps team on a short-term contract, I initially concentrated on Kubernetes observability before transitioning to a permanent role focused on Kubernetes ML application deployment. I deployed Elastic and Prometheus/Thanos for extended metric storage, coupled with Grafana/Loki to promote ownership of ML applications during deployment. Furthermore, I revamped Kubernetes application distribution and deployment by utilizing Kustomize and Flux CD, while also evaluating Kubeflow/Argo Pipelines for potential future investment.
+- Initially joined the __MLOps__ team on a short-term contract, concentrating on Kubernetes observability before transitioning to a permanent role. Focused on deploying __Elastic__ and __Prometheus__, __Thanos__ for extended metric storage, coupled with __Grafana__, __Loki__ to promote ownership of ML applications during deployment.
 
-### :material-office-building:  Torchbox
+- Revamped Kubernetes application distribution and deployment methods by utilizing Kustomize and Flux CD. Also evaluated Kubeflow/Argo Pipelines for potential future investment, solidifying our commitment to enhancing ML application deployment processes and promotting machine learning capabilities in the organisation.
 
-#### 2015-2016 Systems Administrator
+### :material-office-building: Systems Administrator, Torchbox, 2015-2016
 
-As part of a digital agency supporting Charity and NGO clients with platforms like Wagtail and Drupal, I spearheaded the relocation of the Bristol office, ensuring a seamless transition with deployments of Fibre, Ubiquiti, and MikroTik to establish a fully operational workspace by Monday morning. Alongside, I delved into Kubernetes, deploying Sensu and Riemann, among other technologies, to bolster the agency's infrastructure. Additionally, I tested my resilience in June 2016, facing challenges head-on with a stiff upper lip.
+- Supporting agency business and customer digital infrastructure including __Drupal__ and __Wagtail__ deployments.
 
-### :material-office-building:  Future
+- Led the relocation of the Bristol office, ensuring a seamless transition. Established a fully operational workspace by Monday morning through deployments of fibre optic, Ubiquiti unifi, VOIP, and MikroTik.
 
-#### 2013-2015 Operations Engineer
+- Explored a __Kubernetes__ deployment alongside __Sensu__, __Consul__ and __Riemann__ to enhance the agency's infrastructure. I also demonstrated my resilience in June 2016, tackling challenges with determination and composure.
 
-I worked as a key figure in a print and digital publishing company specializing in consumer hobbies and interests, managing global web properties utilizing CDN, nginx, PHP, RabbitMQ, and Puppet for infrastructure as code (IaC), with continuous deployment facilitated by `rmq://`. Additionally, I led initiatives for data center and Xen/XCP infrastructure consolidation and upgrade, collaborating on Sensu observability implementation. Moreover, I designed and implemented enhanced storage solutions, incorporating recommended LACP groupings and integrating an advanced storage array for improved reliability and performance.
+### :material-office-building:  Operations Engineer, Future, 2013-2015
 
-### :material-train: Eurostar
+- Managed global web properties utilizing CDNs, __nginx__, PHP, __RabbitMQ__, and __Puppet__ for infrastructure as code (IaC), with continuous deployment facilitated by `rmq://`.
 
-#### 2011-2013 Drupal DevOps Engineer
+- Led initiatives for data center and __Xen/XCP__ infrastructure consolidation and upgrade. Designed and implemented enhanced storage solutions, incorporating recommended LACP groupings and integrating an advanced storage array for improved reliability and performance.
 
-As a Drupal DevOps Engineer specializing in enterprise digital transformation initiatives, I led the successful relaunch of eurostar.com utilizing Drupal and ActiveMQ, collaborating closely with technical partner SNCF. I implemented CI/CD deployment pipelines using Jenkins, Puppet, and Capistrano to streamline development processes. Additionally, I provided technical guidance and oversaw the implementation of Global Load Balancing solutions using Stingray/ZXTM/Zeus technology. Furthermore, I conducted training sessions for offshore teams in Mumbai, India, ensuring knowledge transfer and fostering collaboration across global teams.
+### :material-train: Drupal DevOps Engineer, Eurostar, 2011-2013
 
-### :material-office-building: Capgemini
+- Lead __DevOps__ for the successful relaunch of eurostar.com, utilizing __Drupal__ and __ActiveMQ__, collaborating with SNCF. Implemented __CI/CD__ pipelines using __Jenkins__, __Puppet__, and __Capistrano__.
 
-#### 2011-2013 DevOps Engineer
+- Provided technical guidance, overseeing Global Load Balancing solutions and provided training for Mumbai teams, fostering global collaboration.
 
-I offered Enterprise DevOps capabilities to esteemed clients including Royal Mail, Burberry, and Michael Page, overseeing deployments on both AWS and Rackspace platforms. Notably, I spearheaded the relaunch of eurostar.com using Drupal, ensuring a seamless transition and optimized performance for the website.
+<!-- ### :material-office-building: DevOps Engineer, Capgemini, 2011-2013
+- Rackspace, Royal Mail, Burberry, Michael Page, HMRC -->
 
-### :material-office-building:  Sift
+### :material-office-building: Operations Engineer, Sift, 2009-2011 <span><small>(Drupal, CentOS, Xen, VMWare/ESXi)</small></span>
 
-#### 2009-2011 Operations Engineer
-
-Supporting Drupal 5/6 and WordPress LAMP+, both on-premise and in cloud with VMWare/ESXi Cloud and XEN co-location setups.
-
-### :material-atom: CERN
-
-#### 2007-2008 Technical Student
-
-During my tenure at __IT/FIO/LA__ :material-linux: , I collaborated on developing innovative :simple-linux: Linux PXE/kickstart installation software under the guidance of J. Polok. Additionally, I contributed to the AIMS2 project, utilizing :material-code: Perl, XML/RPC, and Oracle technologies. Further details about AIMS2 and its ongoing relevance can be found on the [twiki](https://twiki.cern.ch/twiki/bin/view/LinuxSupport/Aims2), including a final presentation to the IT Department, with some components still in use as of 2024. Volunteering at the 2008 CERN Open Doors event, I provided guided tours of the CERN Computing Centre, enthusiastically sharing insights into CERN's IT infrastructure. Moreover, I played a role in CERN's efforts to lobby the British Government to support the Technical Student programme, as documented in this [publication](https://cds.cern.ch/record/1120956?ln=en).
-
-## :material-school: Education
-
-- 2009 BA (Hons) Information Systems Analysis at UWE, Bristol
-- 2005 BTEC National Diploma IT Practitioner at Cornwall College
-
-## :material-gamepad: Personal Interests
-
-- I enjoy :material-bike: and have Alpe d'Huez, Col de Braus and Col du Turini on my Strava.
-- :blue_heart: Blue Peter Badge (Standard Issue), issued circa 1996.
-- I enjoy digital art, and learning how to use my :fontawesome-brands-apple: Pencil.
-- I have a perclusion for :simple-spring_creators: metal springs and :material-stairs: steps.
-- I enjoy reading Douglas Coupland.
-- :fontawesome-brands-internet-explorer: :simple-firefox: :simple-googlechrome: :simple-safari: :fontawesome-brands-brave: :simple-torbrowser: Browser Wars veteran
-- :material-linux:
-    :simple-asahilinux:
-    :simple-archlinux:
-    :simple-alpinelinux:
-    :simple-debian:
-    :simple-fedora:
-    :simple-ubuntu:
-    :simple-macos: and :simple-opensourceinitiative: open source advocate.
-
-## :material-thumb-up: Endorsements
-
-Read more testimonials and endorsements on [:material-linkedin:](https://linkedin.com/in/danslinky) or [:simple-github:](https://github.com/danslinky/danslinky.co.uk/issues/new/choose).
-
-> Dan is one of the best platform engineers I've worked with. He has a vast knowledge of AWS, Kubernetes, Terraform and similar platform technologies. I learned a lot while working together. He is capable of taking a vague requirement and converting it into working infrastructure. He puts thought into the maintainability, scalability and observability of his solutions and writes good accompanying documentation. Dan is also a good mentor helping other in the team and even outside of his team upskill and learn from him.
->
-> -- <cite><a href="https://www.linkedin.com/in/robertmarsal/" target="_blank">Robert Marsal</a>, Enterprise Architect at Adarga</cite>
-
-> Dan is one of the most technical platform engineers I've worked with. I would watch in awe as he calmly debugged and resolved production incidents. Day to day he is a thoughtful colleague whose advice I would trust on the design and implementation of cloud native infrastructure and the general practice of platform engineering.
->
-> -- <cite><a href="https://www.linkedin.com/in/mark-devilliers-36627a11/" target="_blank">Mark deVilliers</a>, Engineering Leader</cite>
+### :material-school: BA (Hons) Information Systems Analysis at UWE, Bristol, 2009
+### :material-atom: Technical Student, CERN, Switzerland, 2007-2008 (Linux, Perl, XML/RPC, Oracle)
+### :material-school: BTEC National Diploma IT Practitioner at Cornwall College, 2005
+### :fontawesome-solid-network-wired: CISCO Certified Network Associate, CISCO Academy, 2004
+## :material-gamepad: Hobbies include :pizza: , :material-bike: , and :simple-linux: 
