@@ -1,15 +1,22 @@
+---
+title: 
+- type: main
+  text: "Daniel Slinky"
+- type: subtitle
+  text: "Curriculum Vitae"
+creator:
+- role: author
+  text: "Daniel Slinky"
+- role: publisher
+  text: "Daniel Slinky"
+- role: editor
+  text: "Daniel Slinky"
+identifier:
+- scheme: DOI
+  text: "10.42069/noice.1234567"
+publisher: "Daniel Slinky"
+rights: "© 2024 Daniel Slinky"
 colorlinks: true
 linkcolor: blue
 urlcolor: blue
-# title: "Dan Slinky"
-# subtitle: "Platform Engineer | SRE | DevSecOps | MLOps | FinOps | Sysadmin"
-# description: "Markdown resume for Dan Slinky"
-# tags:
-# - Platform Engineer
-# - SRE
-# - DevOps
-# - SecOps
-# - MLOps
-# - FinOps
-# - sysadmin
-# readtime: 10
+

@@ -2,17 +2,17 @@
 
 Hello, and welcome to my RaaS, you may! <small>~~RAaS~~ ~~rAAS~~ ~~rAPI~~</small> :eyes: How the devil are you? Have you had a good day? My name's Dan and I'm watching :material-youtube: [You](https://www.youtube.com/@AutoShenanigans)....
 
+The RaaS allows you, a potential technical recruiter, hiring manager or fellow Platform comrade, to download my Resume.
+
 ```mermaid
 graph LR
   A[Dan Slinky] --> B{Hire?};
   B -->|Maybe| C[Investigate];
   C --> D[Discuss];
   D -->|Consider| B;
-  B ---->|Yes| E[Yay!];
-  B ---->|No| F[Sad];
+  B ---->|Yes| E[🎉];
+  B ---->|No| F[😢];
 ```
-
-The RaaS allows you, a potential technical recruiter, hiring manager or fellow Platform comrade, to download my Resume.
 
 ## Features
 
@@ -32,10 +32,11 @@ The RaaS allows you, a potential technical recruiter, hiring manager or fellow P
 
     Download my Resume in 
     
-    - :material-code-json:__[`.json`](json.md)__
     - :simple-latex:__[LaTeX](/resumes/latex)__
-    - :material-file-word:__[Word](resume.docx)__ _(deprecated)_
+    - :fontawesome-solid-file-pdf: __[PDF](/resumes/latex/resume.pdf)__
+    - :material-code-json:__[`.json`](json.md)__
     - :simple-yaml:__[`yaml:`](yaml.md)__
+    - :material-file-word:__[Word](/resumes/latex/resume.docx)__ _(deprecated)_
 
 -   :material-clock-fast:{ .lg .middle } __Enterprise SLA__
 
