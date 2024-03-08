@@ -58,6 +58,11 @@
 \renewcommand{\familydefault}{\sfdefault}
 % set font size to 14pt
 \renewcommand{\normalsize}{\fontsize{12pt}{12pt}\selectfont}
+% \vspace*{-20pt}
+% title
+% \title{}
+\author{}
+\date{}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -65,17 +70,23 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
+  pdftitle={Resume},
+  pdfauthor={Daniel Slinky},
+  pdfsubject={Platform Engineer \textbar{} SRE \textbar{} DevSecOps},
+  pdfkeywords={Platform,Engineer,SRE,DevOps,SecOps,sysadmin,Linux,Cloud,Kubernetes,AWS,Terraform,Git,GitHub},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
   citecolor={Blue},
   urlcolor={blue},
-  pdfcreator={LaTeX via pandoc}}
+  pdfcreator={Dan Slinky using pandoc}}
 
-\author{}
+\title{Resume}
+\author{Daniel Slinky}
 \date{}
 
 \begin{document}
+% \maketitle
 
 \hypertarget{simple-markdown-resume-of-dan-slinky-material-linkedin-simple-github-material-email}{%
 \section{\texorpdfstring{\faMarkdown Resume of Dan Slinky
