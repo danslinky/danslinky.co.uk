@@ -18,7 +18,7 @@ learning, and promoting team growth.
 
 #### 2024 Freelance sysadmin
 
-- Focussing on :simple-asahilinux: __Linux__ information systems management and retrieval, system documentation, and __Lua__ scripting. I'm responsible for the deployments of __OPNSense__, __XCP-ng__, self-hosted __Infisical__ and __Cloudflare__.
+- Focussing on :simple-asahilinux: __Linux__ health information systems management and document retrieval, platform documentation, and __Lua__ scripting. I'm responsible for the deployments of __OPNSense__, __XCP-ng__, self-hosted __Infisical__ and __Cloudflare__.
 
 ### :material-office-building: Adarga
 
