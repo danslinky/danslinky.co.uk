@@ -48,7 +48,7 @@ nav:
     # - PDF: resumes/resume.pdf
     - PDF: resumes/latex/resume.pdf
     - JSON: resumes/json.md
-    - Word: resumes/resume.docx
+    - Word: resumes/latex/resume.docx
     - YAML: resumes/yaml.md
   - RTFM:
     - rtfm/index.md
