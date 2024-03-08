@@ -3,7 +3,12 @@
 all: build
 
 build: #get
-	pandoc --from=markdown --output=resume.tex ../markdown/index.md --lua-filter=fontawesome.lua --include-in-header=header.tex
+	pandoc --from=markdown+raw_tex \
+	--output=resume.tex \
+	../markdown/index.md \
+	--lua-filter=fontawesome.lua \
+	--include-in-header=header.tex \
+	--metadata-file=metadata.yaml
 	pdflatex resume.tex
 
 # get:

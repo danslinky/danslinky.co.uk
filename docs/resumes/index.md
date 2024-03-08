@@ -1,6 +1,6 @@
 # Resume as a Service (RaaS)
 
-Hello, and welcome to my RaaS, you may! <small>~~RAaS~~ ~~rAAS~~ ~~rAPI~~</small> :eyes: How the devil are you? Have you had a good day? My name's Dan and I'm watching You....
+Hello, and welcome to my RaaS, you may! <small>~~RAaS~~ ~~rAAS~~ ~~rAPI~~</small> :eyes: How the devil are you? Have you had a good day? My name's Dan and I'm watching :material-youtube: [You](https://www.youtube.com/@AutoShenanigans)....
 
 ```mermaid
 graph LR
@@ -18,13 +18,13 @@ The RaaS allows you, a potential technical recruiter, hiring manager or fellow P
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-markdown:{ .lg .middle } Download my Resume in __Markdown__
+-   :fontawesome-brands-markdown:{ .lg .middle } Passion for __Markdown__
 
     ---
 
     See how I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site.
 
-    [:octicons-arrow-right-24: Download](/resumes/markdown)
+    [:octicons-arrow-right-24: Read my Resume](/resumes/markdown) 
 
 -   :material-format-font:{ .lg .middle } __Made to measure__
 

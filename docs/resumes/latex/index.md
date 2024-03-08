@@ -1,11 +1,11 @@
 # :simple-latex: LaTeX
 
-This is work in progress.
+This is work in progress, and generates __[resume.pdf](resume.pdf)__
 
-Run `make` in this directory to convert the markdown to [resume.tex](resume.tex), ussing some [Lua](fontawesome.lua) to fix some of the fontawesome icons, and generate a __[resume.pdf](resume.pdf)__ using `pandoc`.
+I `make` use of the `fontawesome5` package, and a [Lua](fontawesome.lua) `pandoc` filter to workaround not having worked out how to support v6 of fontawesome yet.
 
 ## notes
 
 - fix errors with `[link](javascript:xxx)`
 - `fontawesome.lua` could be improved with more icon support
-- superfences markdown tabbed content doesn't render yet
+- superfences markdown tabbed content doesn't render well, and interprets it as a codeblock without wrap
