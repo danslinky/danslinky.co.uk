@@ -1,22 +1,18 @@
 # :simple-markdown: CV of Dan Slinky ![](../../favicon.png "Dan Slinky's Blue Peter badge"){ align=right }
 
-<!-- > You can also view this CV in other formats using my [website](https://rtfm.danslinky.co.uk/resumes). -->
-
 [__www__](https://rtfm.danslinky.co.uk/resumes)  [:material-linkedin:](https://linkedin.com/in/danslinky "Visit Dan Slinky's LinkedIn profile")  [:simple-github:](https://github.com/danslinky "Visit Dan Slinky's GitHub profile")  [:material-email:](mailto:sysadmin@danslinky.co.uk "Email Dan Slinky")
-
 
 ## :fontawesome-solid-terminal: Introduction
 
 - Technical experience and leadership on diverse projects in __Platform Engineering__, __SRE__, and __DevSecOps__ roles, focussing on container orchestration and seamless integration.
 - Proficient in :material-docker: __Docker__, :material-dharmachakra: __Kubernetes__, and the wider :simple-cncf: Cloud Native ecosystem, with expertise in __GitOps__, __CI/CD__, and __Infrastructure as Code (IaC)__ on __AWS__, __GCP__, and __Azure__.
 
-I'm an experienced engineer, adept at designing, developing, and maintaining diverse projects. Specializes in optimizing platform performance, ensuring security, and integrating services. I can collaborate effectively across multidisciplinary teams, tackling technical challenges and enhancing organizational processes. I'm committed to delivering functional, maintainable, scalable, and observable solutions and I'm paassionate about driving innovation, fostering continuous learning, and promoting team growth.
-
-<!-- I've had the privilege of witnessing the progression of :material-docker: __Docker__, :material-dharmachakra: __Kubernetes__, and the :simple-cncf: __Cloud Native__ landscape. Throughout my career, I've refined my expertise in __GitOps__, Identity and __Single Sign-On (SSO)__ integration, and __Infrastructure as Code (IaC)__, working across a diverse range cloud platforms. I embrace innovation and actively explore cutting-edge :simple-opensourceinitiative: __open-source__ technologies and manage my personal infrastructure using __xcp-ng__ and :simple-opnsense: __OPNSense__. My unwavering dedication to excellence and continual learning drives me to deliver top-notch solutions that consistently surpass organizational goals. -->
+I’m an experienced Engineer, adept at designing, developing, and maintaining diverse projects, specialising in platform optimisation, ensuring security, and integrating self-service. I can collaborate effectively across multidisciplinary
+teams, tackling technical challenges and enhancing organizational processes. I’m committed to delivering functional,
+maintainable, scalable, and observable solutions, and I’m passionate about driving innovation, fostering continuous
+learning, and promoting team growth.
 
 ## :material-briefcase: Career
-
-<!-- I've accumulated experience across various organisations and businesses, which you can delve into below. Additionally, you'll find endorsements from recent colleagues available for your review. -->
 
 ### :material-office-building: Hergersheimer GmbH
 
