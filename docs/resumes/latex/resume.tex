@@ -1,6 +1,7 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
 ]{article}
@@ -40,7 +41,23 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
+% set margins to 1 inch using pandoc 
+\usepackage{geometry}
+\geometry{margin=0.25in}
+
+% line spacing
+\usepackage{setspace}
+\setstretch{1.2}
+
+
+% remove all padding 
+\setlength{\parindent}{0pt}
+
+% use Sans Serif font
+\renewcommand{\familydefault}{\sfdefault}
+% set font size to 14pt
+\renewcommand{\normalsize}{\fontsize{12pt}{12pt}\selectfont}
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
@@ -48,7 +65,11 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  hidelinks,
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
@@ -56,263 +77,266 @@
 
 \begin{document}
 
-\hypertarget{resume}{%
-\section{Resume}\label{resume}}
-
-\hypertarget{dan-slinky}{%
-\subsection{Dan Slinky}\label{dan-slinky}}
-
-\begin{quote}
-Platform Engineer \textbar{} SRE \textbar{} DevSecOps \textbar{} MLOps
-\textbar{} FinOps \textbar{} Sysadmin
-\end{quote}
-
-\href{https://cal.com/danslinky}{Schedule a call}
-
-\href{https://linkedin.com/in/danslinky}{Follow on LinkedIn}
+\hypertarget{simple-markdown-resume-of-dan-slinky-material-linkedin-simple-github-material-email}{%
+\section{\texorpdfstring{\faMarkdown Resume of Dan Slinky
+\href{https://linkedin.com/in/danslinky}{\faLinkedin}
+\href{https://github.com/danslinky}{\faGithub}
+\href{mailto:sysadmin@danslinky.co.uk}{\faEnvelope}}{ Resume of Dan Slinky   }}\label{simple-markdown-resume-of-dan-slinky-material-linkedin-simple-github-material-email}}
 
 You can also view this Resume in other formats using my
-\href{/resumes}{Resume as a Service}.
+\href{https://rtfm.danslinky.co.uk/resumes}{Resume as a Service}.
 
-\hypertarget{introduction}{%
-\subsection{Introduction}\label{introduction}}
+\hypertarget{fontawesome-solid-terminal-introduction}{%
+\subsection{\texorpdfstring{\faTerminal
+Introduction}{ Introduction}}\label{fontawesome-solid-terminal-introduction}}
 
-As an experienced engineer with specializations in Platform, Site
-Reliability, and DevSecOps, I have played a pivotal role in designing,
-developing, and maintaining various projects. My expertise in container
-orchestration has enabled me to optimize platform performance, ensuring
+As an experienced engineer specializing in Platform, Site Reliability,
+and DevSecOps Engineering, I've contributed significantly to designing,
+developing, and maintaining diverse projects. With expertise in
+container orchestration, I optimize platform performance while ensuring
 robust security and seamless integration of machine learning models and
-services.
+services. Collaborating effectively with multidisciplinary teams,
+including engineers, product managers, and stakeholders, I tackle
+technical challenges and enhance organizational processes. My focus is
+always on delivering solutions that are not only functional but also
+easily maintainable, scalable, and observable. Passionate about
+fostering a culture of continuous learning and knowledge sharing, I
+drive innovation and promote team growth.
 
-I am a collaborative team player and have effectively collaborated with
-diverse teams, including engineers, product managers, and stakeholders,
-to overcome technical challenges and enhance organizational processes.
-My priority is always to ensure that solutions are not only functional
-but also easily maintainable, scalable, and observable. I am also
-passionate about creating a culture of continuous learning and knowledge
-sharing to drive innovation and promote team growth.
+I've had the privilege of witnessing the progression of \faDocker
+\textbf{Docker}, \faDharmachakra \textbf{Kubernetes}, and the
+\textbf{Cloud Native} landscape. Throughout my career, I've refined my
+expertise in \textbf{GitOps}, Identity and \textbf{Single Sign-On (SSO)}
+integration, and \textbf{Infrastructure as Code (IaC)}, working across a
+diverse range cloud platforms. I embrace innovation and actively explore
+cutting-edge \textbf{open-source} technologies and manage my personal
+infrastructure using \textbf{xcp-ng} and \textbf{OPNSense}. My
+unwavering dedication to excellence and continual learning drives me to
+deliver top-notch solutions that consistently surpass organizational
+goals.
 
-\hypertarget{experience}{%
-\subsection{Experience}\label{experience}}
+\hypertarget{material-briefcase-career}{%
+\subsection{\texorpdfstring{\faBriefcase
+Career}{ Career}}\label{material-briefcase-career}}
 
-I've had the privilege of witnessing the evolution of :simple-docker:
-Docker, :simple-kubernetes: Kubernetes and the :simple-cncf:
-\textbf{Cloud Native} landscape. Through this journey, I've honed
-expertise in GitOps, Identity and Single Sign-On (SSO) implementation,
-and Infrastructure as Code (IaC), spanning both on-premises and cloud
-deployments.
+\hypertarget{material-office-building-adarga}{%
+\subsubsection{\texorpdfstring{\faBuilding
+Adarga}{ Adarga}}\label{material-office-building-adarga}}
 
-\begin{itemize}
-\item
-  \textbf{DevOps} experience with \faAmazon \textbf{Amazon Web
-  Services}, \faGoogle \textbf{Google} Cloud Platform,
-  :fontawesome-brands-microsoft: \textbf{Microsoft} Azure,
-  :simple-alibabadotcom: \textbf{Alibaba},
-  :fontawesome-brands-digital-ocean: \textbf{DigitalOcean},
-\item
-  Innovative \textbf{GitOps} and \textbf{CI/CD} using \faGithub
-  \textbf{GitHub Actions}, :fontawesome-brands-gitlab: \textbf{GitLab},
-  :simple-circleci: \textbf{CircleCI}, :simple-flux: \textbf{Flux},
-  :simple-argo: \textbf{Argo}, and :fontawesome-brands-jenkins:
-  \textbf{Jenkins}
-\item
-  Skilled with \textbf{IaC} tools including :simple-terraform:
-  \textbf{Terraform}, \textbf{Terragrunt}, :simple-ansible:
-  \textbf{Ansible}, and container orchestration using
-  :fontawesome-brands-docker: \textbf{Docker} and :simple-kubernetes:
-  \textbf{Kubernetes}.
-\item
-  Sometimes a friendly neighbourhood :material-security: \textbf{SecOps}
-  using :simple-hackerone: :safety\_vest: :fire\_extinguisher: because
-  sometimes :fire: :material-server: :cloud\_lightning: :space\_invader:
-  \href{}{hello, friend} :fontawesome-brands-square-hacker-news:
-  \href{https://news.ycombinator.com/favorites?id=danslinky}{favs}
-\item
-  I enjoy using bleeding edge :simple-opensourceinitiative: \textbf{Open
-  Source} and my :simple-opnsense: \textbf{OPNSense} to build my
-  personal infrastructure.
-\item
-  :fontawesome-brands-internet-explorer: :simple-firefox:
-  :simple-googlechrome: :simple-safari: :fontawesome-brands-brave:
-  :simple-torbrowser: \textbf{Browser Wars} :simple-linux:
-  :simple-asahilinux: :simple-archlinux: :simple-alpinelinux:
-  :simple-debian: :simple-fedora: :simple-ubuntu: :simple-macos: and
-  :simple-opensourceinitiative: friends.
-\end{itemize}
+\hypertarget{platform-engineer}{%
+\paragraph{2022-2023 Platform Engineer}\label{platform-engineer}}
 
-\hypertarget{career}{%
-\subsection{Career}\label{career}}
+As a technical leader in the Platform Engineering and SecOps team, I
+oversaw operations for a multi-tenanted AI SaaS platform. Utilizing
+\textbf{Terragrunt}, \textbf{Terraform}, \faAws , and other platforms, I
+ensure robust security and secrets management to meet rigorous customer
+requirements, facilitating efficient and reliable deployments through
+\textbf{CI/CD} pipelines like \faGithub \textbf{GitHub Actions},
+\textbf{CircleCI}, and \textbf{ArgoCD}. Additionally, I spearhead a
+significant AWS cost reduction initiative, advocating for FinOps
+practices and optimizing cloud spending reporting using tools such as
+\textbf{opencost.io}, kubecost, \textbf{Prometheus}, and SysDig,
+fostering service ownership and identifying areas for further
+optimization. Collaborating on OpenTracing/Telemetry implementation
+enhances application observability and performance, particularly in
+environments utilizing \textbf{Kafka} and Benthos for message routing.
+Expanding the \textbf{SSO} offering by implementing \textbf{SAML}
+Microsoft AD integration, supported by Auth0, ensures a seamless user
+experience. I assessed the technical feasibility of Plausible web
+analytics for platform usage and provide mentorship on implementing
+Tigergraph and Neo4j for feature development. Furthermore, I oversaw
+recruitment into the team, conducting interviews, promoting team
+planning, before transitioning responsibilities to a permanent
+Engineering Manager and recruitment team.
 
-I've accumulated experience across various organisations and businesses,
-which you can delve into through the tabs below. Additionally, you'll
-find endorsements from recent colleagues available for your review.
+\hypertarget{devops-engineer}{%
+\paragraph{2017-2019 DevOps Engineer}\label{devops-engineer}}
 
-=== ``CERN''
+As the inaugural DevOps at Adarga, I played a pivotal role in
+establishing the foundation of an AI SaaS platform, collaborating
+closely with engineering and data science teams while leveraging
+\textbf{Kubernetes}. My responsibilities encompassed both \faAws and
+\faGoogle Cloud environments, where I employed Ansible and YAML for
+deploying self-hosted and Cloud Kubernetes clusters and applications.
+Embracing a \textbf{microservices} architecture, I integrated
+technologies such as \textbf{Kafka}, Python, Java, Node.js,
+\textbf{React} single-page applications (SPAs), and \textbf{OAuth2} via
+Auth0, alongside implementing the platform API gateway using Kong/nginx
+and exploring service mesh options like \textbf{Istio} and Weave.
+Moreover, I managed onboarding processes utilizing Apple MDM, fleet DM,
+\textbf{osquery}, and Munki, overseeing app packaging and deployment,
+while also deploying and maintaining the Atlassian stack, including
+\textbf{Jira}, Confluence, and Bamboo.
 
-\begin{verbatim}
-## Technical Student 
-### 2007-2008
-- I joined __IT/FIO/LA__ and developed new Linux PXE/kickstart installation software under the supervision of J. Polok
-- AIMS2 made use of Perl, XML/RPC and Oracle. You can read more on [twiki](https://twiki.cern.ch/twiki/bin/view/LinuxSupport/Aims2), which also includes a final presentation to the IT Department. I'm reliably informed that some parts of it are still in production in 2024 :/
-- I [volunteered](/blog/xxxx) at 2008 CERN Open Doors, giving guided tours of the CERN Computing Centre and enjoyed sharing my passion for CERN's IT infrastructure.
-- I helped CERN [lobby](https://cds.cern.ch/record/1120956?ln=en) the British Government to help promote the Technical Student programme.
-\end{verbatim}
+\hypertarget{material-office-building-cookpad}{%
+\subsubsection{\texorpdfstring{\faBuilding
+Cookpad}{ Cookpad}}\label{material-office-building-cookpad}}
 
-=== ``Sift''
+\hypertarget{site-reliability-engineer}{%
+\paragraph{2021 Site Reliability
+Engineer}\label{site-reliability-engineer}}
 
-\begin{verbatim}
-## Operations Engineer
-### 2009-2011
+I moved in to the SRE team, taking on a more Global platform
+responsibility working closely with colleagues at Cookpad Japan. I
+embraced learning \textbf{Golang} and discovered the power of
+\textbf{Jsonnet} in this new role. I collaborated with colleagues in the
+SRE team to improve documentation, respond to on call incidents, lead
+migrations to Kubernetes, and responded to ad hoc support requests.
 
-- Supported Drupal and WordPress installations on premise and in the Cloud
-- Proficient in VMWare/ESXi Cloud and XEN co-location environments
-- Experienced with Drupal 5/6, LAMP stacks, CentOS, Jenkins and DevOps practices
-- Supporting self-hosted MySQL cluster using `drdb`.
-\end{verbatim}
+\hypertarget{machine-learning-infrastructure-engineer}{%
+\paragraph{2020 Machine Learning Infrastructure
+Engineer}\label{machine-learning-infrastructure-engineer}}
 
-=== ``Capgemini''
+Starting with the MLOps team on a short-term contract, I initially
+concentrated on Kubernetes observability before transitioning to a
+permanent role focused on Kubernetes ML application deployment. I
+deployed Elastic and Prometheus/Thanos for extended metric storage,
+coupled with Grafana/Loki to promote ownership of ML applications during
+deployment. Furthermore, I revamped Kubernetes application distribution
+and deployment by utilizing Kustomize and Flux CD, while also evaluating
+Kubeflow/Argo Pipelines for potential future investment.
 
-\begin{verbatim}
-## DevOps Engineer
-### 2011-2013
+\hypertarget{material-office-building-torchbox}{%
+\subsubsection{\texorpdfstring{\faBuilding
+Torchbox}{ Torchbox}}\label{material-office-building-torchbox}}
 
-- Providing Enterprise DevOps capabilities to Royal Mail, Burberry and Michael Page.
-- Deploying solutions on AWS and Rackspace.
-- Relaunching eurostar.com on Drupal
-\end{verbatim}
+\hypertarget{systems-administrator}{%
+\paragraph{2015-2016 Systems
+Administrator}\label{systems-administrator}}
 
-=== ``Eurostar''
+As part of a digital agency supporting Charity and NGO clients with
+platforms like Wagtail and Drupal, I spearheaded the relocation of the
+Bristol office, ensuring a seamless transition with deployments of
+Fibre, Ubiquiti, and MikroTik to establish a fully operational workspace
+by Monday morning. Alongside, I delved into Kubernetes, deploying Sensu
+and Riemann, among other technologies, to bolster the agency's
+infrastructure. Additionally, I tested my resilience in June 2016,
+facing challenges head-on with a stiff upper lip.
 
-\begin{verbatim}
-## Drupal DevOps Engineer
-### 2012-2013
+\hypertarget{material-office-building-future}{%
+\subsubsection{\texorpdfstring{\faBuilding
+Future}{ Future}}\label{material-office-building-future}}
 
-- Drupal DevOps Engineer working on Enterprise digital transformation projects.
-- Relaunched eurostar.com using Drupal and ActiveMQ, and working closely with technical partner SNCF. CI/CD deployment using Jenkins, Puppet & Capistrano.
-- Technical guidance and implementation of Global Load Balancing using Stingray/ZXTM/Zeus.
-- Training offshore teams in Mumbai, India
-\end{verbatim}
+\hypertarget{operations-engineer}{%
+\paragraph{2013-2015 Operations Engineer}\label{operations-engineer}}
 
-=== ``Future''
+I worked as a key figure in a print and digital publishing company
+specializing in consumer hobbies and interests, managing global web
+properties utilizing CDN, nginx, PHP, RabbitMQ, and Puppet for
+infrastructure as code (IaC), with continuous deployment facilitated by
+\texttt{rmq://}. Additionally, I led initiatives for data center and
+Xen/XCP infrastructure consolidation and upgrade, collaborating on Sensu
+observability implementation. Moreover, I designed and implemented
+enhanced storage solutions, incorporating recommended LACP groupings and
+integrating an advanced storage array for improved reliability and
+performance.
 
-\begin{verbatim}
-## Operations Engineer
-### 2013-2015
+\hypertarget{material-train-eurostar}{%
+\subsubsection{\texorpdfstring{\faTrain
+Eurostar}{ Eurostar}}\label{material-train-eurostar}}
 
-- Print and Digital Publisher focussed on Consumer hobbies and interests.
+\hypertarget{drupal-devops-engineer}{%
+\paragraph{2011-2013 Drupal DevOps
+Engineer}\label{drupal-devops-engineer}}
 
-- Operating Global Web properties for consumer media publisher, roles involved CDN, nginx, PHP, RabbitMQ and IaC using Puppet, with CD capabilities provided by `rmq://`
-- Lead on Data Centre and Xen/XCP infrastructure consolidation and upgrade, and collaborated on Sensu observability .
-- Designed and deployed more robust storage, with recommend LACP groupings and an expensive Storage array.
-\end{verbatim}
+As a Drupal DevOps Engineer specializing in enterprise digital
+transformation initiatives, I led the successful relaunch of
+eurostar.com utilizing Drupal and ActiveMQ, collaborating closely with
+technical partner SNCF. I implemented CI/CD deployment pipelines using
+Jenkins, Puppet, and Capistrano to streamline development processes.
+Additionally, I provided technical guidance and oversaw the
+implementation of Global Load Balancing solutions using
+Stingray/ZXTM/Zeus technology. Furthermore, I conducted training
+sessions for offshore teams in Mumbai, India, ensuring knowledge
+transfer and fostering collaboration across global teams.
 
-=== ``Torchbox''
+\hypertarget{material-office-building-capgemini}{%
+\subsubsection{\texorpdfstring{\faBuilding
+Capgemini}{ Capgemini}}\label{material-office-building-capgemini}}
 
-\begin{verbatim}
-## Systems Administrator
-### 2015-2016
+\hypertarget{devops-engineer-1}{%
+\paragraph{2011-2013 DevOps Engineer}\label{devops-engineer-1}}
 
-Digital Agency supporting Charity and NGO
+I offered Enterprise DevOps capabilities to esteemed clients including
+Royal Mail, Burberry, and Michael Page, overseeing deployments on both
+AWS and Rackspace platforms. Notably, I spearheaded the relaunch of
+eurostar.com using Drupal, ensuring a seamless transition and optimized
+performance for the website.
 
-- Wagtail and Drupal.
-- Took ownership of the Bristol office move, deploying Fibre, Ubiquiti and Mikrotek to provide a working new office on Monday morning.
-- Discovered and explored Kubernetes, whilst deploying Sensu and Riemann and other technoligies to support the agency.
-- Tested my stiff upper lip in June 2016. 
-\end{verbatim}
+\hypertarget{material-office-building-sift}{%
+\subsubsection{\texorpdfstring{\faBuilding
+Sift}{ Sift}}\label{material-office-building-sift}}
 
-=== ``Adarga.1''
+\hypertarget{operations-engineer-1}{%
+\paragraph{2009-2011 Operations Engineer}\label{operations-engineer-1}}
 
-\begin{verbatim}
-## DevOps Engineer
-### 2017-2019
+Supporting Drupal 5/6 and WordPress LAMP+, both on-premise and in cloud
+with VMWare/ESXi Cloud and XEN co-location setups.
 
-Inaugural DevOps at Adarga, I played a role in establishing the foundation of an AI SaaS platform, leveraging Kubernetes and collaborating closely with the wider engineering and data science teams.
+\hypertarget{material-atom-cern}{%
+\subsubsection{\texorpdfstring{\faAtom
+CERN}{ CERN}}\label{material-atom-cern}}
 
-- My responsibilities spanned AWS and Google Cloud environments, where I implemented Ansible and YAML for deploying self-hosted and Google Kubernetes clusters and applications.
+\hypertarget{technical-student}{%
+\paragraph{2007-2008 Technical Student}\label{technical-student}}
 
-- Adopting a microservice's architecture, I integrated technologies such as Kafka, Python, Java, Node.js, single-page applications (SPAs), and OAuth2 via Auth0, while also implementing the platform API gateway using Kong/nginx, and explored service mesh options such istio and Weave.
+During my tenure at \textbf{IT/FIO/LA} \faLinux , I collaborated on
+developing innovative Linux PXE/kickstart installation software under
+the guidance of J. Polok. Additionally, I contributed to the AIMS2
+project, utilizing \faCode Perl, XML/RPC, and Oracle technologies.
+Further details about AIMS2 and its ongoing relevance can be found on
+the
+\href{https://twiki.cern.ch/twiki/bin/view/LinuxSupport/Aims2}{twiki},
+including a final presentation to the IT Department, with some
+components still in use as of 2024. Volunteering at the 2008 CERN Open
+Doors event, I provided guided tours of the CERN Computing Centre,
+enthusiastically sharing insights into CERN's IT infrastructure.
+Moreover, I played a role in CERN's efforts to lobby the British
+Government to support the Technical Student programme, as documented in
+this \href{https://cds.cern.ch/record/1120956?ln=en}{publication}.
 
-- Additionally, I managed onboarding processes using Apple MDM, fleet DM, osquery, munki, and handled app packaging and deployment, I deployed and maintained the Atlassian stack, including Jira, Confluence, and Bamboo, on AWS.
-\end{verbatim}
-
-=== ``Cookpad''
-
-\begin{verbatim}
-## Machine Learning Infrastructure Engineer
-### 2020
-
-- I began my journey with the MLOps team on a short term contract, initially focusing on Kubernetes observability, and then joined on a permanent basis focussing on Kubernetes ML application deployment.
-- I deployed Elastic and Prometheus/Thanos for longer duration metric storage, alongside Grafana/Loki to help foster ownership of ML applications as they were deployed.
-- I revitalized the Kubernetes application distribution and deployment by making use of Kustomize and Flux CD, while evaluating Kubeflow/Argo Pipelines for potential future investment.
-
-## Site Reliability Engineer
-### 2021
-
-I later moved in to the SRE team, taking on a more Global platform responsibility working closely with colleagues at Cookpad Japan. I embraced learning Golang and discovered the power of Jsonnet in this new role. I collaborated with colleagues in the SRE team to improve documentation, respond to on call incidents, migrate Kafka from the Managed Cloud to team managed Kubernetes, and respond to ad hoc support requests.
-\end{verbatim}
-
-=== ``Adarga.2''
-
-\begin{verbatim}
-## Platform Engineer
-### 2022-2023
-
-Technical leadership in the Platform Engineering and SecOps team, operating a multi-tenanted AI SaaS platform on AWS.
-
-- Utilised Terragrunt, Terraform, AWS and other platforms ensuring robust security and secrets management to meet stringent customer requirements. Leveraging credential storage, scanning and code-quality practices, and using CI/CD pipelines through GitHub Actions, CircleCI, and ArgoCD, I helped deliver efficient and reliable deployments.
-- Lead a significant AWS cost reduction initiative and championed FinOps practices. I worked on optimising reporting on cloud spending using tools like opencost.io, kubecost, Prometheus, and SysDig to help foster more ownership and accountability of individual services, and to identify areas for further optimisation.
-- I collaborated on the implementation of OpenTracing/Telemetry, bolstering application observability and performance in environments using Kafka and Benthos for message routing.
-- I am responsible for expanding the SSO offering by implementing SAML Microsoft AD integration, supported by Auth0 enable the customer to have a seamless user experience.
-- I undertook a technical feasibility of Plausible web analytics for usage in the platform, and mentored team members working on the implementation of Tigergraph and Neo4j as part of some feature development.
-- I also had responsibility for recruitment in to the team, conducting Interviews, promoting team planning before handling over to a permanent Engineering Manager and recruitement team.
-\end{verbatim}
-
-\hypertarget{education}{%
-\subsection{Education}\label{education}}
-
-=== ``Degree''
-
-\begin{verbatim}
-### BA (Hons) Information Systems Analysis
-
-2005-2009
-University of the West of England, Bristol
-\end{verbatim}
-
-=== ``Diploma''
-
-\begin{verbatim}
-### BTEC National Diploma IT Practitioner
-
-2003-2005
-Cornwall College
-\end{verbatim}
-
-\hypertarget{personal-interests}{%
-\subsection{Personal Interests}\label{personal-interests}}
+\hypertarget{material-school-education}{%
+\subsection{\texorpdfstring{\faSchool
+Education}{ Education}}\label{material-school-education}}
 
 \begin{itemize}
 \tightlist
 \item
-  I enjoy road :material-bike: and have Alpe d'Huez, Col de Braus and
-  Col du Turini on my Strava.
+  2009 BA (Hons) Information Systems Analysis at UWE, Bristol
+\item
+  2005 BTEC National Diploma IT Practitioner at Cornwall College
+\end{itemize}
+
+\hypertarget{material-gamepad-personal-interests}{%
+\subsection{\texorpdfstring{\faGamepad Personal
+Interests}{ Personal Interests}}\label{material-gamepad-personal-interests}}
+
+\begin{itemize}
+\tightlist
+\item
+  I enjoy \faBicycle and have Alpe d'Huez, Col de Braus and Col du
+  Turini on my Strava.
 \item
   Blue Peter Badge (Standard Issue), issued circa 1996.
 \item
-  I enjoy digital art, and learning how to use my Apple Pencil.
+  I enjoy digital art, and learning how to use my \faApple Pencil.
 \item
   I have a perclusion for metal springs and steps.
 \item
   I enjoy reading Douglas Coupland.
+\item
+  Browser Wars veteran
+\item
+  \faLinux and open source advocate.
 \end{itemize}
 
-\hypertarget{endorsements}{%
-\subsection{Endorsements}\label{endorsements}}
+\hypertarget{material-thumb-up-endorsements}{%
+\subsection{\texorpdfstring{\faThumbsUp
+Endorsements}{ Endorsements}}\label{material-thumb-up-endorsements}}
 
-\href{https://github.com/danslinky/danslinky.co.uk/issues/new/choose}{Letters
-of Recommendation} and
-\href{https://linkedin.com/in/danslinky}{Endorsements} for Dan Slinky
-can be submitted using GitHub or LinkedIn.
+Read more testimonials and endorsements on
+\href{https://linkedin.com/in/danslinky}{\faLinkedin} or
+\href{https://github.com/danslinky/danslinky.co.uk/issues/new/choose}{\faGithub}.
 
 \begin{quote}
 Dan is one of the best platform engineers I've worked with. He has a
