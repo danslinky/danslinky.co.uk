@@ -1,3 +1,6 @@
+---
+tags: [terraform]
+---
 # :material-terraform: Terraform
 
 ## tfenv

@@ -5,12 +5,10 @@
 #
 # SUPPORT MKDOCS + MATERIAL THEME
 #
-site_name: Dan Slinky's mmmkdocs
+site_name: "Dan Slinky"
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
-#icon: material/sad
-
 #icon: material/sad
 
 ##
@@ -42,7 +40,7 @@ nav:
   - blog/index.md
   - Resumes:
     - resumes/index.md
-    - Markdown: resumes/markdown/index.md
+    - resumes/markdown/index.md
     - resumes/latex/index.md
     # - HTML: resumes/markdown/index.md
     # - PDF: resumes/resume.pdf
@@ -129,6 +127,7 @@ nav:
     - WordPress: https://wordpress.com/danslinky
     - X: https://twitter.com/danslinky
     - YouTube: https://youtube.com/danslinky
+  - tags.md
 ##
 # Theme
 ##
@@ -189,9 +188,10 @@ plugins:
   #     assets_exclude: 
   #       - unpkg.com/*
   - tags:
-      tags: false # stops them rendering on pages
-      tags_file: tags.md 
+      tags: false # stops them rendering on pages (insiders)
+      # tags_file: tags.md # not needed with insiders
   - blog:
+      authors_profiles: true
       post_date_format: full
       # post_url_date_format: yyyy-MM-dd
       post_url_format: "{slug}"
