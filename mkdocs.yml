@@ -199,13 +199,13 @@ plugins:
   - social
   - search
   - offline
-  - rss:
-      match_path: blog/.* 
-      # date_from_meta:
-      #   as_creation: date
-      categories:
-        - categories
-        - tags
+  # - rss:
+  #     match_path: blog/.* 
+  #     # date_from_meta:
+  #     #   as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
 
 ##
 # Markdown Extensions
