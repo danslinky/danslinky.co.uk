@@ -279,12 +279,22 @@ extra:
     link: /de/
     lang: de
   consent:
-    # @TODO: this is serious stuff. I need to make this more professional.
+    # Annoying cookie popup
     title: "🇬🇧 ⚖️ Biscuit consent"
     cookies:
       chocolate: "Chocolate Chip"
     description: >-
-      Only continue on if you're hungry for biscuits. Please disable javascript. You absolutely should be concerned about your Safety and Privacy when using the Internet and World Wide Web. <mark class="ad">Ad.</mark> You can use Tor or NordVPN to protect your Privacy online.
+      <blockquote>
+      This site uses cookies to enhance your experience through analytics, SEO,
+       and testing. You can manage your cookie preferences at any time — for 
+       an even better experience, consider browsing with uBlock Origin and 
+       without Javascript. My platform is designed to excel without it, 
+       ensuring your safety and privacy online
+        <cite>-- Dan Slinky</cite>
+      </blockquote>
+      #opentowork 
+      <a href="https://rtfm.danslinky.co.uk/resumes/latex/resume.pdf">Learn more</a> |
+      <a href="https://cal.com/danslinky" target="_blank">Video Call</a>
   ##
   # Social Media
   ##

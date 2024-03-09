@@ -6,11 +6,12 @@ tags:
 - devops
 - devsecops
 ---
-# Resume as a Service (RaaS)
+# OpenRaaS
+
 
 <!-- Hello, and welcome to my RaaS, you may! <small>~~RAaS~~ ~~rAAS~~ ~~rAPI~~</small> :eyes: How the devil are you? Have you had a good day? My name's Dan and I'm watching :material-youtube: [You](https://www.youtube.com/@AutoShenanigans).... -->
 
-The RaaS allows you, a potential technical recruiter, hiring manager or fellow Platform comrade, to download my Resume.
+The open-source Resume as a service allows you, a potential technical recruiter, hiring manager or fellow Platform comrade, to download my Resume.
 
 ```mermaid
 graph LR
