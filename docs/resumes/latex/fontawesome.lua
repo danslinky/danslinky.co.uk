@@ -38,10 +38,11 @@ function Str(element)
     ["simple-jenkins"] = "\\faJenkins",
     ["fontawesome-solid-terminal"] = "\\faTerminal",
     ["material-history"] = "\\faHistory",
+    ["fontawesome-solid-network-wired"] = "\\faNetworkWired",
     ["material-school"] = "\\faSchool",
     ["material-gamepad"] = "\\faGamepad",
     ["material-thumb-up"] = "\\faThumbsUp",
-    ["material-linux"] = "\\faLinux",
+    ["simple-linux"] = "\\faLinux",
     ["material-briefcase"] = "\\faBriefcase",
     ["material-code"] = "\\faCode",
     ["material-email"] = "\\faEnvelope",
@@ -55,7 +56,8 @@ function Str(element)
     ["material-office-building"] = "\\faBuilding",
     ["material-train"] = "\\faTrain",
     ["material-atom"] = "\\faAtom",
-    ["material-linkedin"] = "\\faLinkedin"
+    ["material-linkedin"] = "\\faLinkedin",
+    ["pizza"] = "\\faPizzaSlice"
     -- ["material-camel"] = "\\faCamel"
   }
 

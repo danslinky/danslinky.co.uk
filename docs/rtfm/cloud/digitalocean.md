@@ -1,6 +1,6 @@
 # :fontawesome-brands-digital-ocean: DigitalOcean
 
-I like :fontawesome-brands-digital-ocean: DigitalOcean because when I ask for a virtual machine in the Cloud, it goes __bosh__ and gives it to me without any fuss. Also, the cloud config is super handy and I have enjoyed using it with [Wireguard](/rtfm/network/wireguard.html).
+I like :fontawesome-brands-digital-ocean: DigitalOcean because when I ask for a virtual machine in the Cloud, it goes __bosh__ and gives it to me without any fuss. Also, the cloud config is super handy and I have enjoyed using it with [Wireguard](../network/wireguard.md).
 
 ## Example Python code for setting up Wireguard using cloud-config on DigitalOcean  
 

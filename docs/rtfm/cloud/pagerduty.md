@@ -6,5 +6,5 @@ ALERT: Production is down.
 
 ## SAML
 
-See [sso](security/sso.md) for details of integration.
+See [sso](../security/sso.md) for details of integration.
 

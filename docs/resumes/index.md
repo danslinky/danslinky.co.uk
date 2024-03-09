@@ -1,6 +1,14 @@
+---
+tags:
+- resume
+- platform engineer
+- sre
+- devops
+- devsecops
+---
 # Resume as a Service (RaaS)
 
-Hello, and welcome to my RaaS, you may! <small>~~RAaS~~ ~~rAAS~~ ~~rAPI~~</small> :eyes: How the devil are you? Have you had a good day? My name's Dan and I'm watching :material-youtube: [You](https://www.youtube.com/@AutoShenanigans)....
+<!-- Hello, and welcome to my RaaS, you may! <small>~~RAaS~~ ~~rAAS~~ ~~rAPI~~</small> :eyes: How the devil are you? Have you had a good day? My name's Dan and I'm watching :material-youtube: [You](https://www.youtube.com/@AutoShenanigans).... -->
 
 The RaaS allows you, a potential technical recruiter, hiring manager or fellow Platform comrade, to download my Resume.
 
@@ -24,7 +32,7 @@ graph LR
 
     See how I have ~~focussed~~ on __content__ and can generate a responsive and searchable `static` documentation site.
 
-    [:octicons-arrow-right-24: Read my Resume](/resumes/markdown) 
+    [:octicons-arrow-right-24: Read my Resume](markdown/index.md)
 
 -   :material-format-font:{ .lg .middle } __Made to measure__
 
@@ -32,11 +40,11 @@ graph LR
 
     Download my Resume in 
     
-    - :simple-latex:__[LaTeX](/resumes/latex)__
-    - :fontawesome-solid-file-pdf: __[PDF](/resumes/latex/resume.pdf)__
+    - :simple-latex:__[LaTeX](latex/resume.tex)__
+    - :fontawesome-solid-file-pdf: __[PDF](latex/resume.pdf)__
     - :material-code-json:__[`.json`](json.md)__
     - :simple-yaml:__[`yaml:`](yaml.md)__
-    - :material-file-word:__[Word](/resumes/latex/resume.docx)__ _(deprecated)_
+    - :material-file-word:__[Word](latex/resume.docx)__ _(deprecated)_
 
 -   :material-clock-fast:{ .lg .middle } __Enterprise SLA__
 
@@ -44,7 +52,7 @@ graph LR
 
     Download the Resume of an experienced, hard-working, and skilled Platform Engineer, SRE, DevOps and Linux sysadmin.
 
-    [:octicons-arrow-right-24: Getting started](/resumes/markdown)
+    [:octicons-arrow-right-24: Getting started](markdown/index.md)
 
 -   :material-scale-balance:{ .lg .middle } __Open Source__
 
@@ -57,4 +65,4 @@ graph LR
 
 </div>
 
-You can also view my Resume in [HTML](https://rtfm.danslinky.co.uk/resumes/markdown):eyes: or [open a GitHub issue](https://github.com/danslinky/danslinky.co.uk/issues/new/choose) where you can also read and give [testimonials](/resumes/markdown#endorsements) and [endorsements](/resumes/markdown#endorsements).
+You can also view my Resume in [HTML](markdown/index.md):eyes: or [open a GitHub issue](https://github.com/danslinky/danslinky.co.uk/issues/new/choose) where you can also read and give testimonials and endorsements.

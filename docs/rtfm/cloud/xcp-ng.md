@@ -1,4 +1,4 @@
-# XCP-ng (XEN)
+# :material-server: XCP-ng
 
 I tried Proxmox, but I didn't like it.
 

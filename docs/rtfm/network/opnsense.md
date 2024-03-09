@@ -10,7 +10,7 @@ It's a VM running on XCP-ng and lets me access the Internet. It also lets some p
  - Wireguard service is active
  - Cloudflare is integrated using some scripts...
  - https://localhost.localdomain.workers.dev/ping
- - See [SSL](security/ssl.md) for more information on Certificates and things.
+ - See [SSL](../security/ssl.md) for more information on Certificates and things.
 
 ## Ports
 

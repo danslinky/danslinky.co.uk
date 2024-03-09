@@ -5,12 +5,10 @@
 #
 # SUPPORT MKDOCS + MATERIAL THEME
 #
-site_name: Dan Slinky's mmmkdocs
+site_name: "Dan Slinky"
 site_description: Personal portfolio of Dan Slinky.
 site_url: https://rtfm.danslinky.co.uk
 repo_url: https://github.com/danslinky/danslinky.co.uk
-#icon: material/sad
-
 #icon: material/sad
 
 ##
@@ -20,7 +18,7 @@ copyright: >
   &copy;&reg;🄰🄿&trade; Daniel Supercalifragilisticexpialidocious 2024 | 
   <a href="#__consent">Change cookie settings</a> |
   <a href="https://sso.danslinky.co.uk/login">Extranet</a> | <a href="javascript:alert('I have locked your screen.');">Lock Screen</a> | 
-  <a href="/status">Status Page</a>
+  <a href="https://statuscake.danslinky.co.uk/">Status Page</a>
 
 extra_css:
 # - extra_css/slinky.css
@@ -37,12 +35,12 @@ nav:
   - Home: index.md
   - About:
     - about/index.md
-    - Contact: about/contact.md
-    - Music: about/choons.md
-  - Blog: blog
+    - about/contact.md
+    - about/choons.md
+  - blog/index.md
   - Resumes:
     - resumes/index.md
-    - Markdown: resumes/markdown/index.md
+    - resumes/markdown/index.md
     - resumes/latex/index.md
     # - HTML: resumes/markdown/index.md
     # - PDF: resumes/resume.pdf
@@ -59,7 +57,8 @@ nav:
       - rtfm/cloud/google.md
       - rtfm/cloud/grafana.md
       - rtfm/cloud/microsoft.md
-      - Private: rtfm/cloud/xcp-ng.md
+      - rtfm/cloud/hashicorp.md
+      - rtfm/cloud/xcp-ng.md
     - Network:
       - rtfm/network/byod.md
       - rtfm/network/dns.md
@@ -92,12 +91,13 @@ nav:
     - Misc:
       - rtfm/linux/asahi.md
       - rtfm/linux/awesome.md
+      - rtfm/css.md
       - rtfm/misc/web-browsers.md
       - jPod: rtfm/misc/jpod.md
       - SHIELD: rtfm/misc/slinky.md
       - TARDIS: rtfm/misc/tardis.md 
   - Social Media: 
-    - about/contact.md
+    # - about/contact.md
     - Apple Music: https://music.apple.com/danslinky
     - bit.ly: https://bit.ly/m/danslinky
     - Blogger: https://blogger.com/danslinky
@@ -128,6 +128,7 @@ nav:
     - WordPress: https://wordpress.com/danslinky
     - X: https://twitter.com/danslinky
     - YouTube: https://youtube.com/danslinky
+  - tags.md
 ##
 # Theme
 ##
@@ -183,10 +184,18 @@ theme:
 # Plugins
 ##
 plugins:
+  # - info # archive, used for bug reports
+  # - privacy:
+  #     assets_exclude: 
+  #       - unpkg.com/*
   - tags:
-      tags_file: tags.md
+      tags: true # stops them rendering on pages (insiders)
+      tags_file: tags.md # not needed with insiders
   - blog:
+      # authors_profiles: true # insiders only
       post_date_format: full
+      # post_url_date_format: yyyy-MM-dd
+      post_url_format: "{slug}"
       blog_dir: blog
       post_dir: blog/posts
       authors_file: blog/.authors.yml
@@ -196,6 +205,13 @@ plugins:
   - social
   - search
   - offline
+  # - rss:
+  #     match_path: blog/.* 
+  #     # date_from_meta:
+  #     #   as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
 
 ##
 # Markdown Extensions

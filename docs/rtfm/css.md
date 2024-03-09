@@ -1,12 +1,8 @@
 # CSS
 
-```yaml
+```yaml title="Dan Slinky's terrible CSS"
 extra_css:
 - css/rtfm-branding.css
-```
-
-```html
-<link stylesheet="branding.css" />
 ```
 
 - :heart: [codepen](https://codepen.io)
