@@ -1,14 +1,12 @@
-# Contact
+# :fontawesome-solid-paper-plane: Contact
 
-Contact me @danslinky on the Socials, or @outlook.com
+Contact me __@danslinky__ on the Socials, or `@outlook.com`
 
-You can also Google `swissslinky`.
+You can also :material-gmail: `swissslinky`.
 
-You can send me Signals or Telegrams, and I can read encrypted communications.
+You can send me :simple-signal: or :simple-telegram:, and I can read encrypted communications.
 
-If you would like to offer me a job, open a GitHub Issue on my website.
-
-```pgp
+```pgp title="Dan Slinky's Keybase Public GPG Key"
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: Keybase OpenPGP v2.0.49
 Comment: https://keybase.io/crypto
