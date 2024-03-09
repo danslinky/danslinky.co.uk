@@ -1,3 +1,6 @@
+---
+tags: [platform engineer, sre, devops, devsecops,kubernetes,aws,terraform]
+---
 # :simple-markdown: Dan Slinky ![](../../favicon.png "Dan Slinky's Blue Peter badge"){ align=right }
 
 [__www__](https://rtfm.danslinky.co.uk/resumes)  [:material-linkedin:](https://linkedin.com/in/danslinky "Visit Dan Slinky's LinkedIn profile")  [:simple-github:](https://github.com/danslinky "Visit Dan Slinky's GitHub profile")  [:material-email:](mailto:sysadmin@danslinky.co.uk "Email Dan Slinky")

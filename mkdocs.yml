@@ -189,8 +189,8 @@ plugins:
   #     assets_exclude: 
   #       - unpkg.com/*
   - tags:
-      tags: false # stops them rendering on pages (insiders)
-      # tags_file: tags.md # not needed with insiders
+      tags: true # stops them rendering on pages (insiders)
+      tags_file: tags.md # not needed with insiders
   - blog:
       # authors_profiles: true # insiders only
       post_date_format: full
