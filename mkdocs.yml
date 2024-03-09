@@ -191,7 +191,7 @@ plugins:
       tags: false # stops them rendering on pages (insiders)
       # tags_file: tags.md # not needed with insiders
   - blog:
-      authors_profiles: true
+      # authors_profiles: true # insiders only
       post_date_format: full
       # post_url_date_format: yyyy-MM-dd
       post_url_format: "{slug}"
