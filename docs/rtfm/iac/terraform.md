@@ -32,7 +32,7 @@ https://github.com/gruntwork-io/terragrunt/releases/download/v0.55.9/terragrunt_
 
 ## Projects
 
-- [statuscake](statuscake.md)
+- [statuscake](/cloud/statuscake.md)
   - https://developers.statuscake.com/guides/terraform/introduction
 - github
 - datadog

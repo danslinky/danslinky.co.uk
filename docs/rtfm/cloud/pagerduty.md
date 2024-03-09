@@ -6,5 +6,5 @@ ALERT: Production is down.
 
 ## SAML
 
-See [sso](security/sso.md) for details of integration.
+See [sso](/rtfm/security/sso.html) for details of integration.
 
