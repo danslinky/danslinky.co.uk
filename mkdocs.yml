@@ -91,6 +91,7 @@ nav:
     - Misc:
       - rtfm/linux/asahi.md
       - rtfm/linux/awesome.md
+      - rtfm/css.md
       - rtfm/misc/web-browsers.md
       - jPod: rtfm/misc/jpod.md
       - SHIELD: rtfm/misc/slinky.md
@@ -183,7 +184,7 @@ theme:
 # Plugins
 ##
 plugins:
-  - info
+  # - info # archive, used for bug reports
   # - privacy:
   #     assets_exclude: 
   #       - unpkg.com/*

@@ -1,7 +1,7 @@
 # StatusCake
 
-!!! info inline "[My Status Page](/status)"
-    Please check my realtime status page for up to date information on the latest status of my page.
+!!! info inline "[My Status Page](https://statuscake.danslinky.co.uk/)"
+    Please check my realtime status page for up to date information on the latest status of my status page.
 
 > HTTP, SSL, DNS and Domain monitoring using StatusCake.
 
