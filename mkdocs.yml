@@ -184,8 +184,11 @@ theme:
 # Plugins
 ##
 plugins:
+  - info
+  - privacy
   - tags:
-      tags_file: tags.md
+      tags: false # stops them rendering on pages
+      tags_file: tags.md 
   - blog:
       post_date_format: full
       # post_url_date_format: yyyy-MM-dd
