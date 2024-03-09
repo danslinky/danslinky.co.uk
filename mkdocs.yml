@@ -185,7 +185,9 @@ theme:
 ##
 plugins:
   - info
-  - privacy
+  # - privacy:
+  #     assets_exclude: 
+  #       - unpkg.com/*
   - tags:
       tags: false # stops them rendering on pages
       tags_file: tags.md 
