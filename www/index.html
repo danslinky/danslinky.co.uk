@@ -98,10 +98,20 @@
       </style>
       <script>
 
-
+         
 
          window.addEventListener("DOMContentLoaded", function () {
 
+            var timerSpan = document.getElementById("timer");
+         var timer = 30; // Set the initial timer value
+         var countdown = setInterval(function () {
+            timer--;
+            timerSpan.textContent = timer;
+
+            if (timer <= 0) {
+               clearInterval(countdown);
+            }
+         }, 1000);
             // Make sure DOM is loaded
             var disclaimer = document.getElementById("disclaimer");
             var video = document.getElementById("myvideo");
@@ -126,13 +136,11 @@
                button.click();
             });
 
-            var timerSpan = document.getElementById("timer");
-            var timer = 30; // Set the initial timer value
 
 
             // hide the video until the user clicks the play button
             video.hidden = true;
-            disclaimer.hidden = true;
+            // disclaimer.hidden = true;
 
             // display the iframe in the centre of the screen
             var container = document.getElementById("container");
@@ -155,14 +163,7 @@
                button.hidden = true;
                disclaimer.hidden = false;
 
-               var countdown = setInterval(function () {
-                  timer--;
-                  timerSpan.textContent = timer;
 
-                  if (timer <= 0) {
-                     clearInterval(countdown);
-                  }
-               }, 1000);
 
 
 
@@ -205,7 +206,7 @@
    <body>
       <div id="myModal" class="modal">
          <div class="modal-content">
-            <p>Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber!</p>
+            <p>Cyber Cyber Cyber!</p>
             <button id="okButton">OK</button>
          </div>
       </div>
@@ -219,7 +220,7 @@
             <p>Your user agent does not support the HTML5 Video element. Shame.</p>
          </video>
          <!-- <button id="playButton">Enter</button> -->
-      
+
          <button id="playButton"
             style="background-color: transparent; border: none; width: 100%; height: 100%; position: absolute;"></button>
       </div>
