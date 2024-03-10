@@ -181,8 +181,8 @@
                disclaimer.style.width = "100%";
                disclaimer.style.height = "100%";
                disclaimer.style.display = "flex";
-               disclaimer.style.justifyContent = "center";
-               disclaimer.style.alignItems = "center";
+               disclaimer.style.justifyContent = "right";
+               disclaimer.style.alignItems = "right";
                disclaimer.style.fontSize = "2em";
                disclaimer.style.zIndex = "1";
                // hide all <p>
@@ -208,13 +208,14 @@
    <body>
       <div id="myModal" class="modal">
          <div class="modal-content">
-            <p>Cyber Cyber Cyber!</p>
-            <button id="okButton">OK</button>
+            <p>Would you like to watch a video about Cthulbernetes?</p>
+            <button id="okButton">Yes</button>
+            <button id="noButton">No</button>
          </div>
       </div>
       <!-- <iframe width="400" height="400" src="video.html" frameborder="0" allowfullscreen></iframe> -->
       <div id="container">
-         <p id="disclaimer">Ad will end in&nbsp;<span id="timer">30</span></p>
+         <p id="disclaimer">Redirecting you in&nbsp;<span id="timer">30</span></p>
          <video loop="false" controls width="80%" id="myvideo" preload="auto" poster="https://rtfm.danslinky.co.uk/favicon.png">
             <source id='mp4'
                src="https://mattermost.web.cern.ch/files/s1g34urnd3bqfyae9q464ewh6e/public?h=QCidVLeyythYZDqNmskoIaeovZmQocPxtqhb0ddeLJ0"
