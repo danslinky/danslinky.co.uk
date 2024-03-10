@@ -74,6 +74,28 @@
 
       <!-- shit css... -->
       <link rel="stylesheet" href="./slinky.css" />
+      <style>
+         .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+         }
+
+         .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+         }
+      </style>
       <script>
 
 
@@ -84,10 +106,25 @@
             var disclaimer = document.getElementById("disclaimer");
             var video = document.getElementById("myvideo");
             var button = document.getElementById("playButton");
+            var modal = document.getElementById("myModal");
+            var okButton = document.getElementById("okButton");
 
             // make the button width and height 100%
-            
 
+            // make the button width and height 100%
+            button.style.width = "100%";
+            button.style.height = "100%";
+
+            // Show the modal
+            modal.style.display = "block";
+
+            okButton.addEventListener("click", function () {
+               // Hide the modal
+               modal.style.display = "none";
+
+               // Start the video
+               button.click();
+            });
 
             var timerSpan = document.getElementById("timer");
             var timer = 30; // Set the initial timer value
@@ -103,7 +140,9 @@
             container.style.justifyContent = "center";
             container.style.alignItems = "center";
 
-           
+            // alert("Cyber!")
+
+
 
             button.addEventListener("click", function () {
                video.muted = false;
@@ -117,13 +156,13 @@
                disclaimer.hidden = false;
 
                var countdown = setInterval(function () {
-                timer--;
-                timerSpan.textContent = timer;
+                  timer--;
+                  timerSpan.textContent = timer;
 
-                if (timer <= 0) {
-                    clearInterval(countdown);
-                }
-            }, 1000);
+                  if (timer <= 0) {
+                     clearInterval(countdown);
+                  }
+               }, 1000);
 
 
 
@@ -153,15 +192,23 @@
          });
       </script>
       <style>
-         html, body, #container {
-             height: 100%;
-             margin: 0;
-             padding: 0;
+         html,
+         body,
+         #container {
+            height: 100%;
+            margin: 0;
+            padding: 0;
          }
-     </style>
+      </style>
    </head>
 
    <body>
+      <div id="myModal" class="modal">
+         <div class="modal-content">
+            <p>Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber! Cyber!</p>
+            <button id="okButton">OK</button>
+         </div>
+      </div>
       <!-- <iframe width="400" height="400" src="video.html" frameborder="0" allowfullscreen></iframe> -->
       <div id="container">
          <p id="disclaimer">Ad will end in&nbsp;<span id="timer">30</span></p>
@@ -169,10 +216,12 @@
             <source id='mp4'
                src="https://mattermost.web.cern.ch/files/s1g34urnd3bqfyae9q464ewh6e/public?h=QCidVLeyythYZDqNmskoIaeovZmQocPxtqhb0ddeLJ0"
                type='video/mp4' />
+            <p>Your user agent does not support the HTML5 Video element. Shame.</p>
          </video>
          <!-- <button id="playButton">Enter</button> -->
-         <p>Click</p>
-<button id="playButton" style="background-color: transparent; border: none; width: 100%; height: 100%; position: absolute;"></button>
+      
+         <button id="playButton"
+            style="background-color: transparent; border: none; width: 100%; height: 100%; position: absolute;"></button>
       </div>
 
       <!-- <p> -->
