@@ -98,20 +98,20 @@
       </style>
       <script>
 
-         
+
 
          window.addEventListener("DOMContentLoaded", function () {
 
             var timerSpan = document.getElementById("timer");
-         var timer = 30; // Set the initial timer value
-         var countdown = setInterval(function () {
-            timer--;
-            timerSpan.textContent = timer;
+            var timer = 30; // Set the initial timer value
+            var countdown = setInterval(function () {
+               timer--;
+               timerSpan.textContent = timer;
 
-            if (timer <= 0) {
-               clearInterval(countdown);
-            }
-         }, 1000);
+               if (timer <= 0) {
+                  clearInterval(countdown);
+               }
+            }, 1000);
             // Make sure DOM is loaded
             var disclaimer = document.getElementById("disclaimer");
             var video = document.getElementById("myvideo");
@@ -156,6 +156,8 @@
                video.muted = false;
                video.volume = 1.0;
                video.controls = true;
+               // advanced the video to the value of the timer
+               video.currentTime = 30 - timer;
                video.play();
                video.hidden = false;
                video.controls = false;
