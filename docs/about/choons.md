@@ -12,6 +12,30 @@
   ></iframe>
 </div>
 
+## Old man yells at Linux
+
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-b92xqclgcg8pl8e1.cloudflarestream.com/4bc1413beec877d466ecb47920e68d7a/iframe?poster=https%3A%2F%2Fcustomer-b92xqclgcg8pl8e1.cloudflarestream.com%2F4bc1413beec877d466ecb47920e68d7a%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&primaryColor=%23000000"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+
+## Tuxminator: Judgement Day
+
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-b92xqclgcg8pl8e1.cloudflarestream.com/0bb44a01a5c85c710fbc5a1f171a53ce/iframe?poster=https%3A%2F%2Fcustomer-b92xqclgcg8pl8e1.cloudflarestream.com%2F0bb44a01a5c85c710fbc5a1f171a53ce%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&title=Tuxminator%3A++Judgement+Day&primaryColor=%23000000"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+
 ## Cthulbernetes
 
 <div style="position: relative; padding-top: 177.77777777777777%;">
