@@ -82,8 +82,7 @@ learning, and promoting team growth.
 <!-- ### :material-office-building: DevOps Engineer, Capgemini, 2011-2013
 - Rackspace, Royal Mail, Burberry, Michael Page, HMRC -->
 
-### :material-office-building: Operations Engineer, Sift, 2009-2011 (Drupal, CentOS, Xen, VMWare/ESXi)
-<span style="vertical-align: super; font-size: medium;">aaaa</span>
+### :material-office-building: Operations Engineer, Sift, 2009-2011: Drupal, CentOS, Xen, VMWare/ESXi
 
 ### :material-school: BA (Hons) Information Systems Analysis at UWE, Bristol, 2009
 ### :material-atom: Technical Student, CERN, Switzerland, 2007-2008
