@@ -37,6 +37,7 @@ nav:
     - about/index.md
     - about/contact.md
     - about/choons.md
+    - about/social.md
   - blog/index.md
   - Resumes:
     - resumes/index.md
@@ -96,38 +97,6 @@ nav:
       - jPod: rtfm/misc/jpod.md
       - SHIELD: rtfm/misc/slinky.md
       - TARDIS: rtfm/misc/tardis.md 
-  - Social Media: 
-    # - about/contact.md
-    - Apple Music: https://music.apple.com/danslinky
-    - bit.ly: https://bit.ly/m/danslinky
-    - Blogger: https://blogger.com/danslinky
-    - Deezer: https://deezer.com/danslinky
-    - Discord: https://discordapp.com/users/danslinky
-    - Etsy: https://danslinky.etsy.com/
-    - Facebook: https://facebook.com/danslinky
-    - GitHub: https://github.com/danslinky
-    - Google Developer: https://developers.google.com/danslinky
-    - Google Play: https://play.google.com/danslinky
-    - Gravatar: https://gravatar.com/danslinky
-    - Instagram: https://instagram.com/danslinky
-    - LinkedIn: https://linktr.ee/danslinky
-    - Medium: https://medium.com/danslinky
-    - Pinterest: https://pinterest.com/danslinky
-    - Reddit: https://reddit.com/danslinky
-    - rick.ly: https://bit.ly/danslinky
-    - Signal: https://signal.com/danslinky
-    - Slack: https://slack.com/danslinky
-    - Snapchat: https://snapchat.com/danslinky
-    - SoundCloud: https://soundcloud.com/danslinky
-    - Spotify: https://spotify.com/danslinky
-    - Telegram: https://telegram.com/danslinky
-    - TikTok: https://tiktok.com/danslinky
-    - Tinder: https://tinder.com/@danslinky
-    - Tumblr: https://tumblr.com/danslinky
-    - WhatsApp: https://whatsapp.com/danslinky
-    - WordPress: https://wordpress.com/danslinky
-    - X: https://twitter.com/danslinky
-    - YouTube: https://youtube.com/danslinky
   - tags.md
 ##
 # Theme
@@ -282,7 +251,7 @@ extra:
     # Annoying cookie popup
     title: "🇬🇧 ⚖️ Biscuit consent"
     cookies:
-      chocolate: "Chocolate Chip"
+      chocolate: "Petite Beurre"
     description: >-
       <blockquote>
       This site uses cookies to enhance your experience through analytics, SEO,

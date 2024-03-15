@@ -82,10 +82,13 @@ learning, and promoting team growth.
 <!-- ### :material-office-building: DevOps Engineer, Capgemini, 2011-2013
 - Rackspace, Royal Mail, Burberry, Michael Page, HMRC -->
 
-### :material-office-building: Operations Engineer, Sift, 2009-2011 <span><small>(Drupal, CentOS, Xen, VMWare/ESXi)</small></span>
+### :material-office-building: Operations Engineer, Sift, 2009-2011 (Drupal, CentOS, Xen, VMWare/ESXi)
+<span style="vertical-align: super; font-size: medium;">aaaa</span>
 
 ### :material-school: BA (Hons) Information Systems Analysis at UWE, Bristol, 2009
-### :material-atom: Technical Student, CERN, Switzerland, 2007-2008 (Linux, PXE, tftpboot, ia64, Perl, XML/RPC & Oracle)
+### :material-atom: Technical Student, CERN, Switzerland, 2007-2008
+Linux, PXE, tftpboot, ia64, Perl, XML/RPC & Oracle
+
 ### :material-school: BTEC National Diploma IT Practitioner at Cornwall College, 2005
 ### :fontawesome-solid-network-wired: CISCO Certified Network Associate, CISCO Academy, 2004
 ## :material-gamepad: Hobbies include :pizza: , :material-bike: , and :simple-linux: 
