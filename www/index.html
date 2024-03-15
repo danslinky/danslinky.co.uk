@@ -1,18 +1,10 @@
 <!DOCTYPE html>
 <html5 lang="en">
-   <!-- HELLO, FRIEND -->
-
    <head>
-      <!-- emojis -->
       <meta charset="utf-8" />
-
-      <!-- fav.png -->
       <link rel="icon" type="image/png" href="favicon.png" />
       <link rel="apple-touch-icon" href="favicon.png" />
-
-      <!-- nokia phones -->
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-
       <!-- quick, hit the ESC key! -->
       <meta http-equiv="refresh"
          content="30; url=https://rtfm.danslinky.co.uk/# 👾 𝒐̲̅𝒑̲̅𝒆̲̅𝒏̲̅2̲̅𝒘̲̅𝒐̲̅𝒓̲̅𝒌̲̅ @𝙙𝙖𝙣𝙨𝙡𝙞𝙣𝙠𝙮 🅓🅐🅝 🆂🅻🅸🅽🅺🆈" />
@@ -72,248 +64,62 @@
       <![endif]-->
       <!-- External resources -->
 
-      <!-- shit css... -->
+      <!-- sexy icons and emojis -->
       <script src="https://kit.fontawesome.com/b1f82b01e2.js" crossorigin="anonymous"></script>
 
+      <!-- shit CSS -->
       <link rel="stylesheet" href="./slinky.css" />
-      <style>
-         /* .modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgb(0, 0, 0);
-            background-color: rgba(0, 0, 0, 0.4);
-         }
 
-         .modal-content {
-            background-color: #fefefe;
-            margin: 15% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 20%;
-         } */
-      </style>
-      <script>
+      <!-- jabbascript -->
+      <script src="slinky.js"></script>
 
+      <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.4/dist/terminal.min.css" />
 
-
-         window.addEventListener("DOMContentLoaded", function () {
-
-            //hint: hold shift while opening to keep more than 1 open
-            let ds = [...document.querySelectorAll('details')];
-            ds.forEach(d => d.addEventListener('click', e => e.shiftKey || ds.filter(i => i != d).forEach(i => i.removeAttribute('open'))))
-
-            document.getElementById('liveSupportButton').addEventListener('click', function () {
-               var chat = document.getElementById('liveSupportChat');
-               if (chat.style.display === 'none') {
-                  chat.style.display = 'block';
-               } else {
-                  chat.style.display = 'none';
-               }
-            });
-
-
-            var timerSpan = document.getElementById("timer");
-            var progressBar = document.getElementById('progressBar'); // Get the progress bar element
-            var timer = 30; // Set the initial timer value
-
-            var countdown = setInterval(function () {
-               timer--;
-               timerSpan.textContent = timer;
-               progressBar.value = 30 - timer; // Update the progress bar
-
-               if (timer <= 0) {
-                  clearInterval(countdown);
-               }
-            }, 1000);
-
-            // Make sure DOM is loaded
-            var disclaimer = document.getElementById("disclaimer");
-            var video = document.getElementById("myvideo");
-            var button = document.getElementById("playButton");
-            var modal = document.getElementById("myModal");
-            var okButton = document.getElementById("okButton");
-
-            // Show the modal
-            modal.style.display = "block";
-
-            okButton.addEventListener("click", function () {
-               // Hide the modal
-               modal.style.display = "none";
-
-               // Start the video
-               button.click();
-            });
-
-            video.hidden = true;
-
-            // force the video to be dead centre
-            var container = document.getElementById("container");
-            container.style.display = "flex";
-            container.style.justifyContent = "center";
-            container.style.alignItems = "center";
-
-            document.getElementById('noButton').addEventListener('click', function () {
-               window.location.href = 'https://rtfm.danslinky.co.uk/#skippy';
-            });
-
-            // wait for the user to click the button
-            button.addEventListener("click", function () {
-               // alert("The Production deployment has failed. Firewall disabled.");
-               video.muted = false;
-               video.volume = 1.0;
-               video.controls = true;
-
-               // advance the video if the user hasn't clicked the button
-               video.currentTime = 30 - timer;
-               video.play();
-               video.hidden = false;
-               video.controls = false;
-
-               // hide the button
-               button.hidden = true;
-               disclaimer.hidden = false;
-
-               document.body.style.backgroundColor = "black";
-               document.body.style.color = "red";
-
-               
-               var p = document.getElementsByTagName("p");
-               for (var i = 0; i < p.length; i++) {
-                  p[i].hidden = true;
-               }
-
-            });
-            // button.click();
-         });
-      </script>
-      <style>
-         html,
-         body,
-         #container {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-         }
-      </style>
    </head>
 
    <body>
 
-
-
-
-      <div id="liveSupportChat" style="display: none;">
-         <h2>Live Support</h2>
-
-         <div id="chatMessages">
-            <p>The free tier does not provide access to Live Support.</p>
-            <button class="octopusButton"><i class="fas fa-octopus-deploy"></i>Upgrade on Patron</button></p>
+      <div class="terminal-card" id="terminal-card"> 
+         
+         <div class="terminal-body"> 
+            <h1><i id="cthulbernetes-indicator" class="fa-brands fa-octopus-deploy"></i>Cthulbernetes Scan</h1>
+             <p>Scanning your device...</p>
+             <div id="progress-percentage" class="progress-bar progress-bar-show-percent">
+                 <div class="progress-bar-filled" style="width: 0%;" data-filled="0%"></div>
+             </div>
+             <div class="button-group"> 
+                 <button id="okButton" class="btn btn-error">Skip tests</button>
+                 <button id="noButton" class="btn">Reboot firewall</button>
+             </div>
+             <p>You will be redirected in &nbsp;<span id="timerSpan"></span></p>
          </div>
-         <input id="chatInput" type="text" placeholder="Type your message...">
-      </div>
+     </div>
+     
 
-      <div id="myModal" class="modal">
-         <div class="modal-content">
-
-
-
-
-
-            <h1><i class="fa-brands fa-octopus-deploy"></i> Cthulbernetes Deployment Console</h1>
-            <button id="editButton">Edit YAML</button>
-            <button id="liveSupportButton">Live Support</button>
-
-
-            <container>
-               <h2>Deployment Testing Status</h2>
-               <details>
-                  <summary class="success">UI Unit Tests</summary>
-                  <ul>
-                     <li>
-                        <div class="success">Abusing CSS...<span class="status">succeeded</span></div>
-                     </li>
-                     <li>
-                        <div class="success">Installing Jabbascript library...<span class="status">succeeded</span></div>
-                     </li>
-                  </ul>
-               </details>
-               <details>
-                  <summary class="warning">API Unit Tests</summary>
-                  <ul>
-                     <li>
-                        <div class="success"><code>true</code><span class="status">succeeded</span></div>
-                     </li>
-                     <li>
-                        <div class="warning">NOICE testing...<span class="status">warning</span><span class="info">disabled until JIRA-6969 is fixed</span></div>
-                     </li>
-                     
-                  </ul>
-               </details>
-               <details open="open">
-                  <summary class="failure">Security and Credential Tests</summary>
-                  <ul>
-                     <li>
-                        <div class="success">CISO approval...<span class="status">succeeded</span></div>
-                     </li>
-                     <li>
-                        <div class="success">Platform Team approval...<span class="status">succeeded</span></div>
-                     </li>
-                     <li>
-                        <div class="failure">Credential scanning...<span class="status">failure</span><span
-                              class="info">info Production service account token detected.</span></div>
-                     </li>
-                  </ul>
-               </details>
-            </container>
-
-
-            <p>Rolling back production...</p>
-            <progress id="progressBar" value="0" max="30"></progress>
-            <p>Would you like to skip the tests?</p>
-            <button id="okButton" class="btn btn-danger">Skip tests</button>
-            <!-- <button id="okButton">Yes</button> -->
-            <button id="noButton">Reboot firewall</button>
-
-            <p>
-               Rollback complete in &nbsp;<span id="timer">30</span>
-            <p>
-         </div>
-      </div>
-      <div id="container">
-         <div id="deploymentMessage" style="display: none;">Deployment Failed</div>
+      <div id="video-container">
          <!-- src="https://mattermost.web.cern.ch/files/s1g34urnd3bqfyae9q464ewh6e/public?h=QCidVLeyythYZDqNmskoIaeovZmQocPxtqhb0ddeLJ0" -->
-
          <video loop="false" controls width="100%" id="myvideo" preload="auto"
             poster="https://rtfm.danslinky.co.uk/favicon.png">
-            <source id='mp4' src="https://mattermost.web.cern.ch/files/s1g34urnd3bqfyae9q464ewh6e/public?h=QCidVLeyythYZDqNmskoIaeovZmQocPxtqhb0ddeLJ0" type='video/mp4' />
+            <source id='mp4'
+               src="https://customer-b92xqclgcg8pl8e1.cloudflarestream.com/26527a9a42dec79fcbaa1de6b5512dc5/downloads/default.mp4"
+               type='video/mp4' />
             <p>Your user agent does not support the HTML5 Video element. Shame.</p>
          </video>
-         <button id="playButton"></button>
+         <button id="playButton" hidden></button>
+         
       </div>
 
-      <!-- <img src="https://rtfm.danslinky.co.uk/favicon.png" alt="Blue Peter Badge" />
-   <br />
-   init<br />
-   Loading slinkyd services...<br />
-   Discovering SlinkedIn network...<br />
-   Activating Positive Slinkotron Booster...<br />
-   Starting the Large Pixel Collider...</p>
 
-   <h1><span style=color:green>🆂</span>🅼🅰🆁🆃<span style=color:green>🆈</span></h1>
-   <h1><span style=color:green>🆂</span><span style=color:orange>🅺</span><span style=color:green>🅸</span>🅿🅿<span
+   <!--
+   <h1 class="wordle"><span style=color:green>🆂</span>🅼🅰🆁🆃<span style=color:green>🆈</span></h1>
+   <h1 class="wordle"><span style=color:green>🆂</span><span style=color:orange>🅺</span><span style=color:green>🅸</span>🅿🅿<span
          style=color:green>🆈</span></h1>
-   <h1><span style=color:green>🆂</span><span style=color:orange>🅺</span><span style=color:green>🅸🅽</span>🅽<span
+   <h1 class="wordle"><span style=color:green>🆂</span><span style=color:orange>🅺</span><span style=color:green>🅸🅽</span>🅽<span
          style=color:green>🆈</span></h1>
-   <h1><span style=color:green>🆂</span>🆃<span style=color:green>🅸🅽🅺🆈</span></h1>
-   <h1><span style="color:rgb(184, 43, 43)">🆂🅻🅸🅽🅺🆈</span></h1> -->
+   <h1 class="wordle"><span style=color:green>🆂</span>🆃<span style=color:green>🅸🅽🅺🆈</span></h1>
+   <h1 class="wordle flash"><span style="color:rgb(184, 43, 43)">🆂🅻🅸🅽🅺🆈</span></h1> 
+    -->
 
-      <!-- <p>ERROR: <a href="https://rtfm.danslinky.co.uk/">fix</a></p> -->
    </body>
 
    </html>
