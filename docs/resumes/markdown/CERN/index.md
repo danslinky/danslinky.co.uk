@@ -28,8 +28,6 @@ System Administrator | LHCb | [EP-LBC-2024-26-GRAE](EP-LBC-2024-26-GRAE.md)| con
 
 ~~pending,attempted,interview,FAIL~~
 
-~~stubornly ignore GRAE eligibility ~~
-
 ## IT :computer:
 
 [it.web.cern.ch](https://information-technology.web.cern.ch/)
