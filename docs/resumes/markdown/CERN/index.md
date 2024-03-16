@@ -27,7 +27,8 @@ System Administrator | LHCb | [EP-LBC-2024-26-GRAE](EP-LBC-2024-26-GRAE.md)| con
 2007/08 Technical Student | :skull: :penguin: :heart: | IT-FIO-LA-TS-IDK | Achievement Unlocked :tada:
 
 ~~pending,attempted,interview,FAIL~~
-~~stumbornly ignore GRAE eligibility ~~ 
+
+~~stubornly ignore GRAE eligibility ~~
 
 ## IT :computer:
 
