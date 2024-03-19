@@ -24,7 +24,10 @@ DevOps Engineer | Database | IT-DA-ASM-2024-37-GRAE| pending
 Secrets Management Service Engineer | Compute | IT-CD-CC-2024-50-GRAE| pending
 Large Scale Compute Engineer | Compute | [IT-CD-CC-2024-51-GRAE](IT-CD-CC-2024-51-GRAE.md) |  pending
 System Administrator | LHCb | [EP-LBC-2024-26-GRAE](EP-LBC-2024-26-GRAE.md)| considering
+Junior Alumni Relations Officer | Alumni | [IR-DS-AR-2024-25-GRAE](IR-DS-AR-2024-25-GRAE.md) | considering
 2007/08 Technical Student | :skull: :penguin: :heart: | IT-FIO-LA-TS-IDK | Achievement Unlocked :tada:
+
+5119 and 5631
 
 ~~pending,attempted,interview,FAIL~~
 
