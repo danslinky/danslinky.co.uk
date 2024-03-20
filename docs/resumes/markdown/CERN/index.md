@@ -78,7 +78,7 @@ The section provides Messaging, data Streaming, Monitoring platforms and service
 
 The section also provides support to the group services and activities in the External Clouds Service (Oracle Cloud).
 
-##### IT-PW
+#### IT-PW
 
 __Platforms & Workflows__
 
@@ -91,7 +91,7 @@ platforms for developers: version control, container management and machine lear
 - Authoring tools
 - Platform for managed application deployments (engineering and administrative applications)
 
-###### WA
+##### WA
 
 __Web and Authoring__
 
@@ -99,7 +99,7 @@ The Web and Authoring section provides tools and platforms for authoring, collab
 
 These include the central Web hosting services, Online Collaboration tools (Overleaf, SharePoint, TWiki, CodiMD), Web content management systems (Drupal), Publishing services (E-publishing - OJS), static documentation sites, Search as a Service to support information access for large applications (Indico, EDMS) and the global CERN Search engine, as well as Source Code management (Gitlab).
 
-###### PI
+##### PI
 
 __Platform Infrastructure__
 
