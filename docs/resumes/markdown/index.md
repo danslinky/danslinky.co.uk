@@ -89,7 +89,7 @@ learning, and promoting team growth.
 
 ### :material-school: BA (Hons) Information Systems Analysis at UWE, Bristol, 2009
 ### :material-atom: Technical Student, CERN, Switzerland, 2007-2008
-Linux, PXE, tftpboot, ia64, Perl, XML/RPC & Oracle
+Linux, PXE, tftpboot, ia64, Perl, XML/RPC & Oracle. Some of it still in production.
 
 ### :material-school: BTEC National Diploma IT Practitioner at Cornwall College, 2005
 ### :fontawesome-solid-network-wired: CISCO Certified Network Associate, CISCO Academy, 2004
