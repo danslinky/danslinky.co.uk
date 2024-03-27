@@ -19,7 +19,7 @@ learning, and promoting team growth.
 
 ### :material-office-building: Hergersheimer GmbH
 
-#### 2024 Freelance sysadmin
+#### 2024-`time.now()` Freelance sysadmin
 
 - Focussing on :simple-asahilinux: __Linux__ health information systems management and document retrieval, platform documentation, and __Lua__ scripting. I'm responsible for the deployments of __OPNSense__, __XCP-ng__, self-hosted __Infisical__ and __Cloudflare__.
 
