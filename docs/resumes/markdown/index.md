@@ -19,7 +19,7 @@ learning, and promoting team growth.
 
 ### :material-office-building: Hergersheimer GmbH
 
-#### 2024 Freelance sysadmin
+#### 2024-`time.now()` Freelance sysadmin
 
 - Focussing on :simple-asahilinux: __Linux__ health information systems management and document retrieval, platform documentation, and __Lua__ scripting. I'm responsible for the deployments of __OPNSense__, __XCP-ng__, self-hosted __Infisical__ and __Cloudflare__.
 
@@ -27,15 +27,18 @@ learning, and promoting team growth.
 
 #### 2022/23 Lead Platform Engineer
 
-- As a technical leader in the Platform Engineering and SecOps team, I oversaw operations for a multi-tenanted AI SaaS platform for Enterprise and Defense customers utilizing __Terragrunt__, :material-terraform: __Terraform__,  on :fontawesome-brands-aws: , and other platforms.
+<!-- In my role as a technical leader within the Platform Engineering and SecOps teams, I spearheaded initiatives that have significantly enhanced operational efficiencies and optimized cloud cost management across a diverse tech stack. -->
 
-- Promoted robust security and secrets management, aligning with stringent customer requirements and integrating SecOps practices into deployment pipelines. Utilized __CI/CD__ tools such as :simple-github: __GitHub Actions__, :simple-circleci: __CircleCI__, and :simple-argo: __ArgoCD__ to facilitate efficient and reliable deployments while ensuring compliance with security standards and protocols.
+- Led technical operations for a cutting-edge AI SaaS platform catering to Enterprise and Defense customers, leveraging IaC tools such as __Terragrunt__, :simple-terraform: __Terraform__, and __Kubernetes__. My leadership ensured seamless, scalable, and secure services across various services and teams.
+- Achieved a substantial reduction in monthly cloud expenditures by approximately $100,000 within the first six months. This was accomplished through meticulous infrastructure and code reviews, alongside the implementation of __FinOps__ initiatives aimed at enhancing service ownership and accountability within Microservice architecture.
+- Pioneered the adoption of opencost.io, integrated with __Prometheus__ and __Grafana__, complemented by a suite of other FinOps tools. This initiative significantly improved cloud spend transparency and management, enabling more informed decision-making.
+- Championed the implementation of alternative Identity and __SSO__ solutions to mitigate the risks associated with PaaS vendor lock-in, fostering a more flexible and secure cloud infrastructure. This strategic move would have enhanced organizational adaptability and security posture.
+- Advanced our security and secrets management practices to meet the rigorous demands of our customers, embedding __SecOps__ principles directly into our deployment pipelines. Through the adept use of CI/CD tools such as __GitHub Actions__, __CircleCI__, and __ArgoCD__, I have streamlined deployments, ensuring they meet the highest standards of reliability and security compliance.
+- Expanded the platform's SSO capabilities by integrating __SAML__ and Azure AD, supported by Auth0, enhancing our authentication offerings. 
 
-- Spearheaded a significant AWS cost reduction initiative, championing __FinOps__ practices and optimizing cloud cost reporting using tools like [opencost.io](https://www.opencost.io/ "OpenCost.io"), kubecost, __Prometheus__, and SysDig. I implemented strategies to foster service ownership and identified areas for further optimisation, emphasising the importance of financial responsibility and efficiency within the organisation.
+<!-- Additionally, I evaluated the technical feasibility of incorporating Plausible web analytics and played a key role in the adoption of graph database technologies like Tigergraph and Neo4j, further enriching our platform's capabilities. -->
 
-- Collaborated on OpenTracing/Telemetry implementation to enhance application observability and performance, particularly in environments utilizing :simple-apachekafka: __Kafka__ and Benthos for message routing.
-
-- I expanded the platforms __SSO__ offering by implementing __SAML__, __Azure AD__ integration, supported by Auth0. I also assessed the technical feasibility of Plausible web analytics and contributed to implementations of Tigergraph and Neo4j.
+<!-- My strategic approach to cloud cost optimization, deep technical expertise in deploying specialized tools, and proactive stance on avoiding vendor lock-in, coupled with a strong emphasis on security and efficient deployment practices, offer considerable advantages to organizations navigating today's dynamic tech landscape. -->
 
 <!-- - I also oversaw recruitment into the team, conducting interviews, promoting team planning, before transitioning responsibilities to a permanent Engineering Manager and recruitment team. -->
 
@@ -86,7 +89,7 @@ learning, and promoting team growth.
 
 ### :material-school: BA (Hons) Information Systems Analysis at UWE, Bristol, 2009
 ### :material-atom: Technical Student, CERN, Switzerland, 2007-2008
-Linux, PXE, tftpboot, ia64, Perl, XML/RPC & Oracle
+Linux, PXE, kickstart, ia64, Perl, XML/RPC & Oracle. Some of it still in production.
 
 ### :material-school: BTEC National Diploma IT Practitioner at Cornwall College, 2005
 ### :fontawesome-solid-network-wired: CISCO Certified Network Associate, CISCO Academy, 2004
